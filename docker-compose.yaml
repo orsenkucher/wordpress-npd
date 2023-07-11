@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  wordpress-db:
+    image: mysql:8.0
+    container_name: wordpress-db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - MYSQL_DATABASE=wordpress
+    volumes: 
+      - ./dbdata:/var/lib/mysql
+    command: '--default-authentication-plugin=mysql_native_password'
+    networks:
+      - smokemilk
+
+  wordpress:
+    depends_on: 
+      - wordpress-db
+    image: wordpress:6.2.2-php8.1-fpm
+    container_name: wordpress
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - WORDPRESS_DB_HOST=wordpress-db:3306
+      - WORDPRESS_DB_USER=$MYSQL_USER
+      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
+      - WORDPRESS_DB_NAME=wordpress
+    volumes:
+      - ./wordpress:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    networks:
+      - smokemilk
+
+networks:
+  smokemilk:
+    name: smokemilk

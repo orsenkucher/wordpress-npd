@@ -1,0 +1,2 @@
+dbdata/**/*.ibd filter=lfs diff=lfs merge=lfs -text
+dbdata/binlog.* filter=lfs diff=lfs merge=lfs -text
