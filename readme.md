@@ -8,3 +8,4 @@
 - User: wordpress
 - Password: <from .env: MYSQL_PASSWORD>
 5. Log in to Admin Panel with original site credentials
+6. Enable Plugins
