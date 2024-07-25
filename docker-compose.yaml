@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  wordpress-db:
+  npd-wordpress-db:
     image: mysql:8.0
-    container_name: wordpress-db
+    container_name: npd-wordpress-db
     restart: unless-stopped
     env_file: .env
     environment:
@@ -12,20 +12,17 @@ services:
       - ./dbdata:/var/lib/mysql
     command: '--default-authentication-plugin=mysql_native_password'
     networks:
-      - smokemilk
+      - npd-network
 
-  wordpress:
+  npd-wordpress:
     depends_on: 
-      - wordpress-db
-    #image: wordpress:6.2.2-php8.1-fpm
+      - npd-wordpress-db
     image: wordpress:php8.3-fpm
-    container_name: wordpress
+    container_name: npd-wordpress
     restart: unless-stopped
-    ports: 
-      - 9000:80
     env_file: .env
     environment:
-      - WORDPRESS_DB_HOST=wordpress-db:3306
+      - WORDPRESS_DB_HOST=npd-wordpress-db:3306
       - WORDPRESS_DB_USER=$MYSQL_USER
       - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
       - WORDPRESS_DB_NAME=wordpress
@@ -34,8 +31,35 @@ services:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./php.ini:/usr/local/etc/php/conf.d/php.override.ini
     networks:
-      - smokemilk
+      - npd-network
+
+  npd-nginx:
+    depends_on: 
+      - npd-wordpress
+    image: nginx:1.15-alpine
+    restart: unless-stopped
+    volumes:
+      - ./data/nginx:/etc/nginx/conf.d
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
+      - ./wordpress:/var/www/html
+    ports:
+      - "80:80"
+      - "443:443"
+    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    networks:
+      - npd-network
+
+  # npd-certbot:
+  #   image: certbot/certbot
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./data/certbot/conf:/etc/letsencrypt
+  #     - ./data/certbot/www:/var/www/certbot
+  #   entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+  #   networks:
+  #     - npd-network
 
 networks:
-  smokemilk:
-    name: smokemilk
+  npd-network:
+    name: npd-network
