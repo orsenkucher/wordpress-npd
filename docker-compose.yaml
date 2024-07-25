@@ -17,9 +17,12 @@ services:
   wordpress:
     depends_on: 
       - wordpress-db
-    image: wordpress:6.2.2-php8.1-fpm
+    #image: wordpress:6.2.2-php8.1-fpm
+    image: wordpress:php8.3-fpm
     container_name: wordpress
     restart: unless-stopped
+    ports: 
+      - 9000:80
     env_file: .env
     environment:
       - WORDPRESS_DB_HOST=wordpress-db:3306
@@ -29,6 +32,7 @@ services:
     volumes:
       - ./wordpress:/var/www/html
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./php.ini:/usr/local/etc/php/conf.d/php.override.ini
     networks:
       - smokemilk
 
