@@ -1,0 +1,3758 @@
+# Translation of Themes - Customizr in Finnish
+# This file is distributed under the same license as the Themes - Customizr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-05 22:50:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fi\n"
+"Project-Id-Version: Themes - Customizr\n"
+
+#. Description of the theme
+msgid "Customizr is a simple and fast WordPress theme designed to help you attract and engage more visitors. Provides a perfect user experience on smartphones. Powers more than 100K active sites around the world. Hundreds of 5-stars reviews received on WordPress.org."
+msgstr "Customizr on simppeli ja nopea WordPress-teema, joka auttaa sinua houkuttelemaan ja sitouttamaan enemmän vierailijoita. Se tarjoaa parhaan kokemuksen älypuhelimille. Se on käytössä yli 100 000 aktiivisella sivustolla eri puolilla maailmaa ja sillä on satoja 5 tähden arvosteluja WordPress.orgissa."
+
+#. Theme Name of the theme
+msgid "Customizr"
+msgstr "Customizr"
+
+#: core/core-settings-map.php:1742 core/core-settings-map.php:1821
+msgid "Set the thumbnail's max height in pixels for smartphones"
+msgstr "Aseta pikseleissä esikatselukuvan maksimikorkeus älypuhelimille"
+
+#: core/class-fire-placeholders.php:91
+msgid "The left sidebar has no widgets"
+msgstr "Vasemmassa sivupalkissa ei ole vimpaimia"
+
+#: functions.php:41
+msgid "The <strong>%1$s</strong> theme requires at least %2$s version %3$s"
+msgstr "Teeman <strong>%1$s</strong> käyttöön vaaditaan vähintään %2$s versio %3$s"
+
+#: functions.php:34
+msgid "WordPress"
+msgstr "Wordpress"
+
+#: functions.php:30
+msgid "PHP"
+msgstr "PHP"
+
+#: core/czr-base-fmk/czr-base-fmk.php:480
+msgid "ac_set_ajax_czr_tmpl => Security check failed."
+msgstr "ac_set_ajax_czr_tmpl => Turvallisuustarkastus epäonnistui"
+
+#: core/core-settings-map.php:2215
+msgid "Display boxed"
+msgstr "Näytä laatikoituna"
+
+#: core/core-settings-map.php:2214
+msgid "Display full-width"
+msgstr "Näytä täydellä leveydellä"
+
+#: core/core-settings-map.php:2211
+msgid "Horizontal widget area in your footer"
+msgstr "Vaakasuuntainen vimpainalue, joka sijaitsee sivun alatunnisteessa"
+
+#: core/class-fire-placeholders.php:330
+msgid "Add widgets to the zone :"
+msgstr "Lisää vimpaimia alueelle:"
+
+#: core/class-fire-init.php:125
+msgid "Appears before the site footer"
+msgstr "Ilmestyy ennen alatunnistetta"
+
+#: core/class-fire-init.php:124
+msgid "Footer Horizontal Widget Area"
+msgstr "Alatunnisteen vaakasuuntainen vimpainalue"
+
+#: core/init-base.php:419
+msgid "Horizontal Top Bar Menu. (make sure that the topbar is displayed in the header settings )."
+msgstr "Vaakasuuntainen ylävalikko. (varmista ylätunnisteen asetuksista, että yläpalkki näytetään)"
+
+#: core/core-settings-map.php:625
+msgid "Make sure the topbar is displayed. You can control the visibility of the topbar in the %s."
+msgstr "Varmista, että yläpalkki on näkyvissä. Voit hallita yläpalkin näkyvyyttä osiossa %s."
+
+#: core/core-settings-map.php:609
+msgid "Social links in the topbar"
+msgstr "Sosiaaliset linkit yläpalkissa"
+
+#: core/core-settings-map.php:601
+msgid "You can display a content zone above the header, called topbar. The topbar can be populated with various blocks like a menu, your social links, or your contact information ( pro )."
+msgstr "Otsakkeen yläpuolella voidaan näyttää sisältöosio, nimeltään yläpalkki. Yläpalkkiin on mahdollista asettaa erilaisia lohkoja, kuten valikko, sosiaaliset linkit, tai omat yhteystietosi (pro)."
+
+#: core/core-settings-map.php:598 core/core-settings-map.php:617
+msgid "In desktop and mobile devices"
+msgstr "Pöytäkoneella ja mobiililaitteilla"
+
+#: core/core-settings-map.php:597 core/core-settings-map.php:616
+msgid "In mobile devices"
+msgstr "Mobiililaitteilla"
+
+#: core/core-settings-map.php:596 core/core-settings-map.php:615
+msgid "In desktop devices"
+msgstr "Pöytäkoneella"
+
+#: core/core-functions.php:1677
+msgid "Please fill the email input with a valid email address"
+msgstr "Täytäthän kenttään toimivan sähköpostiosoitteen"
+
+#: core/core-settings-map.php:2636
+msgid "Site Layout"
+msgstr "Sivuston asettelu"
+
+#: core/core-settings-map.php:954
+msgid "Primary (vertical) menu design"
+msgstr "Ensisijainen (pystysuora) valikko"
+
+#: core/core-settings-map.php:899
+msgid "Display in the mobile menu"
+msgstr "Näytä mobiilivalikossa"
+
+#: core/core-settings-map.php:898
+msgid "Display in the mobile navbar"
+msgstr "Näytä mobiilin navigointipalkissa"
+
+#: core/core-settings-map.php:892
+msgid "Display a search button in the header"
+msgstr "Näytä hakupainike otsakkeessa"
+
+#: core/core-settings-map.php:246
+msgid "Footer Credits section layout"
+msgstr "Alatunnisteen tekijäosion asettelu"
+
+#: core/core-settings-map.php:229
+msgid "Main Header section layout"
+msgstr "Pääotsakkeen asettelu"
+
+#: core/core-settings-map.php:212
+msgid "Header topbar layout"
+msgstr "Otsakkeen yläpalkin asettelu"
+
+#: core/core-settings-map.php:205 core/core-settings-map.php:218
+#: core/core-settings-map.php:235 core/core-settings-map.php:252
+msgid "Boxed"
+msgstr "Laatikoitu"
+
+#: core/core-settings-map.php:204 core/core-settings-map.php:217
+#: core/core-settings-map.php:234 core/core-settings-map.php:251
+msgid "Wide"
+msgstr "Leveä"
+
+#: core/core-settings-map.php:199
+msgid "Site layout"
+msgstr "Sivuston asettelu"
+
+#: core/core-settings-map.php:1443
+msgid "Comments location"
+msgstr "Kommenttien sijainti"
+
+#: core/core-settings-map.php:1426
+msgid "Related Posts location"
+msgstr "Aiheeseen liittyvien artikkelien sijainti"
+
+#: core/core-settings-map.php:1414 core/core-settings-map.php:1431
+#: core/core-settings-map.php:1448
+msgid "After the content and sidebars columns"
+msgstr "Sisällön ja sivupalkkien jälkeen"
+
+#: core/core-settings-map.php:1413 core/core-settings-map.php:1430
+#: core/core-settings-map.php:1447
+msgid "Right after the post content"
+msgstr "Heti artikkelin sisällön jälkeen"
+
+#: core/core-settings-map.php:1409
+msgid "Author Infos location"
+msgstr "Kirjoittajatietojen sijainti"
+
+#: core/core-settings-map.php:1408
+msgid "Pages & Posts default sections locations"
+msgstr "Sivujen ja Artikkelien oletusosioiden sijoittelu"
+
+#: core/core-settings-map.php:791
+msgid "Main header section"
+msgstr "Varsinainen otsake"
+
+#: core/core-settings-map.php:771 core/core-settings-map.php:875
+msgid "Behaviour on scroll"
+msgstr "Toiminto rullattaessa"
+
+#: core/core-settings-map.php:740
+msgid "If you want to display the search icon in your topbar, make sure the topbar is displayed by checking \"Display a topbar\" above."
+msgstr "Jos haluat, että hakukuvake näkyy yläpalkissa, varmista, että yläpalkki on näkyvissä valitsemalla ylempää vaihtoehto \"Näytä yläpalkki\"."
+
+#: core/core-settings-map.php:737 core/core-settings-map.php:762
+msgid "Display in the main header section"
+msgstr "Näytä varsinainen otsake"
+
+#: core/core-settings-map.php:729
+msgid "Search Icon"
+msgstr "Hakukuvake"
+
+#: core/core-settings-map.php:708 core/core-settings-map.php:730
+#: core/core-settings-map.php:754 core/core-settings-map.php:772
+#: core/core-settings-map.php:786
+msgid "Desktop devices : %s"
+msgstr "Päätelaitteet: %s"
+
+#: templates/parts/content/singular/navigation/single_attachment_image_navigation.php:24
+msgid "Next"
+msgstr "Seuraava"
+
+#: templates/parts/content/singular/navigation/single_attachment_image_navigation.php:17
+msgid "Previous"
+msgstr "Edellinen"
+
+#: templates/parts/content/singular/navigation/single_attachment_image_navigation.php:12
+msgid "Images navigation"
+msgstr "Kuvien navigointi"
+
+#: inc/czr-init-ccat.php:4681
+msgid "in the live customizer."
+msgstr "reaaliaikaisessa muokkaimessa."
+
+#: inc/czr-init-ccat.php:4678
+msgid "Quick tip : you can choose between two styles for the Customizr theme. Give it a try %s"
+msgstr "Pikavinkki: voit valita kahden eri Customizr-tyylin välillä. Kokeile %s"
+
+#: templates/parts/footer/footer_credits.php:13 inc/czr-front-ccat.php:9265
+msgid "Customizr theme"
+msgstr "Customizrilla"
+
+#: templates/parts/footer/footer_credits.php:13 inc/czr-front-ccat.php:9265
+msgid "Designed with the %s"
+msgstr "Suunniteltu %s"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:83
+msgid "Updated"
+msgstr "Päivitetty"
+
+#: core/czr-admin-ccat.php:1650
+msgid "Display navigation dots at the bottom of your slider."
+msgstr "Näytä navigointipisteet kuvasarjan alaosassa."
+
+#: core/czr-admin-ccat.php:903
+msgid "<u>Search tips</u> : If you get too many results, try to narrow down your search by prefixing it with \"customizr\" for example. If there are no results, try different keywords and / or spelling variations"
+msgstr "<u>Hakuvinkki:</u> Jos saat liian paljon tuloksia, voit yrittää rajata hakuasi esim. etuliitteellä \"customzr\". Jos tuloksia ei tule lainkaan, kokeile muita avainsanoja tai sanamuotoja."
+
+#: core/czr-admin-ccat.php:901
+msgid "Ex. Logo upload"
+msgstr "Esim. Logon lataus"
+
+#: core/czr-admin-ccat.php:898
+msgid "In a few keywords, describe the information you are looking for."
+msgstr "Kuvaile parilla sanalla, mistä aiheesta etsit tietoa."
+
+#: core/czr-admin-ccat.php:897
+msgid "Search the knowledge base"
+msgstr "Etsi tietokannasta"
+
+#: core/czr-admin-ccat.php:873
+msgid "Read the full article"
+msgstr "Lue koko artikkeli"
+
+#: core/czr-admin-ccat.php:867
+msgid "There was an error fetching search results."
+msgstr "Hakutulosten noutamisessa tapahtui virhe."
+
+#: core/czr-admin-ccat.php:866
+msgid "Search must be at least {minLength} characters."
+msgstr "Hakusanan täytyy olla vähintään {minLength} merkkiä."
+
+#: core/czr-admin-ccat.php:865
+msgid "Please enter a search term."
+msgstr "Anna hakusana."
+
+#: core/czr-admin-ccat.php:864
+msgid "No results found&hellip;"
+msgstr "Tuloksia ei löytynyt&hellip;"
+
+#: core/czr-admin-ccat.php:863
+msgid "We found {count} articles that may help:"
+msgstr "Löytyi {count} artikkelia, joista voisi olla apua:"
+
+#: core/czr-admin-ccat.php:862
+msgid "We found {count} article that may help:"
+msgstr "Löytyi {count} artikkeli, josta voisi olla apua:"
+
+#: core/czr-admin-ccat.php:575
+msgid "Read the changelog"
+msgstr "Lue muutosloki"
+
+#: core/core-settings-map.php:2447
+msgid "The two styles can use different template files, that's why it is recommended to change the style option from the parent and test your child theme in a staging site before production."
+msgstr "Tyylit käyttävät eri mallitiedostoja. Siksi on suositeltavaa vaihtaa tyylin asetusta varsinaisessa Customizr-teemassa ja testata alateemaa testisivustolla ennen siirtämistä tuotantoon."
+
+#: core/core-settings-map.php:2445
+msgid "Appearance > themes"
+msgstr "Ulkonäkö > Teemat"
+
+#: core/core-settings-map.php:2444
+msgid "You are using a child theme. This option must be changed from the parent theme. Activate the parent from %s."
+msgstr "Käytät alateemaa. Tämä asetus täytyy vaihtaa varsinaisesta teemasta. Valitse teema valikosta %s"
+
+#: core/core-settings-map.php:2330
+msgid "Check this option to delay the loading of non visible images in sliders. This can greatly improve the speed of your website."
+msgstr "Valitse tämä viivyttääksesi kuvasarjassa vielä näkymättömien kuvien latausta. Tämä voi nopeuttaa sivustoasi merkittävästi."
+
+#: core/core-settings-map.php:2325
+msgid "Lazy load the images in sliders"
+msgstr "Laiska lataus kuvasarjoissa"
+
+#: core/core-settings-map.php:1272
+msgid "When this option is checked, navigation dots are displayed at the bottom of the home slider."
+msgstr "Kun tämä on valittuna, etusivun kuvasarjassa näytetään navigointipisteet."
+
+#: core/core-settings-map.php:1264
+msgid "Display navigation dots"
+msgstr "Näytä navigointipisteet"
+
+#: core/core-settings-map.php:544
+msgid "Header foreground color"
+msgstr "Otsakkeen etualan väri"
+
+#: core/core-settings-map.php:534
+msgid "Header background color"
+msgstr "Otsakkeen taustaväri"
+
+#: core/czr-admin-ccat.php:550
+msgid "Thank you for using"
+msgstr "Kiitos kun käytät"
+
+#: core/core-settings-map.php:2863
+msgid "Discover the features and benefits"
+msgstr "Tutustu hyödyllisiin ominaisuuksiin"
+
+#: core/czr-admin-ccat.php:1631 core/core-settings-map.php:1252
+msgid "Apply a dark overlay on your slider's images"
+msgstr "Lisää tumma kalvo kuvasarjan kuvien päälle"
+
+#: core/core-settings-map.php:808
+msgid "When your header ( containing the site title or logo ) is gluing to the top of a page, this option will make the title or logo smaller."
+msgstr "Kun otsake (joka sisältää sivuston otsikon tai logon) liimautuu sivun yläreunaan, tämä asetus kutistaa otsikon tai logon hieman pienemmäksi."
+
+#: core/core-settings-map.php:591
+msgid "Display a topbar"
+msgstr "Näytä yläpalkki"
+
+#: inc/czr-init-ccat.php:2467
+msgid "Improve your page speed by loading smaller slider images for mobile devices"
+msgstr "Parantaa sivustosi nopeutta lataamalla pienempiä kuvasarjan kuvia mobiililaitteille"
+
+#: inc/czr-init-ccat.php:2322
+msgid "Primary theme color with a shadow"
+msgstr "Primary theme color with a shadow"
+
+#: core/init-base.php:420
+msgid "Mobile Menu"
+msgstr "Mobiilivalikko"
+
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:137
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:148
+msgid "Customize it now"
+msgstr "Mukauta heti"
+
+#: core/core-settings-map.php:2850
+msgid "Theme style"
+msgstr "Teeman tyyli"
+
+#: core/core-settings-map.php:2726
+msgid "Front Page Content"
+msgstr "Etusivun sisältö"
+
+#: core/core-settings-map.php:2709
+msgid "Design settings for smartphones and tablets in portrait orientation"
+msgstr "Muotoiluasetukset älypuhelinten ja tablettien pystysuoralle asettelulle"
+
+#: core/core-settings-map.php:2704
+msgid "Design settings for desktops and laptops"
+msgstr "Muotoiluasetukset pöytäkoneille ja kannettaville tietokoneille"
+
+#: core/core-settings-map.php:2699
+msgid "General design settings"
+msgstr "Yleiset muotoiluasetukset"
+
+#: core/core-settings-map.php:2677
+msgid "Sliders options"
+msgstr "Kuvasarjan valinnat"
+
+#: core/core-settings-map.php:2660
+msgid "Formatting : links, paragraphs ..."
+msgstr "Muotoilu: linkit, kappaleet, ..."
+
+#: core/core-settings-map.php:2643
+msgid "Pick a primary color for the theme"
+msgstr "Valitse teeman ensisijainen väri"
+
+#: core/core-settings-map.php:2641
+msgid "Primary color of the theme"
+msgstr "Teeman ensisijainen väri"
+
+#: core/core-settings-map.php:2626
+msgid "Site Identity : Logo, Title, Tagline and Site Icon"
+msgstr "Sivuston identiteetti: logo, otsikko, kuvaus ja kuvake"
+
+#: core/core-settings-map.php:2524
+msgid "Performances, Custom CSS ..."
+msgstr "Suorituskyky, Custom CSS..."
+
+#: core/core-settings-map.php:2517
+msgid "Style, Back to top button, Sticky mode, ... "
+msgstr "Tyyli, Takaisin ylös -painike, Kiinnitetyt artikkelit, ..."
+
+#: core/core-settings-map.php:2504
+msgid "Column layout, Post lists design, Thumbnails, Post Metas, Navigation, ..."
+msgstr "Asettelu sarakkeisiin, artikkelilistojen, esikatselu, metatiedot, navigointi, ..."
+
+#: core/core-settings-map.php:2503
+msgid "Main Content"
+msgstr "Pääsisältö"
+
+#: core/core-settings-map.php:2497
+msgid "Style, Desktops and mobiles layout, Menus, Search, ..."
+msgstr "Tyyli, asettelu työpöydälle ja mobiiliin, valikot, haku, ..."
+
+#: core/core-settings-map.php:2490
+msgid "Title, Logo, Fonts, Primary color, Social, ..."
+msgstr "Otsikko, logo, fontit, värit, sosiaalisen linkit, ..."
+
+#: core/core-settings-map.php:2440
+msgid "Classical"
+msgstr "Klassinen"
+
+#: core/core-settings-map.php:2439
+msgid "Modern"
+msgstr "Moderni"
+
+#: core/core-settings-map.php:2435
+msgid "Select a design style for the theme"
+msgstr "Valitse tyyli teemalle"
+
+#: core/core-settings-map.php:2435
+msgid "Set the Modern or Classical design style"
+msgstr "Aseta moderni tai klassinen tyyli"
+
+#: core/core-settings-map.php:2430
+msgid "The Modern style provides a \"material design\" look and feel. It relies on the flexbox css mode, offering a better support for the most recent mobile devices and browsers. The Classical style provides a more \"flat design\" feeling, with icons next to titles for example. It supports both modern and older devices and browsers."
+msgstr "Moderni tyyli on \"material design\"-muotokielen mukaisesti tuntumaltaan minimalistinen. Se käyttää CSS:n flexboxia, joka on paremmin tuettu uusilla mobiililaitteilla ja selaimilla. Klassisen tyylin tuntuma pelkistetty \"flat design\", jossa esimerkiksi otsikoiden rinnalla käytetään ikoneita. Sekä uudet että vanhemmat laitteet ja selaimet tukevat sitä."
+
+#: core/core-settings-map.php:2418
+msgid "When this option is enabled, your font size will automatically resize to be better displayed in mobile devices."
+msgstr "Kun tämä asetus on valittuna, fontin koko skaalautuu automaattisesti sopivaksi mobiililaitteille."
+
+#: core/core-settings-map.php:2415
+msgid "Automatically adapt the font size to the width of the devices"
+msgstr "Sovita fonttikoko automaattisesti laitteen leveyteen"
+
+#: core/core-settings-map.php:2241
+msgid "Enabling this option will glue your footer to the bottom of the screen, when pages are shorter than the viewport's height."
+msgstr "Tämä asetus liimaa alaviitteen sivun alareunaan silloinkin, kun sivu on matalampi kuin ikkunan korkeus."
+
+#: core/core-settings-map.php:2199
+msgid "Footer style"
+msgstr "Alaviitteen tyyli"
+
+#: core/core-settings-map.php:2046
+msgid "Display the number of comments below the post titles"
+msgstr "Näytä kommenttien määrä artikkelin otsikon alapuolella"
+
+#: core/core-settings-map.php:1486
+msgid "This option defines the maximum number of posts or search results displayed in any list of posts of your website : blog page, archive page, search page. If the number of items to displayed is greater than your setting, the theme will automatically add a pagination link block at the bottom of the page."
+msgstr "Tämä valinta määrittää esimmäismäärän artikkeleita tai hakutuloksia, joka näytetään millään sivustosi artikkelilistoilla: blogisivu, arkistosivu, haku. Jos tulosten lukumäärä on tätä arvoa suurempi, sivun alareunaan lisätään automaattinen sivutus."
+
+#: core/core-settings-map.php:942
+msgid "Make sure that you have assigned your menus to the relevant locations %s."
+msgstr "Varmista, että olet valinnut valikot sopiviin paikkoihin %s."
+
+#: core/core-settings-map.php:926
+msgid "An horizontal menu can be displayed in the main header with this option. Make sure you have assigned a menu to this location in the menu panel."
+msgstr "Tällä asetuksella vaakasuora valikko näytetään pääotsakkeessa. Varmista, että olet valinnut valikon tälle paikkaan valikkosivulta."
+
+#: core/core-settings-map.php:876
+msgid "header menu visibility on scroll"
+msgstr "otsakevalikon näkyvyys selattaessa"
+
+#: core/core-settings-map.php:834
+msgid "If the selected menu location has no menu assigned, the theme will try to assign another menu in this order : mobile, main, secondary, topbar."
+msgstr "Jos valitulla valikkopaikalle ei ole mitään, teema yrittää sijoittaa sinne uuden valikon tässä järjestyksessä: mobiili, päävalikko, toissijainen, yläpalkki."
+
+#: core/core-settings-map.php:833
+msgid "When your visitors are using a smartphone or a tablet, the header becomes a thin bar on top, where the menu is revealed when clicking on the hamburger button. This option let you choose which menu will be displayed."
+msgstr "Kun vierailijalla on käytössään älypuhelin tai tabletti, otsake muuttuu kapeaksi palkiksi sivun yläreunaan. Tällöin valikko paljastuu \"hampurilaispainiketta\" painettaessa. Tämä asetus määrittää käytettävän valikon."
+
+#: core/core-settings-map.php:830
+msgid "Topbar Menu"
+msgstr "Yläpalkin valikko"
+
+#: core/core-settings-map.php:829
+msgid "Secondary"
+msgstr "Toissijainen"
+
+#: core/core-settings-map.php:827
+msgid "Specific Mobile Menu"
+msgstr "Erikoisvalikko mobiililaitteille"
+
+#: core/core-settings-map.php:823
+msgid "Select the menu(s) to use for mobile devices"
+msgstr "Valitse mobiililaitteilla käytettävät valikot"
+
+#: core/core-settings-map.php:822 core/core-settings-map.php:823
+#: core/core-settings-map.php:853 core/core-settings-map.php:864
+#: core/core-settings-map.php:876 core/core-settings-map.php:892
+msgid "Mobile devices"
+msgstr "Mobiililaitteet"
+
+#: core/core-settings-map.php:822
+msgid "Header settings for %s"
+msgstr "Otsakkeen asetukset %s"
+
+#: core/core-settings-map.php:790
+msgid "Topbar"
+msgstr "Yläpalkki"
+
+#: core/core-settings-map.php:786
+msgid "select the header block to stick on scroll"
+msgstr "valitse selattaessa kiinnitetty otsakkeen osa"
+
+#: core/core-settings-map.php:778 core/core-settings-map.php:882
+msgid "Always visible"
+msgstr "Aina näkyvissä"
+
+#: core/core-settings-map.php:777 core/core-settings-map.php:881
+msgid "Reveal on scroll up"
+msgstr "Paljasta ylöspäin selattaessa"
+
+#: core/core-settings-map.php:776 core/core-settings-map.php:880
+msgid "Not visible when scrolling the page"
+msgstr "Ei näkyvissä, kun sivua selataan"
+
+#: core/core-settings-map.php:772
+msgid "set the header visibility on scroll"
+msgstr "aseta otsakkeen näkyvyys selattaessa"
+
+#: core/core-settings-map.php:730
+msgid "set the search icon location"
+msgstr "aseta hakupainikkeen sijainti"
+
+#: core/core-settings-map.php:718
+msgid "Next to the logo"
+msgstr "Logon vieressä"
+
+#: core/core-settings-map.php:717
+msgid "Below the logo"
+msgstr "Logon alla"
+
+#: core/core-settings-map.php:716
+msgid "In the topbar"
+msgstr "Yläpalkissa"
+
+#: core/core-settings-map.php:595 core/core-settings-map.php:614
+#: core/core-settings-map.php:715 core/core-settings-map.php:735
+#: core/core-settings-map.php:760 core/core-settings-map.php:897
+msgid "Do not display"
+msgstr "Älä näytä"
+
+#: core/core-settings-map.php:708
+msgid "set the tagline location"
+msgstr "valitse kuvaustekstin paikka"
+
+#: core/core-settings-map.php:628
+msgid "jump to the topbar option"
+msgstr "siirry yläpalkin asetuksiin"
+
+#: core/core-settings-map.php:644
+msgid "Underline the site title in the header"
+msgstr "Alleviivaa sivuston otsikko otsakkeessa"
+
+#: core/core-settings-map.php:521
+msgid "Header style"
+msgstr "Otsakkeen tyyli"
+
+#: core/core-settings-map.php:433
+msgid "Improve your page speed by loading smaller images for mobile devices"
+msgstr "Paranne sivuston nopeutta lataamalla pienempiä kuvia mobiililaitteille"
+
+#: core/core-settings-map.php:357
+msgid "Animated underline effect on link hover"
+msgstr "Animoitu alleviivausefekti leijutettaessa"
+
+#: core/core-settings-map.php:279
+msgid "This is the color used to style your links and other clickable elements of the theme like buttons and slider arrows."
+msgstr "Tämä väri on käytössä linkeissä ja muissa teeman klikattavissa elementeissä, kuten painikkeissa ja kuvasarjan nuolissa."
+
+#: core/core-settings-map.php:272
+msgid "Primary color"
+msgstr "Ensisijainen väri"
+
+#: core/class-fire-resources_scripts.php:402 inc/czr-init-ccat.php:4270
+msgid "Permanently dismiss"
+msgstr "Piilota lopullisesti"
+
+#: core/class-fire-resources_scripts.php:613
+msgid "a short guide here."
+msgstr "lyhyen oppaan."
+
+#: core/class-fire-resources_scripts.php:611
+msgid "To help you getting started with Customizr, we have published"
+msgstr "Auttaaksemme alkuun Customizrin kanssa, olemme julkaisseet"
+
+#: core/class-fire-resources_scripts.php:608
+msgid "Customizr Demo 2"
+msgstr "Customiz-demo 2"
+
+#: core/class-fire-resources_scripts.php:606
+msgid "Customizr Demo 1"
+msgstr "Customiz-demo 1"
+
+#: core/class-fire-resources_scripts.php:604
+msgid "If you need inspiration, you can visit our online demos"
+msgstr "Jos kaipaat virikkeitä, käy katsomassa online-demojamme:"
+
+#: core/class-fire-resources_scripts.php:601
+msgid "to let you create the best possible websites."
+msgstr "antaa sinun luoda parhaita mahdollisia nettisivuja."
+
+#: core/class-fire-resources_scripts.php:600
+msgid "of customization options"
+msgstr "muokattavia asetuksia"
+
+#: core/class-fire-resources_scripts.php:598
+msgid "The theme offers a wide range"
+msgstr "Teema tarjoaa laajan valikoiman"
+
+#: core/class-fire-resources_scripts.php:595
+msgid "Welcome in the Customizr theme"
+msgstr "Tervetuloa Customizr-teemaan"
+
+#: core/core-settings-map.php:1762
+msgid "Display randomized related articles below the post"
+msgstr "Näytä artikkelin alapuolella sattumanvaraisia aiheeseen liittyviä artikkeleita"
+
+#: core/core-settings-map.php:1760
+msgid "Related by tags"
+msgstr "Lisää samoilla tunnisteilla"
+
+#: core/core-settings-map.php:1759
+msgid "Related by categories"
+msgstr "Lisää samassa kategoriassa"
+
+#: core/core-settings-map.php:1753
+msgid "Single - Related Posts"
+msgstr "Yksittäinen - Aiheeseen liittyvät artikkelit"
+
+#: core/core-settings-map.php:1752
+msgid "Related posts"
+msgstr "Aiheeseen liittyvät artikkelit"
+
+#: core/core-settings-map.php:1700 core/core-settings-map.php:1779
+#: core/core-settings-map.php:2466
+msgid "Featured Image"
+msgstr "Esittelykuva"
+
+#: templates/parts/modules/related-posts/related_posts.php:23
+msgid "Next related articles"
+msgstr "Seuraavat liittyvät artikkelit"
+
+#: templates/parts/modules/related-posts/related_posts.php:22
+msgid "Previous related articles"
+msgstr "Edelliset liittyvät artikkelit"
+
+#: templates/parts/footer/footer_credits.php:13
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: core/core-settings-map.php:1680
+msgid "Display thumbnail placeholder if no images available"
+msgstr "Näytä esikatselukuvan kuvake, jos kuvaa ei ole saatavilla"
+
+#: inc/czr-init-ccat.php:2990
+msgid "Display post format icons"
+msgstr "Näytä artikkelin tyypin ikonit"
+
+#: core/core-settings-map.php:1614
+msgid "Plain full layout"
+msgstr "Tavallinen täysi asettelu"
+
+#: core/core-settings-map.php:1537
+msgid "Regular"
+msgstr "Tavallinen"
+
+#: core/core-settings-map.php:524 core/core-settings-map.php:2202
+msgid "Light"
+msgstr "Vaalea"
+
+#: core/core-settings-map.php:523 core/core-settings-map.php:2201
+msgid "Dark"
+msgstr "Tumma"
+
+#: core/core-settings-map.php:736 core/core-settings-map.php:761
+msgid "Display in the topbar"
+msgstr "Näytä yläpalkissa"
+
+#: core/front/template-tags/template-tags.php:64
+msgid "Comment on"
+msgid_plural "Comments on"
+msgstr[0] "Kommentti:"
+msgstr[1] "Kommentit:"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:146
+msgid "Permalink to:&nbsp;"
+msgstr "kestolinkki kohteeseen:&nbsp;"
+
+#: core/czr-admin-ccat.php:1389
+msgid "Enter the video url"
+msgstr "Syötä videon url"
+
+#: core/czr-admin-ccat.php:1385
+msgid "Video url"
+msgstr "Videon url"
+
+#: core/czr-admin-ccat.php:1355
+msgid "Enter the audio url"
+msgstr "Syötä audion url"
+
+#: core/czr-admin-ccat.php:1351
+msgid "Audio url"
+msgstr "Audio url"
+
+#: core/czr-admin-ccat.php:1324
+msgid "Enter the author"
+msgstr "Lisää kirjoittaja"
+
+#: core/czr-admin-ccat.php:1318
+msgid "Quote author"
+msgstr "Lainaa kirjoittajaa"
+
+#: core/czr-admin-ccat.php:1303
+msgid "Enter the text"
+msgstr "Syötä teksti"
+
+#: core/czr-admin-ccat.php:1298
+msgid "Quote text"
+msgstr "Lainaa tekstiä"
+
+#: core/czr-admin-ccat.php:1271
+msgid "Enter the URL"
+msgstr "Syötä URL"
+
+#: core/czr-admin-ccat.php:1266
+msgid "Link URL"
+msgstr "Linkin URL"
+
+#: core/czr-admin-ccat.php:1250
+msgid "Enter the title"
+msgstr "Syötä otsikko"
+
+#: core/czr-admin-ccat.php:1245
+msgid "Link title"
+msgstr "Linkin otsikko"
+
+#: core/czr-admin-ccat.php:1216
+msgid "Format: audio"
+msgstr "Tyyppi: ääni"
+
+#: core/czr-admin-ccat.php:1204
+msgid "Format: video"
+msgstr "Tyyppi: video"
+
+#: core/czr-admin-ccat.php:1192
+msgid "Format: quote"
+msgstr "Tyyppi: lainaus"
+
+#: core/czr-admin-ccat.php:1180
+msgid "Format: link"
+msgstr "Tyyppi: linkki"
+
+#: inc/czr-init-ccat.php:2728 inc/czr-init-ccat.php:2749
+msgid "the logo is centered"
+msgstr "logo on keskitetty"
+
+#: inc/czr-init-ccat.php:2726 inc/czr-init-ccat.php:2747
+msgid "Note : the menu centered position is available only when"
+msgstr "Huomaa: keskitetty valikko on saatavilla vain, kun"
+
+#: inc/czr-init-ccat.php:2720 inc/czr-init-ccat.php:2741
+msgid "Menu centered"
+msgstr "Keskitetty valikko"
+
+#: core/core-settings-map.php:2758
+msgid "Single pages"
+msgstr "Yksittäiset sivut"
+
+#: core/core-settings-map.php:1790
+msgid "You can display the featured image (also called the post thumbnail) of your pages before their content, when they are displayed individually."
+msgstr "Artikkelien esittelykuva (tai esikatselukuva) voidaan näyttää ennen sisältöä silloin, kun artikkeli näytetään yksittäisenä."
+
+#: core/class-fire-placeholders.php:207 core/core-settings-map.php:1791
+msgid "Don't know how to set a featured image to a page? Learn how in the %s."
+msgstr "Etkö tiedä, kuinka sivun esittelykuva asetetaan? Opi tekemään se täällä: %s."
+
+#: core/class-fire-placeholders.php:202
+msgid "You can display your page's featured image here if you have set one."
+msgstr "Jos olet asettanut sivulle esittelykuvan, voit näyttää sen tässä."
+
+#: core/czr-modules/social-links/social_links_module.php:128
+#: core/czr-modules/social-links/index.php:126
+msgid "default:"
+msgstr "Oletus:"
+
+#: core/czr-base-fmk/czr-base-fmk.php:275 core/czr-customize-ccat.php:886
+msgid "Options for"
+msgstr "Asetukset kohteelle"
+
+#: core/czr-base-fmk/czr-base-fmk.php:274 core/czr-customize-ccat.php:885
+msgid "Settings"
+msgstr "Asetukset"
+
+#: core/core-settings-map.php:2865
+msgid "Go Pro"
+msgstr "Liity Pro:ksi"
+
+#: core/core-settings-map.php:2392
+msgid "When checked, the Font Awesome icons and CSS will be loaded on front end. You might want to load the Font Awesome icons with a custom code, or let a plugin do it for you."
+msgstr "Kun tämä on valittuna, Font Awesome-ikonit ja CSS ladataan sivun frontedille. Saatat haluta käyttää erillistä koodia Font Awesome-ikonien lataamiseksi tai antaa lisäosan tehdä sen."
+
+#: core/core-settings-map.php:2387
+msgid "Load Font Awesome resources"
+msgstr "Lataa Font Awesome-resurssit"
+
+#: core/core-settings-map.php:1892
+msgid "Yoast SEO breadcrumbs settings"
+msgstr "Yoast SEO murupolun asetukset"
+
+#: core/core-settings-map.php:1891
+msgid "customization panel"
+msgstr "mukautuksen paneeli"
+
+#: core/core-settings-map.php:1888
+msgid "Jump to the Yoast SEO breadcrumbs %s"
+msgstr "Siirry Yoast SEO murupolulle %s"
+
+#: core/core-settings-map.php:1885
+msgid "Use Yoast SEO breadcrumbs"
+msgstr "Käytä Yoas SEO murupolkuja"
+
+#: core/core-settings-map.php:853 inc/czr-init-ccat.php:2540
+msgid "Display the tagline in the header"
+msgstr "Näytä kuvausteksti otsakkeessa"
+
+#: core/core-settings-map.php:329 core/init-base.php:1117
+msgid "Create and organize your social links"
+msgstr "Luo ja hallinnoi sosiaalisia linkkejä"
+
+#: inc/czr-front-ccat.php:8684
+msgid "Discover the Customizr WordPress theme &raquo;"
+msgstr "Tutustu Customizr Wordpress-teemaan &raquo;"
+
+#: core/czr-base-fmk/czr-base-fmk.php:284
+msgid "Choose Image"
+msgstr "Valitse kuva"
+
+#: core/czr-base-fmk/czr-base-fmk.php:282
+msgid "No image selected"
+msgstr "Ei valittua kuvaa"
+
+#: core/czr-base-fmk/czr-base-fmk.php:211
+#: core/czr-base-fmk/czr-base-fmk.php:281
+msgid "Default"
+msgstr "Oletus"
+
+#: core/czr-base-fmk/czr-base-fmk.php:279
+msgid "Change Image"
+msgstr "Vaihda kuva"
+
+#: core/czr-base-fmk/czr-base-fmk.php:278
+#: core/czr-base-fmk/czr-base-fmk.php:283
+msgid "Select Image"
+msgstr "Valitse kuva"
+
+#: core/czr-modules/social-links/social_links_module.php:135
+#: core/czr-modules/social-links/index.php:133
+msgid "Check this option to open the link in a another tab of the browser."
+msgstr "Valitse tämä avataksesi linkin selaimessa toiseen välilehteen."
+
+#: core/czr-modules/social-links/social_links_module.php:134
+#: core/czr-modules/social-links/index.php:132
+msgid "Link target"
+msgstr "Linkin kohde"
+
+#: core/czr-modules/social-links/social_links_module.php:129
+#: core/czr-modules/social-links/index.php:127
+msgid "Set a unique color for your icon."
+msgstr "Valitse kuvakkeellesi ainutlaatuinen väri."
+
+#: core/czr-modules/social-links/social_links_module.php:128
+#: core/czr-modules/social-links/index.php:126
+msgid "Icon color"
+msgstr "Kuvakkeen väri"
+
+#: core/czr-modules/social-links/social_links_module.php:124
+#: core/czr-modules/social-links/index.php:122
+msgid "This is the text displayed on mouse over."
+msgstr "Tämä teksti näytetään, kun kursori on linkin päällä."
+
+#: core/czr-modules/social-links/social_links_module.php:117
+#: core/czr-modules/social-links/index.php:115
+msgid "Social link"
+msgstr "Sosiaalinen linkki"
+
+#: core/czr-modules/social-links/social_links_module.php:113
+#: core/czr-modules/social-links/index.php:111
+msgid "Social icon"
+msgstr "Sosiaalinen kuvake"
+
+#: core/czr-modules/social-links/social_links_module.php:104
+#: core/czr-modules/social-links/index.php:102
+msgid "Size in px"
+msgstr "Koko pikseleinä"
+
+#: core/czr-modules/social-links/social_links_module.php:97
+#: core/czr-modules/social-links/social_links_module.php:118
+#: core/czr-modules/social-links/index.php:95
+#: core/czr-modules/social-links/index.php:116
+msgid "Enter the full url of your social profile (must be valid url)."
+msgstr "Syötä sosiaalisen profiilin kokonainen url-osoite (täytyy olla toimiva)"
+
+#: core/czr-modules/social-links/social_links_module.php:98
+#: core/czr-modules/social-links/social_links_module.php:119
+#: core/czr-modules/social-links/index.php:96
+#: core/czr-modules/social-links/index.php:117
+msgid "http://...,mailto:...,..."
+msgstr "http://...,mailto:...,..."
+
+#: core/czr-modules/social-links/social_links_module.php:96
+#: core/czr-modules/social-links/index.php:94
+msgid "Social link url"
+msgstr "Sosiaalisen linkin url"
+
+#: core/czr-modules/social-links/social_links_module.php:92
+#: core/czr-modules/social-links/index.php:90
+msgid "Select an icon"
+msgstr "Valitse kuvake"
+
+#: core/czr-base-fmk/czr-base-fmk.php:579 core/core-settings-map.php:1256
+#: core/core-settings-map.php:1268
+msgid "Yes"
+msgstr "Kyllä"
+
+#: core/czr-base-fmk/czr-base-fmk.php:578
+msgid "Are you sure you want to remove : <strong>{{ data.title }} ?</strong>"
+msgstr "Haluatko varmasti poistaa  : <strong>{{ data.title }} ?</strong>"
+
+#: core/czr-base-fmk/czr-base-fmk.php:557
+msgid "Add it"
+msgstr "Lisää tämä"
+
+#: core/czr-base-fmk/czr-base-fmk.php:557
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: core/czr-base-fmk/czr-base-fmk.php:552
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: core/czr-customize-ccat.php:1552
+msgid "Press return or enter to open this panel"
+msgstr "Paina enter avataksesi tämän paneelin"
+
+#: core/czr-modules/social-links/social_links_module.php:217
+#: core/czr-modules/social-links/index.php:215
+msgid "Please fill the social link inputs with a valid URLs"
+msgstr "Ole hyvä ja täytä sosiaalisen linkin kentät toimivilla URL-osoitteilla"
+
+#: core/czr-modules/social-links/social_links_module.php:173
+#: core/czr-modules/social-links/index.php:171
+msgid "An error occurred: malformed social links"
+msgstr "Tapahtui virhe: vääränmuotoinen sosiaalinen linkki"
+
+#: core/czr-customize-ccat.php:873
+msgid "The side on which the menu is revealed depends on the choosen header layout."
+msgstr "Kummalle puolelle valikko ilmestyy riippuu valitusta otsakkeen asettelusta."
+
+#: core/czr-customize-ccat.php:870
+msgid "Slide"
+msgstr "Kuva"
+
+#: core/czr-customize-ccat.php:869
+msgid "New Slide created ! Scroll down to edit it."
+msgstr "Uusi kuvasarjan kuva luotu! Selaa alaspäin muokataksesi sitä."
+
+#: core/czr-customize-ccat.php:867
+msgid "Close Editor"
+msgstr "Sulje editori"
+
+#: core/czr-base-fmk/czr-base-fmk.php:273 core/czr-customize-ccat.php:864
+#: core/czr-customize-ccat.php:884
+msgid "Learn more about this in the documentation"
+msgstr "Opi lisää lukemalla dokumentaatio"
+
+#: core/czr-modules/social-links/social_links_module.php:81
+#: core/czr-modules/social-links/index.php:79 core/czr-customize-ccat.php:863
+msgid "New Social Link created ! Scroll down to edit it."
+msgstr "Uusi sosiaalinen linkki luotu! Selaa alaspäin muokataksesi sitä."
+
+#: core/czr-base-fmk/czr-base-fmk.php:271
+#: core/czr-modules/social-links/social_links_module.php:80
+#: core/czr-modules/social-links/index.php:78 core/czr-customize-ccat.php:862
+msgid "Done !"
+msgstr "Tehty!"
+
+#: core/czr-modules/social-links/social_links_module.php:79
+#: core/czr-modules/social-links/index.php:77 core/czr-customize-ccat.php:861
+msgid "Follow us on"
+msgstr "Seuraa meitä"
+
+#: core/czr-modules/social-links/social_links_module.php:78
+#: core/czr-modules/social-links/index.php:76 core/czr-customize-ccat.php:860
+msgid "Select a social icon"
+msgstr "Valitse sosiaalinen kuvake"
+
+#: core/czr-modules/social-links/social_links_module.php:77
+#: core/czr-modules/social-links/index.php:75 core/czr-customize-ccat.php:859
+msgid "Rss"
+msgstr "Rss"
+
+#: core/czr-base-fmk/czr-base-fmk.php:270 core/czr-customize-ccat.php:858
+msgid "Not set"
+msgstr "Ei asetettu"
+
+#: core/core-settings-map.php:2254
+msgid "Back to top arrow position"
+msgstr "Takaisin ylös -nuolen sijainti"
+
+#: core/front/models/modules/slider/class-model-slider_of_posts.php:26
+msgid "Customize or remove the posts slider"
+msgstr "Mukauta tai poista artikkelipalkki"
+
+#: templates/parts/modules/search/searchform.php:12
+#: templates/parts/modules/search/searchform.php:14
+msgctxt "title"
+msgid "Search &hellip;"
+msgstr "Hae &hellip;"
+
+#: templates/parts/modules/search/searchform.php:11
+msgctxt "label"
+msgid "Search"
+msgstr "Hae"
+
+#: templates/parts/modules/related-posts/related_posts.php:9
+msgid "You may also like"
+msgstr "Saatat myös pitää"
+
+#: core/czr-admin-ccat.php:874
+msgid "read more"
+msgstr "lue lisää"
+
+#: templates/parts/footer/footer_credits.php:9
+msgid "All rights reserved"
+msgstr "Kaikki oikeudet pidätetään"
+
+#: templates/parts/content/singular/navigation/singular_posts_navigation.php:53
+msgid "Next post"
+msgstr "Seuraava"
+
+#: templates/parts/content/singular/navigation/singular_posts_navigation.php:45
+#: templates/parts/content/singular/navigation/singular_posts_navigation.php:47
+msgid "Back to post list"
+msgstr "Artikkelisivulle"
+
+#: templates/parts/content/singular/navigation/singular_posts_navigation.php:39
+msgid "Previous post"
+msgstr "Edellinen"
+
+#: templates/parts/content/post-lists/navigation/post_list_posts_navigation.php:31
+msgid "Posts navigation"
+msgstr "Artikkelien navigointi"
+
+#: templates/parts/content/post-lists/navigation/post_list_posts_navigation.php:11
+msgid "Newer posts"
+msgstr "Uudemmat artikkelit"
+
+#: templates/parts/content/post-lists/navigation/post_list_posts_navigation.php:10
+msgid "Older posts"
+msgstr "Vanhemmat artikkelit"
+
+#: templates/parts/content/post-lists/headings/search_heading.php:22
+#: templates/parts/content/post-lists/headings/regular_search_heading.php:22
+msgid "%s result"
+msgid_plural "%s results"
+msgstr[0] "%s tulos"
+msgstr[1] "%s tulosta"
+
+#: templates/parts/content/singular/authors/author_info.php:21
+#: templates/parts/content/post-lists/headings/archive_heading.php:36
+#: templates/parts/content/post-lists/headings/regular_archive_heading.php:23
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s artikkeli"
+msgstr[1] "%s artikkelia"
+
+#: templates/parts/content/no-results/search_no_results.php:7
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: templates/parts/content/no-results/404.php:7
+msgid "404"
+msgstr "404"
+
+#: templates/parts/content/singular/comments/comment_list.php:24
+msgid "pingback"
+msgid_plural "pingbacks"
+msgstr[0] "paluuviite"
+msgstr[1] "paluuviitteet"
+
+#: templates/parts/content/singular/comments/comment.php:31
+msgid "Edit comment"
+msgstr "Muokkaa kommenttia"
+
+#: templates/parts/content/singular/authors/author_info.php:18
+msgid "View all the posts of the author"
+msgstr "Katso kaikki artikkelit kirjoittajalta"
+
+#: templates/parts/content/singular/authors/author_info.php:11
+msgid "AUTHOR"
+msgid_plural "AUTHORS"
+msgstr[0] "KIRJOITTAJA"
+msgstr[1] ""
+
+#: core/init-base.php:190
+msgid "Contact me on Snapchat"
+msgstr "Ota yhteyttä Snapchatissa"
+
+#: core/front/models/content/post-lists/headings/class-model-archive_heading.php:56
+msgid "Yearly Archives:"
+msgstr "Vuosiarkistot:"
+
+#: core/front/models/content/post-lists/headings/class-model-archive_heading.php:55
+msgid "Monthly Archives:"
+msgstr "Kuukausiarkistot:"
+
+#: core/front/models/content/post-lists/headings/class-model-archive_heading.php:54
+msgid "Daily Archives:"
+msgstr "Päivittäiset arkistot:"
+
+#: core/core-settings-map.php:461
+msgid "If enabled, your slides scroll slower than the page (parallax effect)."
+msgstr "Tämän ollessa valittuna Kuvasarajojen vieritys on hitaampi kuin sivun (parallaksi-efekti)"
+
+#: core/core-settings-map.php:457
+msgid "Sliders : use parallax scrolling"
+msgstr "käytä parallaksi-vieritystä"
+
+#: inc/czr-init-ccat.php:2599
+msgid "WooCommerce: if checked, your WooCommerce cart icon will remain visible when scrolling."
+msgstr "WooCommerce: Tämän ollessa valittuna WooCommerce-ostoskorin kuvake pysyy vierityksen aikana näkyvissä."
+
+#: core/core-settings-map.php:2840
+msgid "Front-end Icons (Font Awesome)"
+msgstr "Käyttöliittymän kuvakkeet (Font Awesome)"
+
+#: core/core-settings-map.php:2394
+msgid "Check out some example of uses"
+msgstr "Katso esimerkkejä käyttötavoista"
+
+#: core/core-settings-map.php:2391
+msgid "Use with caution"
+msgstr "Käytä varoen"
+
+#: core/init-base.php:187
+msgid "Follow me on Xing"
+msgstr "Seuraa minua Xingissä"
+
+#: core/init-base.php:184
+msgid "Follow me on Yelp"
+msgstr "Seuraa minua Yelpissä"
+
+#: core/init-base.php:181
+msgid "Follow me on VKontakte"
+msgstr "Seuraa minua VKontaktessa"
+
+#: inc/czr-init-ccat.php:2592
+msgid "Sticky header: display the shopping cart"
+msgstr "Kiinnittyvä otsake: näytä ostoskori"
+
+#: core/core-settings-map.php:757 core/core-settings-map.php:867
+#: inc/czr-init-ccat.php:2555
+msgid "WooCommerce: check to display a cart icon showing the number of items in your cart next to your header's tagline."
+msgstr "WooCommerce: kun tämä on valittuna, ostoskärryn kuvake sekä siellä olevien tuotteiden määrä näytetään otsakkeen valikkorivin vierellä."
+
+#: core/core-settings-map.php:754 core/core-settings-map.php:864
+#: inc/czr-init-ccat.php:2552
+msgid "Display the shopping cart in the header"
+msgstr "Näytä ostoskori otsakkeessa"
+
+#: core/core-settings-map.php:437
+msgid "This feature has been introduced in WordPress v4.4+ (dec-2015), and might have minor side effects on some of your existing images. Check / uncheck this option to safely verify that your images are displayed nicely."
+msgstr "Tämä ominaisuus on ilmestynyt WordPressin versiossa 4.4+ (dec-2015), ja se voi aiheuttaa lieviä sivuvaikutuksia joissakin vanhemmista kuvista. Valitse / jätä valitsematta tämä toiminto, niin voit varmistaa, että kuvasi näkyvät oikein."
+
+#: templates/parts/header/parts/woocommerce_cart.php:7
+#: inc/czr-init-ccat.php:1522
+msgid "View your shopping cart"
+msgstr "Näytä ostoskori"
+
+#: core/core-settings-map.php:1179
+msgid "You can choose to display only the sticky posts. If you're not sure how to set a sticky post, check"
+msgstr "Voit valita, että vain kiinnitetyt artikkelit näytetään. Jos et ole varma, miten artikkeli kiinnitetään, vilkaise"
+
+#: core/core-settings-map.php:1174
+msgid "Include only sticky posts"
+msgstr "Näytä vain kiinnitetyt artikkelit"
+
+#: core/class-fire-plugins_compat.php:382 inc/czr-init-ccat.php:829
+msgid "Posts slider button text"
+msgstr "Artikkelien kuvasarjan painikkeen teksti"
+
+#: core/class-fire-plugins_compat.php:380 inc/czr-init-ccat.php:827
+msgid "Front page slider name"
+msgstr "Etusivun kuvasarjan nimi"
+
+#: templates/parts/footer/footer_credits.php:13 inc/czr-front-ccat.php:9260
+msgid "Powered by WordPress"
+msgstr "Alustana WordPress"
+
+#: templates/parts/footer/footer_credits.php:13 inc/czr-front-ccat.php:9259
+msgid "Powered by"
+msgstr "Powered by"
+
+#: inc/czr-front-ccat.php:8584
+msgid "this slider"
+msgstr "tämä kuvasarja"
+
+#: inc/czr-front-ccat.php:8584
+msgid "the posts slider"
+msgstr "artikkelin kuvasarja"
+
+#: inc/czr-front-ccat.php:8583
+msgid "Customize or remove %s"
+msgstr "Mukauta tai poista %s"
+
+#: core/class-fire-placeholders.php:224 core/class-fire-placeholders.php:291
+msgid "%s and check the option 'Load images on scroll' under 'Website Performances' section."
+msgstr "%s ja valitse asetus 'Lataa kuvat vieritettäessä' osiosta 'Sivuston suorituskyky'."
+
+#: core/class-fire-placeholders.php:222 core/class-fire-placeholders.php:289
+msgid "Did you know you can easily speed up your page load by deferring the loading of the non visible images?"
+msgstr "Tiesitkö, että voit helposti nopeuttaa sivun latautumista lykkäämällä kuvaruudun ulkopuolisten kuvien lataamista?"
+
+#: core/init-base.php:142
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#: core/core-settings-map.php:1125
+msgid "Apply a category filter to your home / blog posts"
+msgstr "Suodata etusivulla / blogissa näytettävät artikkelit kategorian perusteella"
+
+#: core/core-settings-map.php:1057
+msgid "Set the number of posts to display"
+msgstr "Valitse näytettävien artikkelien määrä"
+
+#: core/core-settings-map.php:1050
+msgid "Learn more about post categories in WordPress"
+msgstr "Lue lisää artikkelien kategorioista WordPressissä"
+
+#: core/core-settings-map.php:1048
+msgid "Click inside the above field and pick post categories you want to display. No filter will be applied if empty."
+msgstr "Klikkaa ylläolevaa kenttää ja valitse ne kategoriat, joiden artikkelit haluat näyttää. Jos kenttä on tyhjä, artikkeleita ei suodateta."
+
+#: core/front/models/modules/slider/class-model-slider_of_posts.php:408
+#: inc/czr-front-ccat.php:9046
+msgid "There is no excerpt because this is a protected post."
+msgstr "Otetta ei näytetä, koska artikkeli on suojattu."
+
+#: core/front/models/modules/slider/class-model-slider_of_posts.php:385
+#: inc/czr-front-ccat.php:9021
+msgid "Protected: %s"
+msgstr "Suojattu: %s"
+
+#: core/front/models/modules/slider/class-model-slider.php:618
+msgid "Customize or remove this slider"
+msgstr "Kustomoi tai poista tämä palkki"
+
+#: core/core-functions.php:1600
+msgid "&mdash; Auto-generated slider from your blog posts &mdash;"
+msgstr "&mdash; Blogisi artikkeleista automaattisesti luotu kuvasarja &mdash;"
+
+#: core/core-settings-map.php:1233
+msgid "When checked, the front page slider occupies the full viewport's width"
+msgstr "Kun tämä on valittu, etusivun kuvasarja venytetään koko ruudun leveydelle"
+
+#: core/core-settings-map.php:1222
+msgid "The button text will be limited to 80 chars max. Leave this field empty to hide the button"
+msgstr "Painikkeet teksti rajoitetaan enintään 80 merkkiin. Painiketta ei näytetä, jos tämä kenttä jätetään tyhjäksi."
+
+#: core/core-settings-map.php:1211
+msgid "Entire slide and call to action button"
+msgstr "Koko kuvaan ja painikkeeseen"
+
+#: core/core-settings-map.php:1210
+msgid "Entire slide"
+msgstr "Koko kuvaan"
+
+#: core/core-settings-map.php:1209
+msgid "Call to action button"
+msgstr "Painikkeeseen"
+
+#: core/core-settings-map.php:1205
+msgid "Link post with"
+msgstr "Linkitä artikkeli"
+
+#: core/core-settings-map.php:1200
+msgid "The excerpt will be limited to 80 chars max"
+msgstr "Ote rajoitetaan enintään 80 merkkiin"
+
+#: core/core-settings-map.php:1191
+msgid "The title will be limited to 80 chars max"
+msgstr "Otsikon pituus on rajoitettu 80 merkkiin."
+
+#: core/core-settings-map.php:1187
+msgid "Display the title"
+msgstr "Näytä otsikko"
+
+#: core/core-settings-map.php:1180
+msgid "the WordPress documentation."
+msgstr "WordPressin dokumentaatiosta."
+
+#: core/core-settings-map.php:1169
+msgid "Only the posts with a featured image or at least an image inside their content will qualify for the slider. The number of post slides displayed won't exceed the number of available posts in your website."
+msgstr "Kuvasarjaan kelpaavat vain sellaiset artikkelit, joilla on artikkelikuva tai jotka vähintäänkin sisältävät kuvan. Artikkeleiden perusteella luotujen kuvien määrä ei ylitä sivustolla käytettävissä olevien artikkelien määrää."
+
+#: core/core-settings-map.php:1163
+msgid "Number of posts to display"
+msgstr "Kuinka monta julkaisua näytetään"
+
+#: core/czr-admin-ccat.php:2516
+msgid "Slider documentation"
+msgstr "Kuvasarjojen dokumentaatio"
+
+#: core/czr-admin-ccat.php:2514
+msgid "For more informations about sliders, check the documentation page :"
+msgstr "Lisätietoa kuvasarjoista löydät dokumentaatiosivulta:"
+
+#: core/czr-admin-ccat.php:2513
+msgid "To add another slide : navigate to your media library (click on Media), open the edit screen of an image ( or add a new image ), and add it to your desired slider by using the dedicated option block at the bottom of the page."
+msgstr "Lisää uusi kuva: navigoin mediakirjastoon (klikkaa Media), avaa valitsemasi kuvan muokkausnäkymä (tai lisää uusi kuva), ja lopuksi lisää kuva haluamaasi kuvasarjaan käyttämällä siihen tarkoitettuja asetuksia sivun alalaidassa."
+
+#: core/core-settings-map.php:2862
+msgid "Upgrade to Customizr Pro"
+msgstr "Päivitä Customizr Pro-versioon."
+
+#: core/czr-customize-ccat.php:871
+msgid "This option generates a home page slider based on your last posts, starting from the most recent or the featured (sticky) post(s) if any."
+msgstr "Tämä valinta luo etusivullesi kuvasarjan, joka perustuu viimeisimpiin artikkeleihisi alkaen uusimmista tai kiinnitetyistä artikkeleista, jos niitä on."
+
+#: core/czr-customize-ccat.php:878
+msgid "Change the header layout"
+msgstr "Muuta otsakkeen asettelua"
+
+#: core/czr-customize-ccat.php:877
+msgid "jump to the Design and Layout section"
+msgstr "siirry Sommittelu-osioon"
+
+#: core/czr-customize-ccat.php:874
+msgid "To change the global header layout, %s"
+msgstr "Vaihtaaksesi yleistä otsakkeen asettelua %s"
+
+#: core/czr-customize-ccat.php:590
+msgid "SITE ICON"
+msgstr "SIVUSTON IKONI"
+
+#: core/front/models/header/parts/class-model-menu.php:305
+#: inc/czr-front-ccat.php:1377
+msgid "Pages"
+msgstr "Sivut"
+
+#: core/front/template-tags/template-tags.php:227
+msgid "open the customizer menu section"
+msgstr "avaa valikon mukautusosio"
+
+#: inc/czr-front-ccat.php:783
+msgid "Open the menu"
+msgstr "Avaa valikko"
+
+#: templates/parts/header/parts/menu_button.php:7 inc/czr-front-ccat.php:776
+msgid "Menu"
+msgstr "Valikko"
+
+#: core/czr-base-fmk/czr-base-fmk.php:269 core/czr-customize-ccat.php:857
+#: inc/czr-front-ccat.php:776 inc/czr-front-ccat.php:783
+msgid "Close"
+msgstr "Sulje"
+
+#: core/class-fire-placeholders.php:121 core/class-fire-placeholders.php:167
+msgid "Add widgets to the footer %s or %s."
+msgstr "Lisää vimpaimia alatunnisteeseen %s tai %s."
+
+#: core/class-fire-placeholders.php:99 core/class-fire-placeholders.php:124
+#: core/class-fire-placeholders.php:170
+msgid "dismiss this notice"
+msgstr "poista huomautus"
+
+#: core/class-fire-placeholders.php:92
+msgid "Add widgets to this sidebar %s or %s."
+msgstr "Lisää vimpaimia sivupalkkiin %s tai %s."
+
+#: core/class-fire-placeholders.php:120
+msgid "The right sidebar has no widgets"
+msgstr "Oikeassa sivupalkissa ei ole vimpaimia"
+
+#: core/class-fire-placeholders.php:186 core/class-fire-placeholders.php:205
+#: core/class-fire-placeholders.php:225 core/class-fire-placeholders.php:292
+msgid "Jump to the customizer now"
+msgstr "Siirry heti muokkaimeen"
+
+#: core/class-fire-placeholders.php:185 core/class-fire-placeholders.php:204
+msgid "%s to display a featured image here."
+msgstr "%s näyttääksesi tässä artikkelikuvan."
+
+#: core/class-fire-placeholders.php:183
+msgid "You can display your post's featured image here if you have set one."
+msgstr "Voit näyttää tässä artikkelisi artikkelikuvan, jos sellainen on asetettuna."
+
+#: inc/czr-front-ccat.php:3512
+msgid "Edit now."
+msgstr "Muokkaa heti."
+
+#: core/class-fire-placeholders.php:96 core/class-fire-placeholders.php:122
+#: core/class-fire-placeholders.php:168
+msgid "now"
+msgstr "heti"
+
+#: core/core-settings-map.php:2835
+msgid "Front-end placeholders and help blocks"
+msgstr "Käyttöliittymän paikkamerkit ja apupalkit"
+
+#: core/core-settings-map.php:2804
+msgid "Socials in Sidebars"
+msgstr "Sosiaaliset linkit sivupalkeissa"
+
+#: core/core-settings-map.php:2714
+msgid "Navigation Menus"
+msgstr "Navigaatiovalikot"
+
+#: core/core-settings-map.php:2689
+msgid "Smooth Scroll"
+msgstr "Pehmeä vieritys"
+
+#: core/core-settings-map.php:2616
+msgid "If a menu location has no menu assigned to it, a default page menu will be used."
+msgstr "Jos valikon paikalle ei ole valittuna ainuttakaan valikkoa, käytetään oletuksena sivuvalikkoa."
+
+#: core/core-settings-map.php:945 core/core-settings-map.php:2609
+msgid "in the menu panel"
+msgstr "valikkorivillä"
+
+#: core/core-settings-map.php:946 core/core-settings-map.php:2602
+#: core/core-settings-map.php:2610
+msgid "create/edit menus"
+msgstr "luo/muokkaa valikkoja"
+
+#: core/core-settings-map.php:2601
+msgid "on the Menus screen in the Appearance section"
+msgstr "Valikoiden muokkausnäkymässä Ulkoasun asetuksissa"
+
+#: core/core-settings-map.php:2598 core/core-settings-map.php:2606
+msgid "You can create new menu and edit your menu's content %s."
+msgstr "Voit luoda uusia valikoita ja muokata valikoiden sisältöjä %s."
+
+#: core/core-settings-map.php:2510
+msgid "Sidebars"
+msgstr "Sivupalkit"
+
+#: core/core-settings-map.php:2374
+msgid "When this option is enabled, various help notices and some placeholder blocks are displayed on the front-end of your website. They are only visible by logged in users with administration capabilities."
+msgstr "Kun tämä on valittuna, näet sivustollasi erilaisia apuhuomautuksia ja joitakin paikkamerkkilohkoja. Ne ovat näkyvissä vain kirjautuneille käyttäjille, joilla on ylläpito-oikeudet."
+
+#: core/core-settings-map.php:2371
+msgid "Display help notices on front-end for logged in users."
+msgstr "Näytä apuhuomautuksia sivustolle kirjautuneille käyttäjille."
+
+#: core/core-settings-map.php:2236
+msgid "Stick the footer to the bottom of the page"
+msgstr "Kiinnitä alaviite sivun alaosaan"
+
+#: core/class-fire-placeholders.php:188 core/core-settings-map.php:1712
+msgid "Don't know how to set a featured image to a post? Learn how in the %s."
+msgstr "Etkö ole ennen asettanut artikkeliin artikkelikuvaa? Lue lisäohjeita %s."
+
+#: core/core-settings-map.php:1711
+msgid "You can display the featured image (also called the post thumbnail) of your posts before their content, when they are displayed individually."
+msgstr "Artikkelikuva (tunnetaan myös artikkelin esikatselukuvana) voidaan näyttää ennen artikkelin varsinaista sisältöä, kun artikkeli esitetään yksitellen."
+
+#: core/core-settings-map.php:1401
+msgid "If you need to change the layout design of the front page, then open the 'Front Page' section above this one."
+msgstr "Jos haluat muuttaa etusivun asettelua, avaa ylläoleva 'Etusivu'-osio."
+
+#: core/core-settings-map.php:1398
+msgid "Customizr theme documentation"
+msgstr "Customizr-teeman dokumentaatio"
+
+#: core/core-settings-map.php:1397
+msgid "The above layout options will set your layout globally for your post and pages. But you can also define the layout for each post and page individually. Learn how in the %s."
+msgstr "Ylläolevat valinnat määrittävät artikkelien ja sivujen yleisen asettelutavan. Voit kuitenkin valita asettelutavan jokaiselle artikkelille ja sivulle yksitellen. Lue lisää %s."
+
+#: core/core-settings-map.php:1026
+msgid "Use with caution : provide an alternative way to navigate in your website for your users."
+msgstr "Käytä harkiten: vaatii loppukäyttäjiä varten vaihtoehtoisen ratkaisun sivuston navigointiin."
+
+#: core/core-settings-map.php:1022
+msgid "Don't display any menus in the header of your website"
+msgstr "Älä näytä mitään valikoita sivuston otsakkeessa"
+
+#: core/core-settings-map.php:1021
+msgid "Remove all the menus."
+msgstr "Poista kaikki valikot."
+
+#: inc/czr-init-ccat.php:2762
+msgid "Hide"
+msgstr "Piilota"
+
+#: inc/czr-init-ccat.php:2761
+msgid "Display in the header"
+msgstr "Näytä otsakkeessa"
+
+#: inc/czr-init-ccat.php:2760
+msgid "Move after inside the side menu "
+msgstr "Siirrä loppuun sivuvalikon sisällä"
+
+#: inc/czr-init-ccat.php:2759
+msgid "Move before inside the side menu "
+msgstr "Siirrä alkuun sivuvalikon sisällä"
+
+#: inc/czr-init-ccat.php:2755
+msgid "Choose a mobile devices (responsive) behaviour for the secondary menu."
+msgstr "Valitse mobiililaiteiden (responsiivinen) toiminta toissijaiselle valikolle."
+
+#: core/core-settings-map.php:976 inc/czr-init-ccat.php:2736
+msgid "Menu position (for the horizontal menu)"
+msgstr "Valikon sijaini (vaakasuorassa valikossa)"
+
+#: core/core-settings-map.php:975 inc/czr-init-ccat.php:2735
+msgid "Secondary (horizontal) menu design"
+msgstr "Toissijaisen (pystysuoran) valikon asettelu"
+
+#: core/core-settings-map.php:962 inc/czr-init-ccat.php:2715
+msgid "Menu position (for \"main\" menu)"
+msgstr "Valikon sijainti (päävalikolle)"
+
+#: inc/czr-init-ccat.php:2709
+msgid "Note : the label is hidden on mobile devices."
+msgstr "Huomio: pienoiskuvake on piilotettu mobiililaitteilla."
+
+#: inc/czr-init-ccat.php:2705
+msgid "Display a label next to the menu button."
+msgstr "Näytä pienoiskuvake menuvalikon vieressä."
+
+#: inc/czr-init-ccat.php:2696
+msgid "For mobile devices (responsive), limit the height of the dropdown menu block to the visible viewport."
+msgstr "Rajoita aukeava valikon korkeus enintään ruudun korkuiseksi mobiililaitteilla (responsiivinen)."
+
+#: core/core-settings-map.php:939
+msgid "Side Menu (vertical)"
+msgstr "Sivuvalikko (pystysuora)"
+
+#: core/core-settings-map.php:938
+msgid "Regular (horizontal)"
+msgstr "Tavallinen (vaakasuora)"
+
+#: core/core-settings-map.php:934
+msgid "Select a design : side menu (vertical) or regular (horizontal)"
+msgstr "Valitse asettelu: sivuvalikko (pystysuora) tai tavallainen (vaakasuora)"
+
+#: core/core-settings-map.php:933
+msgid "Main menu design"
+msgstr "Päävalikon asettelu"
+
+#: core/core-settings-map.php:922
+msgid "Display a secondary (horizontal) menu in the header."
+msgstr "Näytä toinen (vaakasuora) valikko otsakkeessa."
+
+#: inc/czr-init-ccat.php:2618
+msgid "Also applied to the secondary menu if any."
+msgstr "Vaikuttaa myös toissijaiseen valikkoon, jos sellainen on määritelty."
+
+#: core/core-settings-map.php:704
+msgid "This setting might impact the side on which the menu is revealed."
+msgstr "Tämä asetus saattaa vaikuttaa siihen, kummalta puolelta valikko ilmestyy."
+
+#: core/core-settings-map.php:694
+msgid "Choose a layout for the header"
+msgstr "Valitse otsakkeen asettelu"
+
+#: core/core-settings-map.php:502
+msgid "This option enables a smoother page scroll."
+msgstr "Tämä valinta mahdollistaa sivun pehmeämmän vierityksen."
+
+#: core/core-settings-map.php:498
+msgid "Enable Smooth Scroll"
+msgstr "Ota käyttöön pehmeä vieritys"
+
+#: core/core-settings-map.php:352
+msgid "this option can create conflicts with some plugins, make sure that your plugins features (if any) are working fine after enabling this option."
+msgstr "tämä valinta saattaa aiheuttaa ongelmia joidenkin lisäosien kanssa. Varmista, että kaikki lisäosasi (jos sellaisia on) toimivat oikein, kun tämä asetus on valittuna."
+
+#: core/core-settings-map.php:352
+msgid "Important note"
+msgstr "Tärkeä huomautus"
+
+#: inc/czr-init-ccat.php:2229
+msgid "Disabled if the random option is on."
+msgstr "Pois käytöstä, jos 'satunnainen' valinta on käytössä."
+
+#: core/init-base.php:417
+msgid "Secondary (horizontal) Menu"
+msgstr "Toissijainen (vaakasuora) valikko"
+
+#: core/czr-admin-ccat.php:571
+msgid "demo website"
+msgstr "demo-sivusto"
+
+#: core/czr-admin-ccat.php:568
+msgid "The best way to start with %s is to read the %s and visit the %s."
+msgstr "Paras tapa aloittaa %s-teeman käyttö on lukea %s ja vilkaista %s."
+
+#: core/czr-admin-ccat.php:570
+msgid "documentation"
+msgstr "dokumentaatio"
+
+#: core/czr-admin-ccat.php:453
+msgid "close"
+msgstr "sulje"
+
+#: core/czr-admin-ccat.php:446
+msgid "Read the latest release notes"
+msgstr "Lue viimeisimmät julkaisumuistiinpanot"
+
+#: core/czr-admin-ccat.php:444
+msgid "We'd like to introduce the new features we've been working on."
+msgstr "Haluaisimme esitellä uusia ominaisuuksia, joita olemme työstäneet."
+
+#: core/czr-admin-ccat.php:435
+msgid "version"
+msgstr "versio"
+
+#: core/czr-admin-ccat.php:2431
+msgid "Link"
+msgstr "Linkki"
+
+#: core/czr-admin-ccat.php:2232
+msgid "Link the whole slide"
+msgstr "Linkitä koko kuva"
+
+#: core/czr-admin-ccat.php:2221
+msgid "Open link in a new page/tab"
+msgstr "Avaa linkki uuteen välilehteen"
+
+#: core/czr-admin-ccat.php:2215
+msgid "or a custom link (leave this empty if you already selected a page or post above)"
+msgstr "tai mukailtu linkki (jätä tämä kenttä tyhjäksi, jos olet jo valinnut yllä sivun tai artikkelin)"
+
+#: core/class-fire-placeholders.php:189 core/class-fire-placeholders.php:208
+#: core/core-settings-map.php:1713 core/core-settings-map.php:1792
+msgid "WordPress documentation"
+msgstr "Wordpressin dokumentaatio"
+
+#. Template Name of the theme
+#: core/class-fire-plugins_compat.php:769 inc/czr-init-ccat.php:1238
+msgid "Custom Page Example"
+msgstr "Mukautetun sivun esimerkki"
+
+#: core/front/template-tags/template-tags.php:226 inc/czr-front-ccat.php:809
+msgid "Add a menu"
+msgstr "Lisää valikko"
+
+#: templates/parts/header/parts/logo.php:6 inc/czr-front-ccat.php:264
+msgid "Back Home"
+msgstr "Takaisin etusivulle"
+
+#: inc/czr-front-ccat.php:9290
+msgid "Back to top"
+msgstr "Takaisin ylös"
+
+#: core/class-fire-placeholders.php:166
+msgid "The footer has no widgets"
+msgstr "alaviitteessä ei ole vimpaimia"
+
+#: core/front/models/modules/slider/class-model-slider.php:437
+#: inc/czr-front-ccat.php:8690
+msgid "Check the slider doc now &raquo;"
+msgstr "Vilkaiset kuvasarjan ohjeet saman tien &raquo;"
+
+#: core/front/models/modules/slider/class-model-slider.php:435
+msgid "Easily create sliders and add them in any posts or pages."
+msgstr "Luo uusia kuvasarjoja helposti ja lisää ne helposti mihin tahansa artikkeliin tai sivuun."
+
+#: core/front/models/modules/slider/class-model-slider.php:431
+msgid "Check the front page slider doc &raquo;"
+msgstr "Vilkaise etusivun kuvasarjan ohjeet &raquo;"
+
+#: core/front/models/modules/slider/class-model-slider.php:429
+#: inc/czr-front-ccat.php:8688
+msgid "Discover how to replace or remove this demo slider."
+msgstr "Ota selvää, miten voit korvata tai poistaa tämän esimerkkikuvasarjan."
+
+#: core/class-fire-placeholders.php:861
+msgid "dismiss notice"
+msgstr "poista huomautus"
+
+#: core/class-fire-placeholders.php:106 core/class-fire-placeholders.php:131
+msgid "See the theme documentation."
+msgstr "Katso teeman dokumentaatio"
+
+#: core/class-fire-placeholders.php:105 core/class-fire-placeholders.php:130
+msgid "Changing the layout in the Customizr theme"
+msgstr "Asettelun muokkaaminen Customizr-teemassa"
+
+#: core/class-fire-placeholders.php:103 core/class-fire-placeholders.php:128
+msgid "You can also remove this sidebar by changing the current page layout."
+msgstr "Voit myös poistaa tämän sivupalkin muuttamalla sivun asettelua."
+
+#: core/class-fire-placeholders.php:95 core/class-fire-placeholders.php:122
+#: core/class-fire-placeholders.php:168
+msgid "Add widgets"
+msgstr "Lisää vimpaimia"
+
+#: core/class-fire-placeholders.php:853
+msgid "This notice is visible for admin users only."
+msgstr "Tämä palkki näkyy vain ylläpitäjille."
+
+#: inc/czr-front-ccat.php:7154
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat artikkelit <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/czr-front-ccat.php:7134
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat artikkelit"
+
+#: templates/parts/content/singular/navigation/singular_posts_navigation.php:35
+#: inc/czr-front-ccat.php:7066 inc/czr-front-ccat.php:7121
+msgid "Post navigation"
+msgstr "Artikkelien navigointi"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:63
+#: core/front/models/content/post-metas/class-model-post_metas.php:69
+#: inc/czr-front-ccat.php:6961
+msgid "by"
+msgstr "kirjoittajalta"
+
+#: inc/czr-front-ccat.php:6938
+msgid "tagged"
+msgstr "tagit:"
+
+#: inc/czr-front-ccat.php:6888
+msgid "Open"
+msgstr "Avaa"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:192
+#: inc/czr-front-ccat.php:6867
+msgid "View all posts by %s"
+msgstr "Katso kaikki artikkelit tekijältä %s"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:244
+#: inc/czr-front-ccat.php:6708
+msgid "View all posts in %s"
+msgstr "Katso kaikki artikkelit kategoriassa %s"
+
+#: inc/czr-front-ccat.php:6647
+msgid "(updated on %1$s)"
+msgstr "(muokattu %1$s)"
+
+#: inc/czr-front-ccat.php:6644
+msgid "(updated 1 day ago)"
+msgstr "(muokattu eilen)"
+
+#: inc/czr-front-ccat.php:6643
+msgid "(updated %s days ago)"
+msgstr "(muokattu %s päivää sitten)"
+
+#: inc/czr-front-ccat.php:6643
+msgid "(updated today)"
+msgstr "(muokattu tänään)"
+
+#: inc/czr-front-ccat.php:6627 inc/czr-front-ccat.php:6629
+msgid "by %1$s"
+msgstr "%1$s mennessä"
+
+#: inc/czr-front-ccat.php:6627
+msgid "This entry was posted"
+msgstr "Julkaistu"
+
+#: inc/czr-front-ccat.php:6615
+msgid "and posted on %1$s"
+msgstr "ja julkaistu %1$s"
+
+#: inc/czr-front-ccat.php:6613
+msgid "on %1$s"
+msgstr "%1$s"
+
+#: inc/czr-front-ccat.php:6611
+msgid "This entry was posted on %1$s"
+msgstr "Julkaistu %1$s"
+
+#: inc/czr-front-ccat.php:6602
+msgid "This entry was tagged %2$s"
+msgstr "Julkaistu tageilla %2$s"
+
+#: inc/czr-front-ccat.php:6600
+msgid "This entry was posted in %1$s"
+msgstr "Julkaistu kategoriassa %1$s"
+
+#: inc/czr-front-ccat.php:6598
+msgid "This entry was posted in %1$s and tagged %2$s"
+msgstr "tämä julkaistiin kategoriassa %1$s tagilla %2$s"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:97
+#: inc/czr-front-ccat.php:6536
+msgid "Return to "
+msgstr "Takaisin kohteeseen"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:97
+#: inc/czr-front-ccat.php:6536 inc/czr-front-ccat.php:6937
+msgid "in"
+msgstr "in"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:95
+#: inc/czr-front-ccat.php:6535
+msgid "Link to full-size image"
+msgstr "Linkki täysikokoisiin kuviin"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:95
+#: inc/czr-front-ccat.php:6535
+msgid "at dimensions"
+msgstr "resoluutiot"
+
+#: core/front/models/content/post-metas/class-model-post_metas.php:76
+#: inc/czr-front-ccat.php:6532
+msgid "Published"
+msgstr "Julkaistu"
+
+#: inc/czr-front-ccat.php:6511
+msgid "This entry was posted on %1$s<span class=\"by-author\"> by %2$s</span>."
+msgstr "<span class=\"by-author\"> %2$s</span> julkaisi tämän %1$s."
+
+#: inc/czr-front-ccat.php:4713
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Katso kaikki artikkelit käyttäjältä %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/czr-front-ccat.php:4400 inc/czr-front-ccat.php:4656
+#: inc/czr-front-ccat.php:5101
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: core/front/models/content/post-lists/item-parts/contents/class-model-post_list_item_content_inner.php:183
+#: templates/parts/content/singular/page_content.php:16
+#: templates/parts/content/singular/post_content.php:18
+#: inc/czr-front-ccat.php:4398 inc/czr-front-ccat.php:4655
+#: inc/czr-front-ccat.php:5099
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista <span class=\"meta-nav\">&rarr;</span>"
+
+#: core/front/models/content/post-lists/headings/class-model-archive_heading.php:70
+#: inc/czr-front-ccat.php:4160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/czr-front-ccat.php:4160
+msgid "Yearly Archives: %s"
+msgstr "Vuotuiset arkistot: %s"
+
+#: core/front/models/content/post-lists/headings/class-model-archive_heading.php:69
+#: inc/czr-front-ccat.php:4159
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/czr-front-ccat.php:4159
+msgid "Monthly Archives: %s"
+msgstr "Kuukausittaiset arkistot: %s"
+
+#: inc/czr-front-ccat.php:4158
+msgid "Archives"
+msgstr "Arkisto"
+
+#: inc/czr-front-ccat.php:4158
+msgid "Daily Archives: %s"
+msgstr "Päivittäiset arkistot: %s"
+
+#: inc/czr-front-ccat.php:4118 inc/czr-front-ccat.php:4709
+msgid "About %s"
+msgstr "Lisätietoa aiheesta %s"
+
+#: core/czr-base-fmk/czr-base-fmk.php:579 core/core-settings-map.php:1257
+#: core/core-settings-map.php:1269 inc/czr-front-ccat.php:4084
+msgid "No"
+msgstr "Ei"
+
+#: templates/parts/content/no-results/404.php:8 inc/czr-front-ccat.php:4070
+msgid "Ooops, page not found"
+msgstr "Ups, sivua ei löytynyt"
+
+#: inc/czr-front-ccat.php:3929 inc/czr-front-ccat.php:3933
+msgid "{no title} Read the post &raquo;"
+msgstr "{ei otsikkoa} Lue artikkeli &raquo;"
+
+#: inc/czr-front-ccat.php:3724
+msgid "Missing Attachment"
+msgstr "Liitetiedosto puuttuu"
+
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:165
+#: inc/czr-front-ccat.php:3523
+msgid "Featured page description text : use the page excerpt or set your own custom text in the customizer screen."
+msgstr "Korostetun sivun kuvausteksti: käytä sivun Otenäkymää tai aseta mukautettu teksti Customizr:in valikossa."
+
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:161
+#: inc/czr-front-ccat.php:3519
+msgid "Featured page"
+msgstr "Ehdotettu sivu"
+
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:136
+#: core/front/models/modules/featured-pages/class-model-featured_pages.php:147
+#: inc/czr-front-ccat.php:3511
+msgid "Customizer screen"
+msgstr "Customizr-ikkuna"
+
+#: core/front/template-tags/template-tags.php:65
+#: templates/parts/content/singular/comments/comment_list.php:19
+#: inc/czr-front-ccat.php:3221
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "kommentti"
+msgstr[1] "kommentit"
+
+#: inc/czr-front-ccat.php:3202
+msgid "Comment(s) on"
+msgstr "Kommentit aiheesta"
+
+#: templates/comments-no-model.php:21 inc/czr-front-ccat.php:3179
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#: templates/parts/content/singular/comments/comment_list.php:100
+#: inc/czr-front-ccat.php:3144
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: templates/parts/content/singular/comments/comment_list.php:91
+#: inc/czr-front-ccat.php:3112
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat kommentit <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/parts/content/singular/comments/comment_list.php:83
+#: inc/czr-front-ccat.php:3104
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat kommentit"
+
+#: templates/parts/content/singular/comments/comment_list.php:77
+#: inc/czr-front-ccat.php:3098
+msgid "Comment navigation"
+msgstr "Kommenttien navigointi"
+
+#: templates/parts/content/singular/comments/comment.php:37
+#: inc/czr-front-ccat.php:3063
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa moderointia."
+
+#. translators: 1: date, 2: time
+#: inc/czr-front-ccat.php:3058
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s"
+
+#: templates/parts/content/singular/comments/comment.php:22
+#: inc/czr-front-ccat.php:3051
+msgid "Post author"
+msgstr "Artikkelin kirjoittaja"
+
+#: inc/czr-front-ccat.php:3038
+msgid "Reply"
+msgstr "Vastaa"
+
+#: inc/czr-front-ccat.php:3010
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: inc/czr-front-ccat.php:3009
+msgid "Pingback:"
+msgstr "Paluuviitteet:"
+
+#: templates/parts/content/singular/comments/comment_list.php:11
+#: inc/czr-front-ccat.php:2949
+msgid "thoughts on"
+msgstr "ajatuksia aiheesta"
+
+#: templates/parts/content/singular/comments/comment_list.php:11
+#: inc/czr-front-ccat.php:2947
+msgid "One thought on"
+msgstr "Ajatus aiheesta"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:807
+#: inc/czr-front-ccat.php:2652
+msgid "F j, Y"
+msgstr "j.n.Y"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:803
+#: inc/czr-front-ccat.php:2648
+msgid "F Y"
+msgstr "F Y"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:653
+#: inc/czr-front-ccat.php:2497
+msgid "Merge"
+msgstr "Yhdistä"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:649
+#: inc/czr-front-ccat.php:2493
+msgid "Split"
+msgstr "Jaa"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:575
+#: core/front/models/modules/common/class-model-breadcrumb.php:577
+#: inc/czr-front-ccat.php:2422 inc/czr-front-ccat.php:2424
+msgid "Page %d"
+msgstr "Sivu %d"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:569
+#: inc/czr-front-ccat.php:2416
+msgid "404 Not Found"
+msgstr "404 Ei löytynyt"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:562
+#: core/front/models/modules/common/class-model-breadcrumb.php:564
+#: inc/czr-front-ccat.php:2409 inc/czr-front-ccat.php:2411
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "Hakutulokset  &quot;%1$s&quot;"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:534
+#: core/front/models/modules/common/class-model-breadcrumb.php:536
+#: inc/czr-front-ccat.php:2381 inc/czr-front-ccat.php:2383
+msgid "W"
+msgstr "W"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:534
+#: core/front/models/modules/common/class-model-breadcrumb.php:536
+#: inc/czr-front-ccat.php:2381 inc/czr-front-ccat.php:2383
+msgid "Week %1$s"
+msgstr "Viikko %1$s"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:525
+#: core/front/models/modules/common/class-model-breadcrumb.php:527
+#: core/front/models/modules/common/class-model-breadcrumb.php:807
+#: inc/czr-front-ccat.php:2372 inc/czr-front-ccat.php:2374
+#: inc/czr-front-ccat.php:2652
+msgid "d"
+msgstr "d"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:522
+#: core/front/models/modules/common/class-model-breadcrumb.php:543
+#: core/front/models/modules/common/class-model-breadcrumb.php:545
+#: core/front/models/modules/common/class-model-breadcrumb.php:803
+#: inc/czr-front-ccat.php:2369 inc/czr-front-ccat.php:2390
+#: inc/czr-front-ccat.php:2392 inc/czr-front-ccat.php:2648
+msgid "F"
+msgstr "F"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:521
+#: core/front/models/modules/common/class-model-breadcrumb.php:531
+#: core/front/models/modules/common/class-model-breadcrumb.php:540
+#: core/front/models/modules/common/class-model-breadcrumb.php:551
+#: core/front/models/modules/common/class-model-breadcrumb.php:553
+#: core/front/models/modules/common/class-model-breadcrumb.php:799
+#: inc/czr-front-ccat.php:2368 inc/czr-front-ccat.php:2378
+#: inc/czr-front-ccat.php:2387 inc/czr-front-ccat.php:2398
+#: inc/czr-front-ccat.php:2400 inc/czr-front-ccat.php:2644
+msgid "Y"
+msgstr "Y"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:505
+#: inc/czr-front-ccat.php:2352
+msgid "g a"
+msgstr "g a"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:502
+#: inc/czr-front-ccat.php:2349
+msgid "i"
+msgstr "i"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:502
+#: inc/czr-front-ccat.php:2349
+msgid "Minute %1$s"
+msgstr "Minuutti %1$s"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:499
+#: inc/czr-front-ccat.php:2346
+msgid "g:i a"
+msgstr "g:i a"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:59
+#: inc/czr-front-ccat.php:1851
+msgid "Browse:"
+msgstr "Selaa:"
+
+#: core/front/models/modules/common/class-model-breadcrumb.php:50
+#: core/front/models/modules/common/class-model-breadcrumb.php:62
+#: core/front/models/header/parts/class-model-menu.php:256
+#: inc/czr-front-ccat.php:1329 inc/czr-front-ccat.php:1842
+#: inc/czr-front-ccat.php:1854
+msgid "Home"
+msgstr "Etusivu"
+
+#: inc/czr-front-ccat.php:1701
+msgid "Next &rarr;"
+msgstr "Seuraava &rarr;"
+
+#: inc/czr-front-ccat.php:1700
+msgid "&larr; Previous"
+msgstr "&larr; Edellinen"
+
+#: inc/czr-init-ccat.php:3030
+msgid "Set the post grid thumbnail's max height in pixels"
+msgstr "Aseta ruudukossa olevan artikkelin esikatselukuvan maksimikorkeus pikseleissä"
+
+#: inc/czr-init-ccat.php:3029
+msgid "Thumbnails max height for the grid layout"
+msgstr "Esikatselukuvan maksimikorkeus Ruudukko-asettelussa"
+
+#: core/core-settings-map.php:1667
+msgid "Max. length for post titles (in words)"
+msgstr "Maksimipituus artikkelin otsikolle (sanojen määrä)"
+
+#: core/core-settings-map.php:1656
+msgid "Apply a colored bottom border to each grid items"
+msgstr "Lisää Ruudukon kohteisiin väritetty alareuna"
+
+#: core/core-settings-map.php:1647
+msgid "Apply a shadow to each grid items"
+msgstr "Lisää Ruudukon kohteisiin varjo"
+
+#: inc/czr-init-ccat.php:2985
+msgid "Unchecked contexts are displayed with the alternate thumbnails layout."
+msgstr "Valitsematta jääneet kontekstit esitetään käyttömällä asetteluna Vaihtelevaa esikatselukuvaa."
+
+#: inc/czr-init-ccat.php:2981
+msgid "Apply the grid layout to Search results"
+msgstr "Käytä ruudukkoasettelua hakutuloksiin"
+
+#: inc/czr-init-ccat.php:2973
+msgid "Apply the grid layout to Archives (archives, categories, author posts)"
+msgstr "Käytä ruudukkoasettelua arkistossa (arkistot, kategoriat, kirjoittaja)"
+
+#: inc/czr-init-ccat.php:2965
+msgid "Apply the grid layout to Home/Blog"
+msgstr "Käytä ruudukkoasettelua etusivulla/blogissa"
+
+#: core/core-settings-map.php:1638
+msgid "Expand the last sticky post (for home and blog page only)"
+msgstr "Laajenna viimeisin kiinnitetty julkaisu (vain etusivu ja blogisivu)"
+
+#: core/core-settings-map.php:1633
+msgid "Note : columns are limited to 3 for single sidebar layouts and to 2 for double sidebar layouts."
+msgstr "Huomaa: sarakkeiden määrä on rajoitettu kolmeen yhden sivupalkin asettelussa ja kahteen kahden sivupalkin asettelussa."
+
+#: core/core-settings-map.php:1630
+msgid "4"
+msgstr "4"
+
+#: core/core-settings-map.php:1629
+msgid "3"
+msgstr "3"
+
+#: core/core-settings-map.php:1628
+msgid "2"
+msgstr "2"
+
+#: core/core-settings-map.php:1627
+msgid "1"
+msgstr "1"
+
+#: core/core-settings-map.php:1623
+msgid "Number of columns per row"
+msgstr "Sarakkeiden määrä yhdellä rivillä"
+
+#: core/core-settings-map.php:1618
+msgid "When you select the grid Layout, the post content is limited to the excerpt."
+msgstr "Jos valitset Ruudukon, artikkelin sisältö rajoittuu Otteeseen."
+
+#: core/core-settings-map.php:1612
+msgid "Grid layout"
+msgstr "Ruudukko"
+
+#: core/core-settings-map.php:1611
+msgid "Alternate thumbnails layout"
+msgstr "Vaihteleva esikatselukuva"
+
+#: core/core-settings-map.php:1607
+msgid "Select a Layout"
+msgstr "Valitse asettelu"
+
+#: core/core-settings-map.php:1606
+msgid "Post List Design"
+msgstr "Artikkelilistan muotoilu"
+
+#: core/core-settings-map.php:1303
+msgid "You might want to regenerate your thumbnails."
+msgstr "Esikatselukuvat kannattaisi varmaan generoida uudestaan."
+
+#: core/core-settings-map.php:1302
+msgid "If this option is checked, your images will be resized with your custom height on upload. This is better for your overall loading performance."
+msgstr "Jos tämä on valittu, uusien kuvien koko muutetaan vastaamaan mukautettu korkeutta latauksen yhteydessä. Tämä nopeuttaa latauksen suoritusta."
+
+#: core/core-settings-map.php:1296
+msgid "Replace the default image slider's height"
+msgstr "Korvaa kuvasarjan oletuskorkeus"
+
+#: core/core-settings-map.php:1288
+msgid "Apply this height to all sliders"
+msgstr "Käytät tätä korkeutta kaikkiin kuvasarjoihin"
+
+#: core/core-settings-map.php:1278
+msgid "Set slider's height in pixels"
+msgstr "Aseta kuvasarja korkeus pikseleissä"
+
+#: core/core-settings-map.php:2321
+msgid "Check this option to delay the loading of non visible images. Images below the viewport will be loaded dynamically on scroll. This can boost performances by reducing the weight of long web pages with images."
+msgstr "Valitse tämä ruudun ulkopuolella olevien kuvien lataamisen viivästyttämiseksi; kuvat ladataan dynaamisesti ruudun selaamisen yhteydessä. Tämä voi parantaa suorituskykyä vähentämällä pitkien kuvia sisältävien sivujen kuormitusta."
+
+#: core/core-settings-map.php:2316
+msgid "Load images on scroll"
+msgstr "Lataa kuvat rullattaessa"
+
+#: inc/czr-init-ccat.php:3171
+msgid "Will be hidden if empty"
+msgstr "Piilotetaan tyhjänä"
+
+#: inc/czr-init-ccat.php:3165
+msgid "Social link title in sidebars"
+msgstr "Sosiaalisten linkkien otsikko sivupalkeissa"
+
+#: core/core-settings-map.php:2246
+msgid "Display a back to top arrow on scroll"
+msgstr "Näytä \"takaisin ylös\"-nuoli rullattaessa"
+
+#: core/core-settings-map.php:2134
+msgid "Display posts navigation in post lists (archives, blog page, categories, search results ..)"
+msgstr "Näytä artikkelien navigointi artikkelilistauksissa (arkistot, blogisivu, kategoriat, hakutulokset, ...)"
+
+#: core/core-settings-map.php:2125
+msgid "Display posts navigation in single posts"
+msgstr "Näytä artikkelien navigointi yksittäisissä artikkeleissa"
+
+#: core/core-settings-map.php:2116
+msgid "Display navigation in pages"
+msgstr "Näytä navigointi sivunäkymässä"
+
+#: core/core-settings-map.php:2107
+msgid "When this option is checked, the posts navigation is displayed below the posts"
+msgstr "Kun tämä on valittuna, artikkelien navigointi näytetään artikkelien alapuolella"
+
+#: core/core-settings-map.php:2104
+msgid "Display posts navigation"
+msgstr "Näytä artikkelien navigointi"
+
+#: core/core-settings-map.php:2089
+msgid "By default, WordPress displays the past comments, even if comments are disabled in posts or pages. Unchecking this option allows you to not display this comment history."
+msgstr "Oletuksena Wordpress näyttää menneet kommentit riippumatta siitä, onko niitä hyväksytty sivuilla tai artikkeleissa. Poistamalla tämän asetuksen kommenttihistorian näyttäminen voidaan estää."
+
+#: core/core-settings-map.php:2085
+msgid "Display the comment list"
+msgstr "Näytä kommenttilista"
+
+#: core/core-settings-map.php:2079
+msgid "discussion settings page."
+msgstr "keskusteluasetusten sivulla."
+
+#: core/core-settings-map.php:2077
+msgid "You can also change other comments settings in the"
+msgstr "Voit myös muuttaa muita kommentoinnin asetuksia"
+
+#: core/core-settings-map.php:2076
+msgid "post screen"
+msgstr "artikkelisivu"
+
+#: core/core-settings-map.php:2074
+msgid "If checked, this option enables comments on all types of single posts. You can disable comments for a single post in quick edit mode from the"
+msgstr "Jos tämä on valittu, kommentointi on sallittu kaikentyyppisissä artikkeleissa. Voit estää yksittäisten artikkeleiden kommentoinnin pikamuokkaus-tilassa"
+
+#: core/core-settings-map.php:2069
+msgid "Enable comments on posts"
+msgstr "Ota kommentit käyttöön sivuilla"
+
+#: core/core-settings-map.php:2063
+msgid "the discussion settings page."
+msgstr "keskusteluasetusten sivulla"
+
+#: core/core-settings-map.php:2061
+msgid "You can also change other comments settings in :"
+msgstr "Voit myös vaihtaa muita kommentointiasetuksia"
+
+#: core/core-settings-map.php:2060
+msgid "If checked, this option will enable comments on pages. You can disable comments for a single page in the quick edit mode of the page list screen."
+msgstr "Jos tämä on valittu, sivujen kommentointi on sallittu. Voit estää yksittäisten sivujen kommentoinnin pikamuokkaus-tilassa sivulistauksessa."
+
+#: core/core-settings-map.php:2054
+msgid "Other comments settings"
+msgstr "Muut kommenttien asetukset"
+
+#: core/core-settings-map.php:525 inc/czr-init-ccat.php:3101
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: inc/czr-init-ccat.php:3100
+msgid "Skin color"
+msgstr "Skinin väri"
+
+#: inc/czr-init-ccat.php:3096 inc/czr-init-ccat.php:3109
+msgid "Comments bubble color"
+msgstr "Kommenttikuplan väri"
+
+#: inc/czr-init-ccat.php:3088
+msgid "Large bubbles"
+msgstr "Suuret kuplat"
+
+#: inc/czr-init-ccat.php:3087
+msgid "Small bubbles"
+msgstr "Pienet kuplat"
+
+#: inc/czr-init-ccat.php:3083
+msgid "Comments bubble shape"
+msgstr "Kommenttikuplan muoto"
+
+#: core/core-settings-map.php:2046
+msgid "Display the number of comments in a bubble next to the post title"
+msgstr "Näytä kommenttien määrä artikkelin otsikon vieressä olevassa kuplassa"
+
+#: inc/czr-init-ccat.php:2338
+msgid "Apply a drop cap to the first paragraph of your pages"
+msgstr "Käytä suurennettua alkukirjainta sivun ensimmäisessä kappaleessa"
+
+#: inc/czr-init-ccat.php:2336
+msgid "Enable drop caps in pages"
+msgstr "Ota suurennettu alkukirjain käyttöön sivuilla"
+
+#: inc/czr-init-ccat.php:2330
+msgid "Apply a drop cap to the first paragraph of your single posts content"
+msgstr "Käytä suurennettua alkukirjainta yksittäisen artikkelin ensimmäisessä kappaleessa"
+
+#: inc/czr-init-ccat.php:2328
+msgid "Enable drop caps in posts"
+msgstr "Ota suurennettu alkukirjain käyttöön artikkeleissa"
+
+#: inc/czr-init-ccat.php:2323
+msgid "Simple black"
+msgstr "Yksinkertainen musta"
+
+#: inc/czr-init-ccat.php:2318
+msgid "Drop cap style"
+msgstr "Suurennetun alkukirjaimen tyyli"
+
+#: inc/czr-init-ccat.php:2309
+msgid "(number of words)"
+msgstr "(sanojen määrä)"
+
+#: inc/czr-init-ccat.php:2308
+msgid "Apply a drop cap when the paragraph includes at least the following number of words :"
+msgstr "Käytä suurennettua alkukirjainta, kun kappaleessa on vähintään näin monta sanaa:"
+
+#: inc/czr-init-ccat.php:2300
+msgid "Apply a drop cap to the first paragraph of your post / page content"
+msgstr "Käytä suurennettua alkukirjainta artikkelin tai sivun ensimmäisessä tekstikappaleessa"
+
+#: inc/czr-init-ccat.php:2298
+msgid "Enable drop caps"
+msgstr "Ota suurennettu alkukirjain käyttöön"
+
+#: inc/czr-init-ccat.php:2297
+msgid "Drop caps"
+msgstr "Suurennettu alkukirjain"
+
+#: core/core-settings-map.php:2026
+msgid "Apply nice on hover expansion effect to the galleries images"
+msgstr "Lisää tyylikkään laajennustehosteen kursorin alla oleville gallerian kuville"
+
+#: core/core-settings-map.php:2024
+msgid "Enable Customizr effects on hover"
+msgstr "Käytä Customizr-tehostetta kursorin alla oleville kuville"
+
+#: core/core-settings-map.php:2017
+msgid "Apply lightbox effects to galleries images"
+msgstr "Gallerian kuvissa käytetään Lightbox-tehostetta"
+
+#: core/core-settings-map.php:2015
+msgid "Enable Lightbox effect in galleries"
+msgstr "Ota käyttöön Lightbox-tehoste galleriassa"
+
+#: core/core-settings-map.php:2008
+msgid "Apply Customizr effects to galleries images"
+msgstr "Käytä gallerian kuvissa Customizr-tehosteita"
+
+#: core/core-settings-map.php:2006
+msgid "Enable Customizr galleries"
+msgstr "Ota käyttöön Customizr-galleriat"
+
+#: core/core-settings-map.php:1707 core/core-settings-map.php:1786
+msgid "After the title"
+msgstr "Otsikon jälkeen"
+
+#: core/core-settings-map.php:1706 core/core-settings-map.php:1785
+msgid "Before the title boxed"
+msgstr "Ennen otsikkoa laatikossa"
+
+#: core/core-settings-map.php:1705 core/core-settings-map.php:1784
+msgid "Before the title in full width"
+msgstr "Ennen otsikkoa täydellä leveydellä"
+
+#: core/core-settings-map.php:1704 core/core-settings-map.php:1783
+#: core/core-settings-map.php:2213
+msgid "Don't display"
+msgstr "Älä näytä"
+
+#: core/core-settings-map.php:1699 core/core-settings-map.php:1778
+msgid "Post thumbnail position"
+msgstr "Artikkelin esikatselukuvan sijainti"
+
+#: core/core-settings-map.php:1595
+msgid "Search results page titles"
+msgstr "Hakutulosten otsikot"
+
+#: core/core-settings-map.php:1594 inc/czr-front-ccat.php:4085
+msgid "Search Results for :"
+msgstr "Hakusi tulokset :"
+
+#: core/core-settings-map.php:1586
+msgid "Author pages titles"
+msgstr "Kirjoittaja-sivujen otsikot"
+
+#: core/core-settings-map.php:1577
+msgid "Tag pages titles"
+msgstr "Tagisivujen otsikot"
+
+#: core/core-settings-map.php:1568
+msgid "Category pages titles"
+msgstr "Kategoriasivun otsikot"
+
+#: core/core-settings-map.php:1567
+msgid "Archive titles"
+msgstr "Arkiston otsikot"
+
+#: core/core-settings-map.php:1558
+msgid "Alternate thumbnail/content"
+msgstr "Vaihteleva esikatselukuva/sisältö"
+
+#: core/core-settings-map.php:1551 core/core-settings-map.php:2258
+msgid "Left"
+msgstr "Vasemmalla"
+
+#: inc/czr-init-ccat.php:3058
+msgid "Bottom"
+msgstr "Alhaalla"
+
+#: core/core-settings-map.php:1550 core/core-settings-map.php:2259
+msgid "Right"
+msgstr "Oikealla"
+
+#: inc/czr-init-ccat.php:3057
+msgid "Top"
+msgstr "Ylhäällä"
+
+#: core/core-settings-map.php:1544
+msgid "Thumbnails position"
+msgstr "Esikatselukuvan sijainti"
+
+#: core/core-settings-map.php:1730 core/core-settings-map.php:1809
+#: inc/czr-init-ccat.php:3017
+msgid "Set the thumbnail's max height in pixels"
+msgstr "Aseta esikatselukuvan suurin korkeus pikseleinä"
+
+#: inc/czr-init-ccat.php:3049
+msgid "Rectangular with unblur effect on hover"
+msgstr "Suorakaide, sumennuksen poisto kursorilla"
+
+#: inc/czr-init-ccat.php:3048
+msgid "Rectangular with blur effect on hover"
+msgstr "Suorakaide, sumennusefekti kursorilla"
+
+#: inc/czr-init-ccat.php:3047
+msgid "Rectangular with no effect"
+msgstr "Suorakaide ilman efektiä"
+
+#: inc/czr-init-ccat.php:3046
+msgid "Squared, no expansion"
+msgstr "Neliö, ei laajennusta"
+
+#: inc/czr-init-ccat.php:3045
+msgid "Squared, expand on hover"
+msgstr "Neliö, laajennus kursorilla"
+
+#: core/core-settings-map.php:1536
+msgid "Rounded, no expansion"
+msgstr "Pyöristetty, ei laajennusta"
+
+#: core/core-settings-map.php:1535
+msgid "Rounded, expand on hover"
+msgstr "Pyöristetty, laajennus kursorilla"
+
+#: core/core-settings-map.php:1531
+msgid "Thumbnails shape"
+msgstr "Esikatselukuvien muoto"
+
+#: core/core-settings-map.php:1530
+msgid "Thumbnails options for the alternate thumbnails layout"
+msgstr "Esikatselukuvien valinnat vaihtuvalle asettelulle"
+
+#: inc/czr-init-ccat.php:2999
+msgid "Upload a default thumbnail"
+msgstr "Lataa esikatselun oletuskuva"
+
+#: core/core-settings-map.php:1520
+msgid "If no featured image is set for a post, use the last image attached to this post."
+msgstr "Jos artikkelikuvaa ei ole asetettu, käytetään viimeisintä artikkeliin liitettyä kuvaa."
+
+#: core/core-settings-map.php:1515
+msgid "Note : thumbnails are always displayed when the grid layout is choosen."
+msgstr "Huomio: jos asetteluksi on valittu ruudukko, esikatselukuvat näytetään aina."
+
+#: core/core-settings-map.php:1515
+msgid "When this option is checked, the post thumbnails are displayed in all post lists : blog, archives, author page, search pages, ..."
+msgstr "Kun tämä on valittu, artikkelin esikatselukuvat näytetään kaikissa artikkelilistoissa: blogit, arkistot, kirjoittajasivu, hakusivut, ..."
+
+#: core/core-settings-map.php:1511
+msgid "Display the post thumbnails"
+msgstr "Näytä artikkeliden esikatselukuvat"
+
+#: core/core-settings-map.php:1510
+msgid "Thumbnails options"
+msgstr "Esikatselukuvien valinnat"
+
+#: core/core-settings-map.php:1496
+msgid "Set the excerpt length (in number of words) "
+msgstr "Aseta Otteen pituus (sanojen määrä)"
+
+#: inc/czr-init-ccat.php:2905
+msgid "Info (blue)"
+msgstr "Info (sininen)"
+
+#: inc/czr-init-ccat.php:2904
+msgid "Important (red)"
+msgstr "Tärkeä (punainen)"
+
+#: inc/czr-init-ccat.php:2903
+msgid "Alert (orange)"
+msgstr "Huomio (oranssi)"
+
+#: inc/czr-init-ccat.php:2902
+msgid "Success (green)"
+msgstr "Onnistuminen (vihreä)"
+
+#: inc/czr-init-ccat.php:2901
+msgid "Default (grey)"
+msgstr "Oletus (harmaa)"
+
+#: inc/czr-init-ccat.php:2897
+msgid "Update notice style"
+msgstr "Muokkaushuomautuksen tyyli"
+
+#: inc/czr-init-ccat.php:2888
+msgid "Update notice text"
+msgstr "Muokkaushuomautuksen teksti"
+
+#: inc/czr-init-ccat.php:2886
+msgid "Recently updated !"
+msgstr "Vasta muokattu!"
+
+#: inc/czr-init-ccat.php:2883
+msgid "Set a maximum interval (in days) during which the last update notice will be displayed."
+msgstr "Aseta suurin aikaväli (päivinä), jolloin huomautus viimeaikaisesta muokkauksesta näytetään."
+
+#: inc/czr-init-ccat.php:2877
+msgid "Display the notice if the last update is less (strictly) than n days old"
+msgstr "Näytä huomautus, jos viimeisin muokkaus on (tarkalleen) vähemmän kuin n päivää vanha"
+
+#: inc/czr-init-ccat.php:2871
+msgid "If this option is checked, a customizable recent update notice is displayed next to the post title."
+msgstr "Jos tämä on valittu, mukautettava huomautus viimeaikaisesta muokkauksesta esitetään otsikon vieressä."
+
+#: inc/czr-init-ccat.php:2867
+msgid "Display a recent update notice"
+msgstr "Näytä huomautus viimeaikaisesta muokkauksesta"
+
+#: inc/czr-init-ccat.php:2866
+msgid "Recent update notice after post titles"
+msgstr "Huomautus viimeaikaisesta muokkauksesta artikkelin otsikon jälkeen"
+
+#: inc/czr-init-ccat.php:2858
+msgid "Date of the last update"
+msgstr "Edellisen muokkauksen päivämäärä"
+
+#: inc/czr-init-ccat.php:2857
+msgid "No. of days since last update"
+msgstr "Päiviä edellisestä muokkauksesta"
+
+#: inc/czr-init-ccat.php:2853
+msgid "Select the last update format"
+msgstr "Valitse viimeisimmän muokkauksen formaatti"
+
+#: inc/czr-init-ccat.php:2916
+msgid "If this option is checked, additional date informations about the the last post update can be displayed (nothing will show up if the post has never been updated)."
+msgstr "Jos tämä on valittuna, ylimääräinen päivämäärätieto artikkelin edellisestä muokkauksesta voidaan näyttää (mitään ei näytetä, jos artikkelia ei ole koskaan muokattu)."
+
+#: core/core-settings-map.php:1987
+msgid "Display the update date"
+msgstr "Näytä muokkauspäivämäärä"
+
+#: core/core-settings-map.php:1969
+msgid "Display the author"
+msgstr "Näytä kirjoittaja"
+
+#: core/core-settings-map.php:1977
+msgid "Display the publication date"
+msgstr "Näytä julkaisupäivämäärä"
+
+#: core/core-settings-map.php:1960
+msgid "Display non-hierarchical taxonomies (like tags)"
+msgstr "Näytä ei-hierarkiset jäsentelyt (kuten tagit)"
+
+#: core/core-settings-map.php:1951
+msgid "Display hierarchical taxonomies (like categories)"
+msgstr "Näytä hierarkiset jäsentelyt (kuten kategoriat)"
+
+#: core/core-settings-map.php:1950
+msgid "Select the metas to display"
+msgstr "Valitse esitettävät metatiedot"
+
+#: core/core-settings-map.php:1940
+msgid "Display posts metas in post lists (archives, blog page)"
+msgstr "Näytä artikkelien metatiedot artikkelilistauksissa (arkistot, blogi)"
+
+#: core/core-settings-map.php:1931
+msgid "Display posts metas for single posts"
+msgstr "Näytä artikkelien metatiedot yksittäisissä artikkeleissa"
+
+#: core/core-settings-map.php:1922
+msgid "Display posts metas on home"
+msgstr "Näytä artikkelien metatiedot etusivulla"
+
+#: core/core-settings-map.php:1921 core/core-settings-map.php:2115
+msgid "Select the contexts"
+msgstr "Valitse kontekstit"
+
+#: inc/czr-init-ccat.php:2846
+msgid "Text only"
+msgstr "Pelkkä teksti"
+
+#: inc/czr-init-ccat.php:2845
+msgid "Buttons and text"
+msgstr "Painikkeet ja teksti"
+
+#: inc/czr-init-ccat.php:2841
+msgid "Select a design for the post metas"
+msgstr "Valitse artikkelin metatietojen rakenne"
+
+#: inc/czr-init-ccat.php:2840
+msgid "Metas Design"
+msgstr "Metatietojen rakenne"
+
+#: core/core-settings-map.php:1914
+msgid "When this option is checked, the post metas (like taxonomies, date and author) are displayed below the post titles."
+msgstr "Kun tämä on valittu, artikkeleiden metatiedot (kuten jäsentelyt, päivämäärä ja kirjoittaja) näytetään otsikon alapuolella"
+
+#: core/core-settings-map.php:1911
+msgid "Display posts metas"
+msgstr "Näytä artikkeleiden metatiedot"
+
+#: inc/czr-init-ccat.php:2414
+msgid "WP footer widgets : display icons next to titles"
+msgstr "WP alatunnisteen vimpaimet: näytä kuvakkeet otsikoiden vierellä"
+
+#: inc/czr-init-ccat.php:2405
+msgid "WP sidebar widgets : display icons next to titles"
+msgstr "WP sivupalkin vimpaimet: näytä kuvakkeet otsikoiden vierellä"
+
+#: inc/czr-init-ccat.php:2398
+msgid "When this option is checked, a post type icon is displayed on the left of each post titles in an archive page. An archive page can be : category, tag, author, date archive, custom taxonomies, search results."
+msgstr "Kun tämä on valittu, artikkelin tyyppiä oleva kuvake näytetään jokaisen artikkelin otsikon vasemmalla puolella arkistosivulla. Arkistosivu voi olla: kategoria, tagi, kirjoittaja, päivämääräarkisto, mukautettu jäsennys, hakutulos."
+
+#: inc/czr-init-ccat.php:2395
+msgid "Display an icon next to each post title in an archive page"
+msgstr "Näytä kuvake jokaisen artikkelin otsikon vieressä arkistosivulla"
+
+#: inc/czr-init-ccat.php:2388
+msgid "When this option is checked, an archive type icon is displayed in the heading of every types of archives, on the left of the title. An archive page can be : category, tag, author, date archive, custom taxonomies, search results."
+msgstr "Kun tämä on valittu, arkiston tyyppiä oleva kuvake näytetään kunkintyyppisen arkiston otsikon vasemmalla puolella. Arkistosivu voi olla: kategoria, tagi, kirjoittaja, päivämääräarkisto, mukautettu jäsennys, hakutulos."
+
+#: inc/czr-init-ccat.php:2385
+msgid "Display an icon next to the archive title"
+msgstr "Näytä kuvake arkiston otsikon vierellä"
+
+#: inc/czr-init-ccat.php:2376
+msgid "Display a post icon next to the single post title"
+msgstr "Näytä artikkelikuvake yksittäisen artikkelin otsikon vierellä"
+
+#: inc/czr-init-ccat.php:2367
+msgid "Display a page icon next to the page title"
+msgstr "Näytä sivukuvake sivun otsikon vierellä"
+
+#: inc/czr-init-ccat.php:2361
+msgid "When this option is checked, a contextual icon is displayed next to the titles of pages, posts, archives, and WP built-in widgets."
+msgstr "Kun tämä on valittu, kontekstiin liittyvä kuvake esitetään sivuilla, artikkeleissa, arkistoissa ja WP:n sisänrakennetuissa vimpaimissa olevien otsikoiden vierellä."
+
+#: inc/czr-init-ccat.php:2357
+msgid "Display icons next to titles"
+msgstr "Näytä kuvakkeet otsikoiden vierellä"
+
+#: core/core-settings-map.php:1877
+msgid "Display the breadcrumb in posts lists : blog page, archives, search results..."
+msgstr "Näytä navigointipalkki artikkelilistauksissa: blogisivu, arkistot, hakutulokset..."
+
+#: core/core-settings-map.php:1868
+msgid "Display the breadcrumb in single posts"
+msgstr "Näytä navigointipalkki yksittäisillä sivuilla"
+
+#: core/core-settings-map.php:1859
+msgid "Display the breadcrumb in pages"
+msgstr "Näytä navigointipalkki sivuilla"
+
+#: core/core-settings-map.php:1851
+msgid "Display the breadcrumb on home page"
+msgstr "Näytä navigointipalkki etusivulla"
+
+#: inc/czr-init-ccat.php:2290
+msgid "Open external links in a new tab"
+msgstr "Avaa ulkoiset linkit uudessa välilehdessä"
+
+#: inc/czr-init-ccat.php:2284 inc/czr-init-ccat.php:2293
+msgid "This will be applied to the links included in post or page content only."
+msgstr "Tämä pätee ainoastaan artikkeleissa ja sivuilla oleviin linkkeihin."
+
+#: inc/czr-init-ccat.php:2281
+msgid "Display an icon next to external links"
+msgstr "Näytä kuvake ulkoisten linkkien vierellä"
+
+#: core/core-settings-map.php:357 inc/czr-init-ccat.php:2258
+msgid "Fade effect on link hover"
+msgstr "Häive efekti kursorin alla olevalle linkille"
+
+#: core/core-settings-map.php:1012
+msgid "Hover move effect for the sub menu items"
+msgstr "Liikauta alivalikon kohteita kursorin alla"
+
+#: core/core-settings-map.php:1003
+msgid "Reveal the sub-menus blocks with a fade effect"
+msgstr "Paljasta alivalikot häive-efektillä"
+
+#: core/core-settings-map.php:967 core/core-settings-map.php:981
+#: inc/czr-init-ccat.php:2721 inc/czr-init-ccat.php:2742
+msgid "Menu on the right"
+msgstr "Otsikko oikealla"
+
+#: core/core-settings-map.php:966 core/core-settings-map.php:980
+#: inc/czr-init-ccat.php:2719 inc/czr-init-ccat.php:2740
+msgid "Menu on the left"
+msgstr "Otsikko vasemmalla"
+
+#: core/core-settings-map.php:677
+msgid "the z-index"
+msgstr "z-indeksi"
+
+#: core/core-settings-map.php:675
+msgid "What is"
+msgstr "Mikä on"
+
+#: core/core-settings-map.php:667
+msgid "Set the header z-index"
+msgstr "Aseta otsakkeen z-indeksi"
+
+#: core/core-settings-map.php:657
+msgid "Sticky header : semi-transparent on scroll"
+msgstr "Kiinnitetty otsake: osittain läpinäkyvä rullattaessa"
+
+#: inc/czr-init-ccat.php:2613
+msgid "Sticky header : display the menu"
+msgstr "Kiinnitetty otsake : näytä valikko"
+
+#: core/core-settings-map.php:799
+msgid "Sticky header : shrink title / logo"
+msgstr "Kiinnitetty otsake: kutista otsikko / logo"
+
+#: inc/czr-init-ccat.php:2604
+msgid "Sticky header : display the title / logo"
+msgstr "Kiinnitetty otsake: näytä otsikko / logo"
+
+#: inc/czr-init-ccat.php:2584
+msgid "Sticky header : display the tagline"
+msgstr "Kiinnitetty otsake: näytä kuvaus"
+
+#: inc/czr-init-ccat.php:2579
+msgid "If checked, this option makes the header stick to the top of the page on scroll down."
+msgstr "Valittuna tämä asetus kiinnittää otsakkeen ruudun ylälaitaan alaspäin rullattaessa."
+
+#: inc/czr-init-ccat.php:2574
+msgid "Sticky on scroll"
+msgstr "Kiinnitä rullaukseen"
+
+#: inc/czr-init-ccat.php:2573
+msgid "Sticky header settings"
+msgstr "Kiinnitetyt otsikon asetukset"
+
+#: core/core-settings-map.php:699
+msgid "Logo / title on the right"
+msgstr "Logo / otsikko oikealla"
+
+#: core/core-settings-map.php:700
+msgid "Logo / title centered"
+msgstr "Logo / otsikko keskitetty"
+
+#: core/core-settings-map.php:698
+msgid "Logo / title on the left"
+msgstr "Logo / otsikko vasemmalla"
+
+#: inc/czr-init-ccat.php:2568
+msgid "If checked, this option wraps the header menu/tagline/social in a light grey box."
+msgstr "Valittuna tämä asetus kietoo otsikon valikon/kuvauksen/sosiaaliset linkit vaaleanharmaaseen laatikkoon."
+
+#: inc/czr-init-ccat.php:2563
+msgid "Display menu in a box"
+msgstr "Näytä valikko laatikossa"
+
+#: core/core-settings-map.php:313
+msgid "This option sets the default font size applied to any text element of your website, when no font size is already applied."
+msgstr "Tämä valinta asettaa fonttikoon oletusarvon, jota käytetään kaikissa teksteissä, joille ei ole erikseen määritelty fonttikokoa."
+
+#: core/core-settings-map.php:305
+msgid "Set your website default font size in pixels."
+msgstr "Valitse oletusfontin koko pikseleissä."
+
+#: core/core-settings-map.php:300
+msgid "This font picker allows you to preview and select among a handy selection of font pairs and single fonts. If you choose a pair, the first font will be applied to the site main headings : site name, site description, titles h1, h2, h3., while the second will be the default font of your website for any texts or paragraphs."
+msgstr "Tämä fonttivalitsija näyttää esikatselun ja auttaa valitsemaan suosikin kätevästä fonttiparien ja yksittäisten fonttien valikoimasta. Jos valitset parin, ensimmäistä fonttia käytetään sivun pääotsikoissa: sivun nimi, kuvaus, otsikot h1, h2, h3, ja toisesta tulee oletusfontti sivun teksteille ja kappaleille."
+
+#: core/core-settings-map.php:293
+msgid "Select a beautiful font pair (headings &amp; default fonts) or single font for your website."
+msgstr "Valitse sivustollesi kaunis fonttipari (otsikko &amp; oletusfontit) tai yksittäinen fontti."
+
+#: core/core-settings-map.php:481
+msgid "Check this option to display an author info block after each single post content. Note : the Biographical info field must be filled out in the user profile."
+msgstr "Valitse tämä näyttääksesi kirjoittajasta infolaatikot jokaisen artikkelin sisällön perässä. Huomaa: kirjoittajan infokentät tulee täyttää käyttäjän profiilissa."
+
+#: core/core-settings-map.php:477
+msgid "Display an author box after each single post content"
+msgstr "Näytä kirjoittaja-laatikko jokaisen erillisen artikkelin perässä"
+
+#: core/core-settings-map.php:1479
+msgid "Global Post Lists Settings"
+msgstr "Yleiset artikkelilistojen asetukset"
+
+#: core/core-settings-map.php:1362
+msgid "Note : the home page layout has to be set in the home page section"
+msgstr "Huomio: etusivun asettelu valitaan etusivu-osiossa"
+
+#: core/core-settings-map.php:2829
+msgid "Website Performances"
+msgstr "Sivuston suorituskyky"
+
+#: core/core-settings-map.php:2813
+msgid "Footer global settings"
+msgstr "Alaviitteen yleiset asetukset"
+
+#: core/core-settings-map.php:2793
+msgid "Post/Page Navigation"
+msgstr "Navigointi artikkeleissa/sivuilla"
+
+#: core/core-settings-map.php:2776
+msgid "Galleries"
+msgstr "Galleriat"
+
+#: core/core-settings-map.php:2770
+msgid "Post metas (category, tags, custom taxonomies)"
+msgstr "Artikkelin lisätiedot (kategoria, tagit, mukautetut jäsentelyt)"
+
+#: core/core-settings-map.php:2764
+msgid "Breadcrumb"
+msgstr "Navigointipalkki"
+
+#: core/core-settings-map.php:2752
+msgid "Single posts"
+msgstr "Yksittäinen artikkeli"
+
+#: core/core-settings-map.php:2746
+msgid "Post lists : blog, archives, ..."
+msgstr "Artikkelilistat: blogi, arkistot, ..."
+
+#: core/core-settings-map.php:2595
+msgid "Your theme supports %s menu. Select which menu you would like to use."
+msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
+msgstr[0] "Teemasi tukee %s valikkoa. Valitse, mitä valikkoa haluaisit käyttää."
+msgstr[1] "Teemasi tukee %s valikkoa. Valitse, mitä valikkoja haluaisit käyttää."
+
+#: core/core-settings-map.php:2699
+msgid "Header design and layout"
+msgstr "Otsakkeen muoto ja asettelu"
+
+#: core/core-settings-map.php:2683
+msgid "Authors"
+msgstr "Kirjoittajat"
+
+#: core/core-settings-map.php:2666
+msgid "Image settings"
+msgstr "Kuva-asetukset"
+
+#: inc/czr-init-ccat.php:3303
+msgid "Set up the titles icons options"
+msgstr "Säädä otsikon kuvakkeiden asetuksia"
+
+#: inc/czr-init-ccat.php:3301
+msgid "Titles icons settings"
+msgstr "Otsikon kuvakkeiden asetukset"
+
+#: core/core-settings-map.php:2292
+msgid "How to create and use a child theme ?"
+msgstr "Miten aliteemoja luodaan ja käytetään?"
+
+#: core/core-settings-map.php:2291
+msgid "child theme."
+msgstr "alateemassa."
+
+#: core/core-settings-map.php:2290
+msgid "Use this field to test small chunks of CSS code. For important CSS customizations, you'll want to modify the style.css file of a"
+msgstr "Käytä tätä kenttää pienten CSS-koodinpätkien testaamiseen. Tärkeitä CSS-muokkauksia varten kannattaa muokata style.css-tiedostoa"
+
+#: inc/czr-init-ccat.php:3204
+msgid "Activate this option to move the sidebars (if any) after the main content block, for smartphones or tablets viewport."
+msgstr "Aktivoi tämä asetus siirtääksesi sivupalkit (jos niitä on) pääasiallisen sisällön perään älypuhelimien tai tablettien näytöillä."
+
+#: inc/czr-init-ccat.php:3201
+msgid "Dynamic sidebar reordering on small devices"
+msgstr "Dynaaminen sivupalkkien uudelleenjärjestäminen pienillä laitteilla"
+
+#: core/core-settings-map.php:352
+msgid "If enabled, this option activates a smooth page scroll when clicking on a link to an anchor of the same page."
+msgstr "Jos tämä on valittuna, samalle sivulla osoittavan ankkurin klikkaaminen aktivoi pehmeä rullauksen sivua pitkin."
+
+#: core/core-settings-map.php:349
+msgid "Smooth scroll on click"
+msgstr "Pehmeä vieritys klikkauksesta"
+
+#: core/core-settings-map.php:424
+msgid "This option dynamically centers your images on any devices, vertically or horizontally according to their initial aspect ratio."
+msgstr "Tämä valinta keskittää kuvat dynaamisesti millä tahansa laitteella vaaka- tai pystysuoraan riippuen niiden kuvasuhteesta."
+
+#: core/core-settings-map.php:420
+msgid "Dynamic thumbnails centering on any devices"
+msgstr "Denaaminen esikatselukuvien keskittäminen millä tahansa laitteella"
+
+#: core/core-settings-map.php:411
+msgid "Dynamic slider images centering on any devices"
+msgstr "Dynaaminen kuvasarjan keskittäminen millä tahansa laitteella"
+
+#: inc/czr-init-ccat.php:2457
+msgid "When checked, this option displays a loading icon when the slides are being setup."
+msgstr "Kun tämä on valittu, kuvien asettamisen ajan näytetään latausikonia."
+
+#: inc/czr-init-ccat.php:2453
+msgid "Sliders : display on loading icon before rendering the slides"
+msgstr "Kuvasarjat: näytä latausikoni ennen kuvien näyttämistä"
+
+#: core/core-settings-map.php:405
+msgid "Open the description page of the Regenerate thumbnails plugin"
+msgstr "Avaa Regenerate thumbnails-lisäosan kuvaus"
+
+#: core/core-settings-map.php:403
+msgid "regenerate thumbnails"
+msgstr "uudelleengeneroi esikatselukuvat"
+
+#: core/core-settings-map.php:402
+msgid "It is strongly recommended to regenerate your media library images in high definition with this free plugin"
+msgstr "On erityisen suositeltavaa uudelleengeneroida mediakirjaston kuvat korkealla resoluutiolla tämän ilmaisen lisäosan avulla"
+
+#: core/core-settings-map.php:401
+msgid "If enabled, your website will include support for high resolution devices."
+msgstr "Jos tämä on valittu, verkkosivusi tukee korkean resoluution laitteita."
+
+#: core/core-settings-map.php:396
+msgid "High resolution (Retina) support"
+msgstr "Korkean resoluution (Retina) tuki"
+
+#: inc/czr-init-ccat.php:2447
+msgid "If enabled, this option will force images to fit the screen on lightbox zoom."
+msgstr "Jos tämä on valittu, kuvat pakotetaan mahtumaan Lightboxin ruutuun."
+
+#: inc/czr-init-ccat.php:2443
+msgid "Autoscale images on zoom"
+msgstr "Skaalaa zoomatut kuvat automaattisesti"
+
+#: core/core-settings-map.php:390
+msgid "If enabled, this option activates a popin window whith a zoom effect when an image is clicked. Note : to enable this effect on the images of your pages and posts, images have to be linked to the Media File."
+msgstr "Jos tämä on valittu, kuvan klikkaaminen aktivoi korostetut ikkunan zoom-efektillä. Huomio: jotta tämä efekti toimii artikkeleissa ja sivuilla, kuvien täytyy olla linkitettyinä alkuperäiseen mediatiedostoon."
+
+#: core/core-settings-map.php:386
+msgid "Lightbox effect on images"
+msgstr "Lightbox-efektit kuvissa"
+
+#: core/core-settings-map.php:2223
+msgid "Social links in footer"
+msgstr "Sosiaaliset linkit alaviitteessä"
+
+#: core/core-settings-map.php:2170
+msgid "Social links in right sidebar"
+msgstr "Sosiaaliset linkit oikeassa sivupalkissa"
+
+#: core/core-settings-map.php:2157
+msgid "Social links in left sidebar"
+msgstr "Sosiaaliset linkit vasemmassa sivupalkissa"
+
+#: inc/czr-init-ccat.php:2525
+msgid "Social links in header"
+msgstr "Sosiaaliset linkit otsakkeessa"
+
+#: core/core-settings-map.php:2055
+msgid "Enable comments on pages"
+msgstr "Salli sivujen kommentointi"
+
+#: core/core-settings-map.php:1391
+msgid "Choose the pages default layout"
+msgstr "Valitse sivujen oletusasettelu"
+
+#: inc/czr-init-ccat.php:2957
+msgid "Display the full content"
+msgstr "Näytä koko sisältö"
+
+#: core/core-settings-map.php:1196 inc/czr-init-ccat.php:2956
+msgid "Display the excerpt"
+msgstr "Näytä Ote"
+
+#: inc/czr-init-ccat.php:2952
+msgid "Select the length of posts in lists (home, search, archives, ...)"
+msgstr "Valitse listoissa esiintyvien artikkelien pituus (etusivu, haku, arkistot, ...)"
+
+#: core/core-settings-map.php:1480
+msgid "Maximum number of posts per page"
+msgstr "Suurin määrä artikkeleita sivulla"
+
+#: core/core-settings-map.php:1381
+msgid "Choose the posts default layout"
+msgstr "Valitse artikkelien oletusasettelu"
+
+#: core/core-settings-map.php:1373
+msgid "This option will override the specific layouts on all posts/pages, including the front page."
+msgstr "Tämä valinta kumoaa erillisen asettelun valinnan kaikissa artikkeleissa ja sivuilla, myös etusivulla."
+
+#: core/core-settings-map.php:1370
+msgid "Force default layout everywhere"
+msgstr "Pakota oletusasettelu kaikkialle"
+
+#: core/core-settings-map.php:1358
+msgid "Choose the global default layout"
+msgstr "Valitse yleinen oletusasettelu"
+
+#: core/core-settings-map.php:1842
+msgid "Display Breadcrumb"
+msgstr "Näytä navigointipalkki"
+
+#: core/core-settings-map.php:1218 core/core-settings-map.php:1337
+msgid "Button text"
+msgstr "Painikkeen teksti"
+
+#: core/front/template-tags/template-tags.php:121
+#: core/core-settings-map.php:1217 core/core-settings-map.php:1335
+msgid "Read more &raquo;"
+msgstr "Lue lisää %raque;"
+
+#: core/core-settings-map.php:1329
+msgid "The images are set with the \"featured image\" of each pages (in the page edit screen). Uncheck the option above to disable the featured page images."
+msgstr "Kuvat asetetaan sivukohtaisesti \"korostettu kuva\"-valinnalla kullakin sivulla (sivun muokkausnäkymässä). Poista valinta, jos haluat poistaa korostetut kuvat käytöstä."
+
+#: core/core-settings-map.php:1326
+msgid "Show images"
+msgstr "Näytä kuvat"
+
+#: core/core-settings-map.php:1317 core/core-settings-map.php:1758
+msgid "Disable"
+msgstr "Pois käytöstä"
+
+#: core/core-settings-map.php:1316
+msgid "Enable"
+msgstr "Käytössä"
+
+#: core/core-settings-map.php:1312
+msgid "Display home featured pages area"
+msgstr "Näytä korostetut sivut etusivulla"
+
+#: core/core-settings-map.php:1311
+msgid "Featured pages options"
+msgstr "Korostettujen sivujen valinnat"
+
+#: core/core-settings-map.php:1246
+msgid "in ms : 1000ms = 1s"
+msgstr "millisekunteina: 10000ms= 1s"
+
+#: core/core-settings-map.php:1241
+msgid "Delay between each slides"
+msgstr "Viive kuvien välillä"
+
+#: core/core-settings-map.php:1229
+msgid "Full width slider"
+msgstr "Koko sivun levyinen kuvasarja"
+
+#: core/core-settings-map.php:1152
+msgid "Select front page slider"
+msgstr "Valitse kuvasarja etusivulle"
+
+#: core/core-settings-map.php:1151
+msgid "Slider options"
+msgstr "Kuvasarjan asetukset"
+
+#: core/core-settings-map.php:1135
+msgid "Set up the front page layout"
+msgstr "Valitse etusivun asettelu"
+
+#: core/core-settings-map.php:1104
+msgid "Posts page"
+msgstr "Artikkelisivu"
+
+#: core/core-settings-map.php:1096
+msgid "Front page"
+msgstr "Etusivu"
+
+#: core/core-settings-map.php:1090
+msgid "A static page"
+msgstr "Staattinen sivu"
+
+#: core/core-settings-map.php:1089
+msgid "Your latest posts"
+msgstr "Uusimmat artikkelit"
+
+#: core/core-settings-map.php:1088
+msgid "Don't show any posts or page"
+msgstr "Älä näytä mitään artikkelia tai sivua"
+
+#: core/core-settings-map.php:1083
+msgid "Front page displays"
+msgstr "Etusivulla näytetään"
+
+#: core/core-settings-map.php:1075
+msgid "Choose content and layout"
+msgstr "Valitse sisältö ja asettelu"
+
+#: inc/czr-init-ccat.php:2185
+msgid "FAVICON"
+msgstr "FAVICON"
+
+#: inc/czr-init-ccat.php:2184
+msgid "Favicon Upload (supported formats : .ico, .png, .gif)"
+msgstr "Favicon-lataus (tuetut formaatit: .ico, .png, .gif)"
+
+#: inc/czr-init-ccat.php:2179
+msgid "Use this upload control to specify a different logo on sticky header mode."
+msgstr "Tästä voit lisätä eri logon kiinnitetylle otsakkeelle."
+
+#: inc/czr-init-ccat.php:2167
+msgid "Sticky Logo Upload (supported formats : .jpg, .png, .gif, svg, svgz)"
+msgstr "Kiinnitetyn logon lataus (tuetut formaatit: .jpg, .png, .gif, .svg, .svgz)"
+
+#: core/core-settings-map.php:183
+msgid "Uncheck this option to keep your original logo dimensions."
+msgstr "Tyhjennä tämä valinta säilyttääksesi logon alkuperäisen koon."
+
+#: core/core-settings-map.php:178
+msgid "Force logo dimensions to max-width:250px and max-height:100px"
+msgstr "Pakota logo kokoon max-leveys:250px, max-korkeus: 100px"
+
+#: core/core-settings-map.php:639
+msgid "Uncheck this option to remove the colored top border."
+msgstr "Tyhjennä tämä valinta poistaaksesi väritetyn yläreunuksen."
+
+#: core/core-settings-map.php:635
+msgid "Display top border"
+msgstr "Näytä yläreunus"
+
+#: core/core-settings-map.php:2312
+msgid "Using the minified version of the stylesheets will speed up your webpage load time."
+msgstr "Typistetyn tyylitiedoston käyttö nopeuttaa sivuston latausaikaa."
+
+#: core/core-settings-map.php:2309
+msgid "Performance : use the minified CSS stylesheets"
+msgstr "Suorituskyky: käytä typistettyä CSS-tyylitiedostoa"
+
+#: inc/czr-init-ccat.php:2237
+msgid "Apply a random color skin on each page load."
+msgstr "Väriteema valitaan satunnaisesti joka kerta, kun sivu ladataan."
+
+#: inc/czr-init-ccat.php:2234
+msgid "Randomize the skin"
+msgstr "Valitse sattumanvarainen väriteema"
+
+#: inc/czr-init-ccat.php:2224
+msgid "Choose a predefined skin"
+msgstr "Valitse etukäteen valittu skini"
+
+#: core/core-settings-map.php:996
+msgid "Expand submenus on hover"
+msgstr "Alavalikko laajenee, kun hiiri siirretään sen päälle"
+
+#: core/core-settings-map.php:845 core/core-settings-map.php:953
+#: core/core-settings-map.php:995
+msgid "Expand submenus on click"
+msgstr "Alavalikko laajenee klikkaamalla"
+
+#: core/core-settings-map.php:991
+msgid "Select a submenu expansion option"
+msgstr "Valitse alavalikon laajentaminen"
+
+#: inc/czr-init-ccat.php:3313
+msgid "Various settings for responsive display"
+msgstr "Erilaisia responsiivisia asetuksia"
+
+#: inc/czr-init-ccat.php:3311
+msgid "Responsive settings"
+msgstr "Responsiiviset asetukset"
+
+#: core/core-settings-map.php:2824
+msgid "Custom CSS"
+msgstr "Oma CSS"
+
+#: core/init-base.php:1110 inc/czr-init-ccat.php:3164
+msgid "Social links"
+msgstr "Sosiaaliset linkit"
+
+#: core/core-settings-map.php:2782
+msgid "Comments"
+msgstr "Kommentit"
+
+#: core/core-settings-map.php:2739
+msgid "Pages &amp; Posts Layout"
+msgstr "Sivut &amp; artikkelit"
+
+#: core/core-settings-map.php:2523
+msgid "Advanced options"
+msgstr "Edistyneen valinnat"
+
+#: core/core-settings-map.php:2516
+msgid "Footer"
+msgstr "Alaviite"
+
+#: core/core-settings-map.php:2496
+msgid "Header"
+msgstr "Otsake"
+
+#: core/core-settings-map.php:2489
+msgid "Global settings"
+msgstr "Yleiset asetukset"
+
+#: core/core-functions.php:1599
+msgid "&mdash; Demo Slider &mdash;"
+msgstr "&mdash; Demo &mdash;"
+
+#: core/core-functions.php:1598
+msgid "&mdash; No slider &mdash;"
+msgstr "&mdash; Ei kuvasarjaa &mdash;"
+
+#: core/core-settings-map.php:2948
+msgid "You need to select a page first. Leave this field empty if you want to use the page excerpt."
+msgstr "Valitse ensin sivu. Jos haluat käyttää sivun Otetta, jätä tämä kenttä tyhjäksi."
+
+#: core/core-settings-map.php:2945
+msgid "Featured text %1$s (200 char. max)"
+msgstr "Korostettu kuvaus %1$s (enintään 200 merkkiä)"
+
+#: core/core-settings-map.php:2929
+msgid "Custom featured page %1$s"
+msgstr "Kustomoitu korostettu sivu %1$s"
+
+#: core/core-settings-map.php:2912
+msgid "Featured text three (200 char. max)"
+msgstr "Korostettu kuvaus 3 (enintään 200 merkkiä)"
+
+#: core/core-settings-map.php:2911
+msgid "Featured text two (200 char. max)"
+msgstr "Korostettu kuvaus 2 (enintään 200 merkkiä)"
+
+#: core/core-settings-map.php:2910
+msgid "Featured text one (200 char. max)"
+msgstr "Korostettu kuvaus 1 (enintään 200 merkkiä)"
+
+#: core/core-settings-map.php:2907
+msgid "Home featured page three"
+msgstr "Etusivun korostettu sivu 3"
+
+#: core/core-settings-map.php:2906
+msgid "Home featured page two"
+msgstr "Etusivun korostettu sivu 2"
+
+#: core/core-settings-map.php:2905
+msgid "Home featured page one"
+msgstr "Etusivun korostettu sivu 1"
+
+#: core/core-functions.php:1509
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: core/core-settings-map.php:828 core/init-base.php:416
+msgid "Main Menu"
+msgstr "Päävalikko"
+
+#: core/init-base.php:281
+msgid "Many layout and design options are available from the WordPress customizer screen : see your changes live !"
+msgstr "Monien asettelu- ja suunnitteluvalintojen säätäminen tapahtuu suoraan WordPressin kustomointi-ikkunasta: näet vaikutuksen välittömästi!"
+
+#: core/init-base.php:267
+msgid "Customizr is a clean responsive theme"
+msgstr "Customizr on siisti ja mukautuva teema"
+
+#: templates/parts/content/no-results/search_no_results.php:13
+#: inc/czr-front-ccat.php:4307
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Valitettavasti hakukriteereilläsi ei löytynyt yhtään tulosta. Yriteä uudelleen erilaisilla hakusanoilla."
+
+#: templates/parts/content/no-results/404.php:14 inc/czr-front-ccat.php:1659
+msgid "Sorry, but the requested page is not found. You might try a search below."
+msgstr "Valitettavasti pyydettyä sivua ei löytynyt. Yritä alla olevaa hakua."
+
+#: core/class-fire-init.php:114 inc/czr-init-ccat.php:351
+msgid "Footer Widget Area Three"
+msgstr "Alatunnisteen vimpainalue 3"
+
+#: core/class-fire-init.php:108 inc/czr-init-ccat.php:347
+msgid "Footer Widget Area Two"
+msgstr "Alatunnisteen vimpainalue 2"
+
+#: core/class-fire-init.php:103 core/class-fire-init.php:109
+#: core/class-fire-init.php:115 inc/czr-init-ccat.php:344
+#: inc/czr-init-ccat.php:348 inc/czr-init-ccat.php:352
+msgid "Just use it as you want !"
+msgstr "Käytä sitä niin kuin haluat!"
+
+#: core/class-fire-init.php:102 inc/czr-init-ccat.php:343
+msgid "Footer Widget Area One"
+msgstr "Alatunnisteen vimpainalue 1"
+
+#: core/init-base.php:125
+msgid "Left Sidebar"
+msgstr "Vasen sivupalkki"
+
+#: core/init-base.php:126 core/init-base.php:130
+msgid "Appears on posts, static pages, archives and search pages"
+msgstr "Näkyy artikkeleissa, staattisilla sivuilla, arkistoissa ja haku-sivuilla"
+
+#: core/init-base.php:129
+msgid "Right Sidebar"
+msgstr "Oikea sivupalkki"
+
+#: core/init-base.php:178
+msgid "Follow me on LinkedIn"
+msgstr "Seuraa minua LinkedInissä"
+
+#: core/init-base.php:175
+msgid "Follow me on Dribbble"
+msgstr "Seuraa minua Dribbblessä"
+
+#: core/init-base.php:172
+msgid "Follow me on Github"
+msgstr "Seuraa minua Githubissa"
+
+#: core/init-base.php:169
+msgid "Pin me on Pinterest"
+msgstr "Pinnaa minut Pinterestissä"
+
+#: core/init-base.php:166
+msgid "Follow me on Youtube"
+msgstr "Seuraa minua Youtubessa"
+
+#: core/init-base.php:163
+msgid "Follow me on WordPress"
+msgstr "Seuraa meitä WordPressissä"
+
+#: core/init-base.php:160
+msgid "Follow me on Flickr"
+msgstr "Seuraa meitä Flickr:issä"
+
+#: core/init-base.php:157
+msgid "Follow me on Tumblr"
+msgstr "Seuraa minua Tumblrissa"
+
+#: core/init-base.php:154
+msgid "Follow me on Instagram"
+msgstr "Seuraa minua Instagramissa"
+
+#: core/init-base.php:151
+msgid "Follow me on Google+"
+msgstr "Seuraa meitä Google+:ssa"
+
+#: core/init-base.php:148
+msgid "Follow me on Facebook"
+msgstr "Seuraa meitä Facebookissa"
+
+#: core/init-base.php:145
+msgid "Follow me on Twitter"
+msgstr "Seuraa meitä Twitterissä"
+
+#: core/init-base.php:138
+msgid "Subscribe to my rss feed"
+msgstr "Tilaa RSS-syöte"
+
+#: core/init-base.php:227
+msgid "Single fonts"
+msgstr "Yksittäiset fontit"
+
+#: core/init-base.php:218
+msgid "Web safe fonts pairs"
+msgstr "Turvalliset web-fonttiparit"
+
+#: core/init-base.php:197
+msgid "Google fonts pairs"
+msgstr "Google-fonttiparit"
+
+#: inc/czr-init-ccat.php:331
+msgid "Light blue "
+msgstr "Vaaleansininen"
+
+#: inc/czr-init-ccat.php:330
+msgid "Green blue"
+msgstr "Vihreä ja sininen"
+
+#: inc/czr-init-ccat.php:329
+msgid "Light green"
+msgstr "Vaaleanvihreä"
+
+#: inc/czr-init-ccat.php:328
+msgid "Green"
+msgstr "Vihreä"
+
+#: inc/czr-init-ccat.php:327
+msgid "Flat yellow"
+msgstr "Tasainen keltainen"
+
+#: inc/czr-init-ccat.php:326
+msgid "Yellow"
+msgstr "Keltainen"
+
+#: inc/czr-init-ccat.php:325
+msgid "Flat orange"
+msgstr "Tasainen oranssi"
+
+#: inc/czr-init-ccat.php:324
+msgid "Orange"
+msgstr "Oranssi"
+
+#: inc/czr-init-ccat.php:323
+msgid "Red"
+msgstr "Punainen"
+
+#: inc/czr-init-ccat.php:322
+msgid "Flat red"
+msgstr "Tasainen punainen"
+
+#: inc/czr-init-ccat.php:321
+msgid "Purple"
+msgstr "Violetti"
+
+#: inc/czr-init-ccat.php:320
+msgid "Flat purple"
+msgstr "Tasainen violetti"
+
+#: inc/czr-init-ccat.php:319
+msgid "Light grey"
+msgstr "Vaaleanharmaa"
+
+#: inc/czr-init-ccat.php:318
+msgid "Grey"
+msgstr "Harmaa"
+
+#: inc/czr-init-ccat.php:317
+msgid "Flat black"
+msgstr "Tasainen musta"
+
+#: inc/czr-init-ccat.php:316
+msgid "Black"
+msgstr "Musta"
+
+#: inc/czr-init-ccat.php:315
+msgid "Blue"
+msgstr "Sininen"
+
+#: core/class-fire-init.php:70 core/class-fire-init.php:71
+#: inc/czr-init-ccat.php:308 inc/czr-init-ccat.php:309
+msgid "No sidebars : full width layout"
+msgstr "Ei sivupalkkeja: täysi leveys"
+
+#: core/class-fire-init.php:63 core/class-fire-init.php:64
+#: inc/czr-init-ccat.php:302 inc/czr-init-ccat.php:303
+msgid "2 sidebars : Right and Left"
+msgstr "2 sivupalkkia: oikea ja vasen"
+
+#: core/class-fire-init.php:56 core/class-fire-init.php:57
+#: inc/czr-init-ccat.php:296 inc/czr-init-ccat.php:297
+msgid "Left sidebar"
+msgstr "Vasen sivupalkki"
+
+#: core/class-fire-init.php:49 core/class-fire-init.php:50
+#: inc/czr-init-ccat.php:290 inc/czr-init-ccat.php:291
+msgid "Right sidebar"
+msgstr "Oikea sivupalkki"
+
+#: core/czr-base-fmk/czr-base-fmk.php:280
+#: core/czr-base-fmk/czr-base-fmk.php:570 core/czr-customize-ccat.php:1479
+msgid "Remove"
+msgstr "Poista"
+
+#: core/czr-customize-ccat.php:1478
+msgid "Upload"
+msgstr "Lataa"
+
+#: core/czr-customize-ccat.php:966
+msgid "Check the documentation"
+msgstr "Katso dokumentaatio"
+
+#: core/czr-customize-ccat.php:964
+msgid "Need help to create a slider ?"
+msgstr "Tarvitsetko apua kuvasarjan tekemiseen?"
+
+#: core/czr-customize-ccat.php:963
+msgid "Create a slider"
+msgstr "Luo kuvasarja"
+
+#: core/czr-admin-ccat.php:704
+msgid "To copy the system infos, click below then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "Kopioidaksesi järjestelmää koskevat informaatiot klikkaa alta ja paina Ctrl + C (PC) tai Cmd + C (Mac)"
+
+#: core/czr-admin-ccat.php:703
+msgid "Please include the following informations when posting support requests"
+msgstr "Kerrothan seuraavat tiedot lähettäessäsi tukipyynnön"
+
+#: core/czr-admin-ccat.php:702
+msgid "System Informations"
+msgstr "Järjestelmän tiedot"
+
+#: core/czr-admin-ccat.php:627
+msgid "Go to Dashboard"
+msgstr "Mene ohjauspaneeliin"
+
+#: core/czr-admin-ccat.php:627
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Mene ohjauspaneeliin &rarr; Koti"
+
+#: core/czr-admin-ccat.php:679
+msgid "Changelog in version %1$s"
+msgstr "Muutosloki, versio %1$s"
+
+#: core/czr-admin-ccat.php:613
+msgid "Follow us"
+msgstr "Seuraa meitä"
+
+#: core/czr-admin-ccat.php:608
+msgid "If you are happy with the theme, say it on wordpress.org and give Customizr a nice review! <br />(We are addicted to your feedbacks...)"
+msgstr "Jos olet tyytyväinen teemaan, tuo se ilmi osoitteessa wordpress.org ja kirjoita Customizrista mukava arvostelu! <br/> (Olemme addiktoituneet palautteen saamiseen...)"
+
+#: core/czr-admin-ccat.php:607
+msgid "Happy user of Customizr?"
+msgstr "Tyytyväinen Customizrin käyttäjä?"
+
+#: core/czr-admin-ccat.php:588
+msgid "You are using a child theme of Customizr %1$s : always check the %2$s after upgrading to see if a function or a template has been deprecated."
+msgstr "Käytät Customizriin pohjautuvaa aliteemaa %1$s: varmista %2$s aina päivityksen jälkeen, ettei käyttämäsi funktio tai malline ole vanhentunut."
+
+#: core/czr-admin-ccat.php:518
+msgid "About Customizr"
+msgstr "Lisätietoa Customizr-teemasta"
+
+#: core/czr-admin-ccat.php:2502
+msgid "Current slide"
+msgstr "Nykyinen kuva"
+
+#: core/czr-admin-ccat.php:2500
+msgid "Edit this slide"
+msgstr "Muokkaa tätä kuvaa"
+
+#: core/czr-admin-ccat.php:2474
+msgid "No Image Selected"
+msgstr "Ei kuvaa valittuna"
+
+#: core/czr-base-fmk/czr-base-fmk.php:268
+#: core/czr-base-fmk/czr-base-fmk.php:570
+#: core/front/template-tags/template-tags.php:162
+#: core/front/template-tags/template-tags.php:163
+#: core/front/models/modules/common/class-model-breadcrumb.php:624
+#: core/front/models/modules/common/class-model-breadcrumb.php:657
+#: core/front/models/modules/common/class-model-breadcrumb.php:672
+#: core/front/models/modules/common/class-model-breadcrumb.php:700
+#: core/czr-admin-ccat.php:2432 core/czr-customize-ccat.php:856
+#: core/czr-customize-ccat.php:866 inc/czr-front-ccat.php:2468
+#: inc/czr-front-ccat.php:2501 inc/czr-front-ccat.php:2516
+#: inc/czr-front-ccat.php:2544 inc/czr-front-ccat.php:3052
+#: inc/czr-front-ccat.php:3602 inc/czr-front-ccat.php:3987
+#: inc/czr-front-ccat.php:8544
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: core/czr-admin-ccat.php:2430
+msgid "Button Text"
+msgstr "Painikkeen teksti"
+
+#: core/czr-admin-ccat.php:2429
+msgid "Slide Text"
+msgstr "Kuvasarjan teksti"
+
+#: core/czr-admin-ccat.php:2428
+#: core/czr-modules/social-links/social_links_module.php:123
+#: core/czr-modules/social-links/index.php:121
+msgid "Title"
+msgstr "Otsikko"
+
+#: core/czr-admin-ccat.php:2427
+msgid "Slide Image"
+msgstr "Kuvasarjan kuva"
+
+#: core/czr-admin-ccat.php:2417
+msgid "This slider has not slides to show. Go to the media library and start adding images to it."
+msgstr "Tässä kuvasarjassa ei ole ainuttakaan kuvaa. Mene mediakirjastoon ja lisää siihen kuvia."
+
+#: core/czr-admin-ccat.php:2291
+msgid "You haven't create any slider yet. Write a slider name and click on the button to add you first slider."
+msgstr "Et ole lisännyt ainuttakaan kuvasarjaa. Kirjoita kuvasarjalle nimi ja klikkaa painiketta lisätäksesi ensimmäisen kuvasarjan."
+
+#: core/czr-admin-ccat.php:2264 core/czr-admin-ccat.php:2293
+msgid "Add a slider"
+msgstr "Lisää kuvasarja"
+
+#: core/czr-admin-ccat.php:2206
+msgid "No link"
+msgstr "Ei linkkiä"
+
+#: core/czr-admin-ccat.php:2201
+msgid "Choose a linked page or post (among the last 100)."
+msgstr "Valitse linkitettävä sivu tai artikkeli (viimeisten 100 joukosta)"
+
+#: core/czr-admin-ccat.php:2194
+msgid "Button text (80 char. max length)"
+msgstr "Painikkeen teksti (max 80 merkkiä)"
+
+#: core/czr-admin-ccat.php:2186
+msgid "Title and text color"
+msgstr "Otsikko ja tekstin väri"
+
+#: core/czr-admin-ccat.php:2179
+msgid "Description text (below the title, 250 char. max length)"
+msgstr "Kuvausteksti (Otsikon alla, max 250 merkkiä)"
+
+#: core/czr-admin-ccat.php:2172
+msgid "Title text (80 char. max length)"
+msgstr "Otsikon teksti (max 80 merkkiä)"
+
+#: core/czr-admin-ccat.php:2037
+msgid "Add to a slider (create one if needed)"
+msgstr "Lisää kuvasarjaan (tarvittaessa luo uusi)"
+
+#: core/czr-admin-ccat.php:1688 core/czr-customize-ccat.php:961
+msgid "You haven't create any slider yet. Go to the media library, edit your images and add them to your sliders."
+msgstr "Et ole vielä luonut ainuttakaan kuvasarjaa. Avaa Mediakirjasto, valitse kuviasi muokattavaksi ja lisää niitä kuvasarjoihin."
+
+#: core/czr-admin-ccat.php:1677 core/czr-admin-ccat.php:2274
+msgid "Delete slider"
+msgstr "Poista kuvasarja"
+
+#: core/czr-admin-ccat.php:1674 core/czr-admin-ccat.php:2271
+msgid "The slider will be deleted permanently (images, call to actions and link will be kept)."
+msgstr "Kuvasarja poistetaan kokonaan (kuvat, toimintokutsut ja linkitys säilyvät)"
+
+#: core/czr-admin-ccat.php:1669 core/czr-admin-ccat.php:2267
+msgid "Delete this slider"
+msgstr "Poista tämä kuvasarja"
+
+#: core/czr-admin-ccat.php:1612
+msgid "Slider Layout : set the slider in full width"
+msgstr "Kuvasarjan asettelu: venytä kuva koko ruudun leveydelle"
+
+#: core/czr-admin-ccat.php:1605
+msgid "Delay between each slides in milliseconds (default : 5000 ms)"
+msgstr "Viive kuvasarjan kuvien välillä millisekunteina (oletus: 5000ms)"
+
+#: core/czr-admin-ccat.php:1601
+msgid "To create a new slider : open the media library, edit your images and add them to your new slider."
+msgstr "Luo uusi kuvasarja näin: avaa Mediakirjasto, valitse kuviasi muokattavaksi ja lisää ne uuteen kuvasarjaasi."
+
+#: core/czr-admin-ccat.php:1578 core/czr-admin-ccat.php:2258
+msgid "&mdash; Select a slider &mdash; "
+msgstr "&mdash; Valitse kuvasarja  &mdash; "
+
+#: core/czr-admin-ccat.php:1572 core/czr-admin-ccat.php:2243
+msgid "Choose a slider"
+msgstr "Valitse kuvasarja"
+
+#: core/czr-admin-ccat.php:1493
+msgid "Add a slider to this post/page"
+msgstr "Lisää kuvasarja tähän artikkeliin/sivuun"
+
+#: core/czr-admin-ccat.php:1447
+msgid "Default layout %1s"
+msgstr "Oletusasettelu %1s"
+
+#: core/czr-admin-ccat.php:1443
+msgid "Select a specific layout for %1$s"
+msgstr "Valitse erillinen asettelu kohteelle %1$s"
+
+#: core/czr-admin-ccat.php:1440 core/core-settings-map.php:1059
+#: core/core-settings-map.php:1064 core/core-settings-map.php:2396
+msgid "here"
+msgstr "täällä"
+
+#: core/czr-admin-ccat.php:1439 core/czr-admin-ccat.php:1444
+msgid "this post"
+msgstr "tämä artikkeli"
+
+#: core/czr-admin-ccat.php:1439 core/czr-admin-ccat.php:1444
+msgid "this page"
+msgstr "tämä sivu"
+
+#: core/czr-admin-ccat.php:1438
+msgid "You can define a specific layout for %1$s by using the pre-defined left and right sidebars. The default layouts can be defined in the WordPress customizer screen %2$s.<br />"
+msgstr "Voit valita erillisen asettelun kohteelle %1$s käyttämällä määriteltyjä vasenta ja oikeaa sivupalkkia. Oletusasettelu voidaan valita Wordpressin kustomointi-ikkunasta %2$s.<br/>"
+
+#: core/czr-admin-ccat.php:1435
+msgid "posts"
+msgstr "artikkelit"
+
+#: core/czr-admin-ccat.php:1435
+msgid "pages"
+msgstr "sivut"
+
+#: core/czr-admin-ccat.php:1435
+msgid "Default %1$s layout is set to : %2$s"
+msgstr "Oletus %1$s asettelun valinta on: %2$s"
+
+#: core/czr-admin-ccat.php:1168 core/czr-admin-ccat.php:2009
+msgid "Slider Options"
+msgstr "Kuvasarjan asetukset"
+
+#: core/czr-admin-ccat.php:1155
+msgid "Layout Options"
+msgstr "Ulkoasun asetukset"
+
+#: core/czr-customize-ccat.php:626 core/czr-customize-ccat.php:627
+msgid "Upgrade Wordpress Now"
+msgstr "Päivitä Wordpress nyt"
+
+#: core/czr-customize-ccat.php:623
+msgid "This theme requires WordPress 3.4+"
+msgstr "Tämä teema vaatii Wordpressin version 3.4+"
+
+#: core/czr-customize-ccat.php:603 core/czr-customize-ccat.php:604
+msgid "Upgrade WP"
+msgstr "Päivitä WP"
+
+#: core/core-settings-map.php:1062
+msgid "Jump to the blog design options"
+msgstr "Siirry blogia koskeviin asetuksiin"
+
+#: core/czr-customize-ccat.php:561
+msgid "More grid design options"
+msgstr "Lisää Ruudukkoon liittyviä asetuksia"
+
+#. Author URI of the theme
+msgid "https://presscustomizr.com/"
+msgstr "https://presscustomizr.com/"
+
+#. Author of the theme
+msgid "nikeo"
+msgstr "nikeo"
+
+#. Theme URI of the theme
+msgid "https://presscustomizr.com/customizr"
+msgstr "https://presscustomizr.com/customizr"
