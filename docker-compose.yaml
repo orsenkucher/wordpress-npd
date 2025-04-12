@@ -33,6 +33,20 @@ services:
     networks:
       - smokemilk
 
+  nginx:
+    image: nginx:1.15-alpine
+    container_name: npd-nginx
+    restart: unless-stopped
+    volumes:
+      - ./data/nginx:/etc/nginx/conf.d
+      - ./wordpress:/var/www/html
+    ports:
+      - "80:80"
+    depends_on:
+      - npd-wordpress
+    networks:
+      - smokemilk
+
 networks:
   smokemilk:
     name: smokemilk
