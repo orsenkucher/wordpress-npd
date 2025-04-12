@@ -72,7 +72,7 @@ services:
     depends_on:
       - npd-wordpress
     networks:
-      - smokemilk
+      - npd-network
 
 networks:
   npd-network:
