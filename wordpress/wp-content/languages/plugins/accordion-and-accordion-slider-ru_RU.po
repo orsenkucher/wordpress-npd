@@ -1,0 +1,509 @@
+# Translation of Plugins - Accordion and Accordion Slider - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Accordion and Accordion Slider - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-17 10:38:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Accordion and Accordion Slider - Development (trunk)\n"
+
+#: includes/admin/wp-aas-how-it-work.php:192
+msgid "Grab Accordion Slider Now"
+msgstr "Возьмите Accordion Slider сейчас"
+
+#: includes/admin/wp-aas-how-it-work.php:63
+#: includes/admin/wp-aas-how-it-work.php:86
+msgid "Grab Now"
+msgstr "Приобрести сейчас"
+
+#: includes/admin/class-wp-aas-admin.php:65
+msgid "Bundle Deal"
+msgstr "Пакетная сделка"
+
+#: includes/admin/class-wp-aas-admin.php:65
+msgid "Bundle Deal - Accordion and Accordion Slider"
+msgstr "Пакетная сделка - Accordion and Accordion Slider"
+
+#: includes/admin/class-wp-aas-admin.php:64
+msgid "Upgrade To Premium "
+msgstr "Обновить до Premium "
+
+#: includes/admin/settings/premium.php:15
+msgid "Essential Plugin Bundle"
+msgstr "Essential Plugin Bundle"
+
+#: includes/admin/settings/premium.php:15
+msgid "Accordion and Accordion Slider with "
+msgstr "Accordion and Accordion Slider с  "
+
+#: includes/admin/wp-aas-how-it-work.php:46
+msgid "Need Support & Solutions?"
+msgstr "Нужна поддержка и решения?"
+
+#: includes/admin/wp-aas-how-it-work.php:146
+msgid "Check Documentation"
+msgstr "Ознакомиться с документацией"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:63
+msgid "Enter image link. e.g https://www.essentialplugin.com"
+msgstr "Введите ссылку на изображение. напр., https://www.essentialplugin.com"
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr "WP OnlineSupport, Essential Plugin"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com/wordpress-plugin/accordion-accordion-slider/"
+msgstr "https://www.essentialplugin.com/wordpress-plugin/accordion-accordion-slider/"
+
+#: includes/admin/wp-aas-how-it-work.php:170
+msgid "5 stars!"
+msgstr "5 звезд!"
+
+#: includes/admin/wp-aas-how-it-work.php:170
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr "Понравился этот плагин? Вы можете помочь нам, поставив оценку этому плагину"
+
+#: includes/admin/wp-aas-how-it-work.php:143
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:196
+msgid "Enter Visible Accordion Panels at a time. eg. 1 "
+msgstr "Введите видимые панели аккордеона за один раз. напр., 1 "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:192
+msgid "Visible Accordion Panels (width: 500) "
+msgstr "Видимые панели аккордеона (ширина: 500) "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:187
+msgid "Enter Visible Accordion Panels at a time. eg. 2 "
+msgstr "Введите видимые панели аккордеона за один раз. напр., 2 "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:183
+msgid "Visible Accordion Panels (width: 650) "
+msgstr "Видимые панели аккордеона (ширина: 650) "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:178
+msgid "Enter Visible Accordion Panels at a time. eg. 3 "
+msgstr "Введите видимые панели аккордеона за один раз. напр., 3 "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:174
+msgid "Visible Accordion Panels (width: 800) "
+msgstr "Видимые панели аккордеона (ширина: 800) "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:169
+msgid "Enter Visible Accordion Panels at a time. eg. 4 "
+msgstr "Введите видимые панели аккордеона за один раз. напр., 4 "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:165
+msgid "Visible Accordion Panels (width: 960) "
+msgstr "Видимые панели аккордеона (ширина: 960) "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:160
+msgid "Breakdown Panels for Responsive Device (Mobile/Tablet/iPad)"
+msgstr "Панели разбивки для адаптивного устройства (мобильный/планшет/iPad)"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:153
+msgid "Enable Fancy Box or not."
+msgstr "Включить модный текст или нет."
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:148
+msgid "Fancy Box "
+msgstr "Модный текст "
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:55
+msgid " Upgrade to <a href=\"%s\" target=\"_blank\">Premium Version</a> to get this option."
+msgstr " Перейдите на <a href=\"%s\" target=\"_blank\">Премиум-версию</a>, чтобы получить эту возможность."
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:55
+msgid "Enter image caption."
+msgstr "Введите подпись к изображению."
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:148
+#: includes/admin/metabox/wp-aas-slider-parameter.php:165
+#: includes/admin/metabox/wp-aas-slider-parameter.php:174
+#: includes/admin/metabox/wp-aas-slider-parameter.php:183
+#: includes/admin/metabox/wp-aas-slider-parameter.php:192
+#: includes/admin/settings/wp-aas-img-popup-data.php:51
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:51
+msgid "Caption "
+msgstr "Подпись "
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:62
+msgid "Enter the image size. You can use following size: thumbnail, medium, medium_large, large and full"
+msgstr "Введите размер изображения. Вы можете использовать следующие размеры: thumbnail (миниатюра), medium (средний), medium_large (средний_большой), large (большой) и full (полный)"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:58
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: includes/admin/class-wp-aas-admin.php:64
+msgid "Upgrade To PRO - Accordion and Accordion Slider"
+msgstr "Обновить до PRO - Accordion and Accordion Slider"
+
+#: wpos-analytics/wpos-analytics.php:60 wpos-analytics/wpos-analytics.php:72
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, что ли?"
+
+#: wpos-analytics/includes/class-anylc-admin.php:230
+msgid "Opt In"
+msgstr "Принять участие"
+
+#: wpos-analytics/includes/class-anylc-admin.php:224
+msgid "Opt Out"
+msgstr "Отказаться"
+
+#. Description of the plugin
+msgid "Accordion and Accordion Slider (Horizontal and Vertical) - Responsive and Touch enabled accordion for WordPress Website. Also work with Gutenberg shortcode block."
+msgstr "Аккордеон и слайдер аккордеона (горизонтальный и вертикальный) — адаптивный и сенсорный аккордеон для веб-сайта WordPress. Также работайте с блоком шорткодов Gutenberg."
+
+#: includes/admin/wp-aas-how-it-work.php:166
+msgid "Help to improve this plugin!"
+msgstr "Помогите улучшить плагин!"
+
+#: includes/admin/wp-aas-how-it-work.php:182
+msgid "Upgrate to Pro"
+msgstr "Обновить до Pro"
+
+#: includes/admin/wp-aas-how-it-work.php:137
+msgid "Accordion Slider Shortcode."
+msgstr "Шорткод слайдера аккордеон."
+
+#: includes/admin/wp-aas-how-it-work.php:134
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: includes/admin/wp-aas-how-it-work.php:126
+msgid "Step-1. Create a page like accordion slider OR add the shortcode in any page."
+msgstr "Step-1. Создайте такую страницу, как Слайдер аккордеон ИЛИ добавьте шорткод на любой странице."
+
+#: includes/admin/wp-aas-how-it-work.php:122
+msgid "How Shortcode Works"
+msgstr "Как работает шорткод"
+
+#: includes/admin/wp-aas-how-it-work.php:115
+msgid "Step-5. You can find out shortcode for accordion slider under \"Accordion Slider\" list view."
+msgstr "Шаг 5. Вы можете найти шорткод для слайдера аккордеона в списке \"Слайдер аккордеон\"."
+
+#: includes/admin/wp-aas-how-it-work.php:114
+msgid "Step-4. You can use accordion slider parameters as per your need."
+msgstr "Шаг 4. Вы можете использовать параметры слайдера аккордеона в соответствии с вашими потребностями."
+
+#: includes/admin/wp-aas-how-it-work.php:113
+msgid "Step-3. Under \"Choose Gallery Images\" click on \"Gallery Images\" button and select multiple images from WordPress media and click on \"Add to Gallery\" button.."
+msgstr "Step-3. В разделе «Выберите изображения галереи» нажмите кнопку «Изображения галереи» и выберите несколько изображений из библиотеки файлов WordPress и нажмите кнопку «Добавить в галерею»."
+
+#: includes/admin/wp-aas-how-it-work.php:112
+msgid "Step-2. Enter Accordion Slider Title."
+msgstr "Шаг-2. Введите название слайдера аккордеон."
+
+#: includes/admin/wp-aas-how-it-work.php:111
+msgid "Step-1. Go to \"Accordion Slider --> Add New\"."
+msgstr "Шаг-1. Перейдите в раздел \"Слайдер аккордеон --> Добавить новый\"."
+
+#: includes/admin/wp-aas-how-it-work.php:107
+msgid "Geeting Started with Accordion Slider"
+msgstr "Начало работы с слайдером аккордеон"
+
+#: includes/admin/wp-aas-how-it-work.php:99
+msgid "How It Works - Display and shortcode"
+msgstr "Как это работает - отображение и шорткод"
+
+#: includes/admin/class-wp-aas-admin.php:59
+#: includes/admin/wp-aas-how-it-work.php:14
+msgid "How It Works"
+msgstr "Как это работает"
+
+#: includes/admin/class-wp-aas-admin.php:59
+msgid "How it works, our plugins and offers"
+msgstr "Как это работает, наши плагины и предложения"
+
+#. Plugin Name of the plugin
+msgid "Accordion and Accordion Slider"
+msgstr "Accordion and Accordion Slider"
+
+#: includes/wp-aas-post-types.php:76
+msgid "Image Gallery draft updated."
+msgstr "Обновлен черновик галереи изображений."
+
+#: includes/wp-aas-post-types.php:75
+msgid "M j, Y @ G:i"
+msgstr "d.m.Y H:i"
+
+#: includes/wp-aas-post-types.php:74
+msgid "Image Gallery scheduled for: <strong>%1$s</strong>."
+msgstr "Галерея изображений запланирована на: <strong>%1$s</strong>."
+
+#: includes/wp-aas-post-types.php:73
+msgid "Image Gallery submitted."
+msgstr "Галерея изображений отправлена."
+
+#: includes/wp-aas-post-types.php:72
+msgid "Image Gallery saved."
+msgstr "Галерея изображений сохранена."
+
+#: includes/wp-aas-post-types.php:71
+msgid "Image Gallery published."
+msgstr "Галерея изображений опубликована."
+
+#: includes/wp-aas-post-types.php:70
+msgid "Image Gallery restored to revision from %s"
+msgstr "Галерея изображений восстановлена до редакции от %s"
+
+#: includes/wp-aas-post-types.php:68
+msgid "Custom field deleted."
+msgstr "Пользовательское поле удалено."
+
+#: includes/wp-aas-post-types.php:67
+msgid "Custom field updated."
+msgstr "Пользовательское поле обновлено."
+
+#: includes/wp-aas-post-types.php:66 includes/wp-aas-post-types.php:69
+msgid "Image Gallery updated."
+msgstr "Галерея изображений обновлена."
+
+#: includes/wp-aas-post-types.php:31
+msgid "No Accordion slider found in Trash"
+msgstr "Не найден слайдер аккордеон в корзине"
+
+#: includes/wp-aas-post-types.php:30
+msgid "No Accordion slider"
+msgstr "Не найден слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:29
+msgid "Search Accordion slider"
+msgstr "Поиск слайдера аккордеон"
+
+#: includes/wp-aas-post-types.php:28
+msgid "View Accordion slider"
+msgstr "Смотреть слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:27
+msgid "New Accordion slider"
+msgstr "Новый слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:26
+msgid "Edit Accordion slider"
+msgstr "Изменить слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:25
+msgid "Add New Accordion slider"
+msgstr "Добавить новый слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:24
+msgid "Add Accordion slider"
+msgstr "Добавить слайдер аккордеон"
+
+#: includes/wp-aas-post-types.php:22 includes/wp-aas-post-types.php:23
+#: includes/wp-aas-post-types.php:32
+msgid "Accordion slider"
+msgstr "Слайдер аккордеон"
+
+#: includes/admin/settings/wp-aas-img-popup.php:23
+msgid "Please Wait"
+msgstr "Подождите пожалуйста"
+
+#: includes/admin/settings/wp-aas-img-popup.php:18
+msgid "Close (Esc)"
+msgstr "Закрыть (Esc)"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:73
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:72
+msgid "Save Changes"
+msgstr "Сохраните изменения"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:60
+msgid "Image Link"
+msgstr "Ссылка изображения"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:45
+msgid "Enter image alternative text."
+msgstr "Введите атрибут alt изображения."
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:42
+msgid "Alternative Text"
+msgstr "Атрибут alt"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:38
+msgid "Enter image title."
+msgstr "Введите заголовок изображения."
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:35
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/admin/settings/wp-aas-img-popup-data.php:31
+msgid "Edit Image From Attachment Page"
+msgstr "Изменить изображение со страницы вложения"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:142
+msgid "Enable mouse wheel or not"
+msgstr "Включать или нет колесо мыши"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:137
+msgid "Mouse Wheel"
+msgstr "Колесико мыши"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:132
+msgid "Enable autoplay or not"
+msgstr "Включать или нет автовоспроизведение"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:127
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:122
+msgid "Enable shadow or not"
+msgstr "Включать тень или нет"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:117
+msgid "Shadow"
+msgstr "Тень"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:112
+msgid "Select accordion panel open option"
+msgstr "Выберите вариант открытия панели аккордеона"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:107
+msgid "Open Accordion Panel On"
+msgstr "Открыть панель аккордеона на"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:101
+msgid "Enter opened accordion size eg. 80%"
+msgstr "Введите размер открытого аккордеона, напр., 80%"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:97
+msgid "Max Opened Accordion Size"
+msgstr "Макс. размер открытого аккордеона"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:92
+msgid "Distance between accordion. eg 10"
+msgstr "Пространство между аккордеоном. напр., 10"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:88
+msgid "Space Between Accordion"
+msgstr "Пространство между аккордеоном"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:82
+msgid "Select orientation for accordion"
+msgstr "Выбрать ориентацию для аккордеона"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:77
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:71
+msgid "Enter Visible Accordion Panels at a time. eg. 5"
+msgstr "Введите видимые панели аккордеона за один раз. напр., 5"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:67
+msgid "Visible Accordion Panels"
+msgstr "Видимые панели аккордеона"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:53
+msgid "Enter height eg. 300"
+msgstr "Введите высоту, напр., 300"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:49
+msgid "Height"
+msgstr "Высота"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:43
+msgid "Enter width eg. 900"
+msgstr "Введите ширину, напр., 900"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:39
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/admin/metabox/wp-aas-slider-parameter.php:34
+msgid "Choose your Settings for Accordion"
+msgstr "Выберите настройки для аккордеона"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:53
+msgid "Choose your desired images for gallery. Hold Ctrl key to select multiple images at a time."
+msgstr "Выберите нужные изображения для галереи. Удерживайте клавишу Ctrl, чтобы выбрать несколько изображений одновременно."
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:50
+msgid "No Gallery Images"
+msgstr "Нет изображений в галерее"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:42
+#: includes/class-wp-aas-script.php:103
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:41
+#: includes/admin/settings/wp-aas-img-popup-data.php:20
+#: includes/class-wp-aas-script.php:102
+msgid "Edit Image"
+msgstr "Изменить изображение"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:40
+#: includes/class-wp-aas-script.php:101
+msgid "Edit Image in Popup"
+msgstr "Изменить изображение во всплывающем окне"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:29
+msgid "Remove Gallery Images"
+msgstr "Удалить изображения из галереи"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:28
+msgid "Gallery Images"
+msgstr "Изображения галереи"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:28
+msgid "Add Images to Gallery"
+msgstr "Добавить изображения в галерею"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:28
+msgid "Add to Gallery"
+msgstr "Добавить в Галерею"
+
+#: includes/admin/metabox/wp-aas-sett-metabox.php:25
+msgid "Choose Gallery Images"
+msgstr "Выберите изображения галереи"
+
+#: includes/admin/class-wp-aas-admin.php:338
+msgid "Your changes saved successfully."
+msgstr "Изменения успешно сохранены."
+
+#: includes/admin/class-wp-aas-admin.php:294
+msgid "Attachment Found."
+msgstr "Вложение найдено."
+
+#: includes/admin/class-wp-aas-admin.php:277
+#: includes/admin/class-wp-aas-admin.php:314
+#: wpos-analytics/includes/class-anylc-admin.php:405
+#: wpos-analytics/includes/class-anylc-admin.php:424
+#: wpos-analytics/includes/class-anylc-admin.php:443
+msgid "Sorry, Something happened wrong."
+msgstr "Извините, что-то пошло не так."
+
+#: includes/admin/class-wp-aas-admin.php:191
+msgid "Number of Photos"
+msgstr "Кол-во фотографий"
+
+#: includes/admin/class-wp-aas-admin.php:190
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/admin/class-wp-aas-admin.php:101
+msgid "Accordion Parameter"
+msgstr "Параметр аккордеона"
+
+#: includes/admin/class-wp-aas-admin.php:99
+msgid "Settings"
+msgstr "Настройки"

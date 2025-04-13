@@ -1,0 +1,2177 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 01:27:24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.2.34                                |8.3.20
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.3.20 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: nginx/1.15.12
+DOC ROOT____________: "/var/www/html"
+REQUEST URL_________: "https://npd-nginx.wordpress-npd.orb.local"
+********************************************************************************
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known [CODE:2|FILE:/var/www/html/dup-installer/classes/database/class.db.php|LINE:55]
+DATABASE CONNECTION EXCEPTION ERROR: php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known
+
+EXCEPTION ERROR:  wp-config.php exists but database data connection isn't valid. Continuing with standard install
+	FILE:/var/www/html/dup-installer/classes/class.installer.state.php[111]
+	TRACE:
+#0 /var/www/html/dup-installer/src/Core/Bootstrap.php(391): DUPX_InstallerState->checkState(true, false)
+#1 /var/www/html/dup-installer/src/Core/Bootstrap.php(92): Duplicator\Installer\Core\Bootstrap::initInstallerFiles()
+#2 /var/www/html/dup-installer/main.installer.php(55): Duplicator\Installer\Core\Bootstrap::init()
+#3 {main}
+
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://npd-knu.kiev.ua/web/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/html"
+URL_NEW_____________: "https://npd-nginx.wordpress-npd.orb.local"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/var/www/html/20240718_d0bad0b0d184d0b0d0b4d180d0b0d1_[HASH]_20240718153024_archive.zip"
+ARCHIVE SIZE________: 788.15MB
+CREATED_____________: 2024-07-18 15:30:24
+WP VERSION__________: 5.6.14
+DUP VERSION_________: 1.5.10.1
+LICENSE_____________: Free version
+DB VERSION__________: 5.5.68
+DB FILE SIZE________: 317.98MB
+DB TABLES___________: 13
+DB ROWS_____________: 18398
+URL HOME____________: http://npd-knu.kiev.ua/web
+URL CORE____________: https://npd-knu.kiev.ua/web
+URL CONTENT_________: https://npd-knu.kiev.ua/web/wp-content
+URL UPLOAD__________: http://npd-knu.kiev.ua/web/wp-content/uploads
+URL PLUGINS_________: https://npd-knu.kiev.ua/web/wp-content/plugins
+URL MU PLUGINS______: http://npd-knu.kiev.ua/web/wp-content/mu-plugins
+URL THEMES__________: https://npd-knu.kiev.ua/web/wp-content/themes
+PATH HOME___________: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web
+PATH ABS____________: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web
+PATH WPCONFIG_______: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web
+PATH WPCONTENT______: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web/wp-content
+PATH UPLOADS________: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web/wp-content/uploads
+PATH PLUGINS________: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web/wp-content/plugins
+PATH MUPLUGINS______: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web/wp-content/mu-plugins
+PATH THEMES_________: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "npd-knu.kiev.ua/web/"
+
+PLUGINS
+PLUGIN [SLUG:accordion-and-accordion-slider/accordion-and-accordion-slider.php][ON:false]  Accordion and Accordion Slider
+PLUGIN [SLUG:tinymce-advanced/tinymce-advanced.php             ][ON:false]  Advanced Editor Tools (previously TinyMCE Advanced)
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:easy-accordion-free/plugin-main.php               ][ON:false]  Easy Accordion
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:false]  Elementor
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:false]  Envato Elements
+PLUGIN [SLUG:essential-addons-for-elementor-lite/essential_adons_elementor.php][ON:false]  Essential Addons for Elementor
+PLUGIN [SLUG:hello-dolly/hello.php                             ][ON:false]  Hello Dolly
+PLUGIN [SLUG:lightweight-accordion/lightweight-accordion.php   ][ON:false]  Lightweight Accordion
+PLUGIN [SLUG:make-column-clickable-elementor/make-column-clickable-elementor.php][ON:false]  Make Column Clickable Elementor
+PLUGIN [SLUG:mega-elements-addons-for-elementor/mega-elements-addons-for-elementor.php][ON:true ]  Mega Elements - Addons for Elementor
+PLUGIN [SLUG:mimetypes-link-icons/mime_type_link_images.php    ][ON:false]  MimeTypes Link Icons
+PLUGIN [SLUG:ocean-extra/ocean-extra.php                       ][ON:true ]  Ocean Extra
+PLUGIN [SLUG:really-simple-ssl/rlrsssl-really-simple-ssl.php   ][ON:true ]  Really Simple SSL
+PLUGIN [SLUG:responsive-accordion-and-collapse/responsive-accordion.php][ON:false]  Responsive Accordion And Collapse
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:88]
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] wp-config.php exists but isn't valid. Continue on standard install.
+	LONG MSG: Exception message: wp-config.php exists but database data connection isn't valid. Continuing with standard install
+
+
+====================================
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.49015]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known [CODE:2|FILE:/var/www/html/dup-installer/classes/database/class.db.php|LINE:55]
+DATABASE CONNECTION EXCEPTION ERROR: php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known
+
+EXCEPTION ERROR:  wp-config.php exists but database data connection isn't valid. Continuing with standard install
+	FILE:/var/www/html/dup-installer/classes/class.installer.state.php[111]
+	TRACE:
+#0 /var/www/html/dup-installer/ctrls/classes/class.ctrl.params.php(173): DUPX_InstallerState->checkState(false, false)
+#1 /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php(183): DUPX_Ctrl_Params::setParamsStep1()
+#2 /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('sparam_s1')
+#3 /var/www/html/dup-installer/main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#4 {main}
+
+-----------------------
+[WARNING] wp-config.php exists but isn't valid. Continue on standard install.
+	LONG MSG: Exception message: wp-config.php exists but database data connection isn't valid. Continuing with standard install
+
+
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:88]
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.11624]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: soft warning
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: soft warning
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+LOG-TIME[DELTA:   0.06465]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00591]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00940]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00106]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00235]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/var/www/html/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'wordpress'@'192.168.107.3' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'wordpress' AND host = 'npd-wordpress-db'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /var/www/html/dup-installer/classes/validation/class.validation.database.service.php[763]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /var/www/html/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /var/www/html/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /var/www/html/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /var/www/html/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /var/www/html/dup-installer/main.installer.php[60]
+
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02793]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00080]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00035]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known [CODE:2|FILE:/var/www/html/dup-installer/classes/database/class.db.php|LINE:55]
+DATABASE CONNECTION EXCEPTION ERROR: php_network_getaddresses: getaddrinfo for getenv_docker('WORDPRESS_DB_HOST', 'mysql') failed: Name or service not known
+
+EXCEPTION ERROR:  wp-config.php exists but database data connection isn't valid. Continuing with standard install
+	FILE:/var/www/html/dup-installer/classes/class.installer.state.php[111]
+	TRACE:
+#0 /var/www/html/dup-installer/ctrls/classes/class.ctrl.params.php(173): DUPX_InstallerState->checkState(false, false)
+#1 /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php(183): DUPX_Ctrl_Params::setParamsStep1()
+#2 /var/www/html/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('sparam_s1')
+#3 /var/www/html/dup-installer/main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#4 {main}
+
+-----------------------
+[WARNING] wp-config.php exists but isn't valid. Continue on standard install.
+	LONG MSG: Exception message: wp-config.php exists but database data connection isn't valid. Continuing with standard install
+
+
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 01:35:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Кафадра ядерної фізики та високих енергій фізичного факультету КНУ імені Тараса Шевченко"
+HOME URL NEW________: "https://npd-nginx.wordpress-npd.orb.local"
+SITE URL NEW________: "https://npd-nginx.wordpress-npd.orb.local"
+CONTENT URL NEW_____: "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+UPLOAD URL NEW______: "https://npd-nginx.wordpress-npd.orb.local/wp-content/uploads"
+PLUGINS URL NEW_____: "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://npd-nginx.wordpress-npd.orb.local/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/html"
+SITE PATH NEW_______: "/var/www/html"
+CONTENT PATH NEW____: "/var/www/html/wp-content"
+UPLOAD PATH NEW_____: "/var/www/html/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/html/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/html/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/var/www/html/dup-installer"
+	FILE: "/var/www/html/20240718_d0bad0b0d184d0b0d0b4d180d0b0d1_[HASH]_20240718153024_installer-backup.php"
+	FILE: "/var/www/html/20240718_d0bad0b0d184d0b0d0b4d180d0b0d1_[HASH]_20240718153024_archive.zip"
+	FILE: "/var/www/html/installer.php"
+	FILE: "/var/www/html/dup-installer-bootlog__2edea71-18153024.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240718_d0bad0b0d184d0b0d0b4d180d0b0d1_[HASH]_20240718153024_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0014 sec. - Files processed: 13,527 of 14,155
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13527
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 14761
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 01:35:09 - RUNTIME: 5.2010 sec. - Files processed: 14,155 of 14,155
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 01:35:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     381] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:   19001] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:    3367] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.41 -- Build Server: 5.5.68
+FILE SIZE:	dup-database__[HASH].sql (272.4MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`wordpress`@`%`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	408
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   381]
+TABLE "wp_postmeta"_____________________________________[ROWS: 19001]
+TABLE "wp_posts"________________________________________[ROWS:  3367]
+TABLE "wp_term_relationships"___________________________[ROWS:    24]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     4]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     4]
+TABLE "wp_usermeta"_____________________________________[ROWS:    29]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 10.7717 sec.
+STEP-2 COMPLETE @ 01:35:20 - RUNTIME: 10.7717 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/ygevswqu/data/www/npd-knu.kiev.ua/web REPLACE: /var/www/html [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://npd-knu.kiev.ua/web REPLACE: https://npd-nginx.wordpress-npd.orb.local [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://npd-knu.kiev.ua/web REPLACE: https://npd-nginx.wordpress-npd.orb.local [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: https://npd-knu.kiev.ua/web/wp-content/plugins REPLACE: https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:11] SEARCH: https://npd-knu.kiev.ua/web/wp-content REPLACE: https://npd-nginx.wordpress-npd.orb.local/wp-content [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 01:35:20
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/var/www/html/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    48]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   333][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 19001][PG:  20][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+	
+STEP-3 CHUNK STOP @ 01:35:25 - RUNTIME: 5.6914 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][16]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][17]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][18]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][19]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  3367][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][2]
+	
+STEP-3 CHUNK STOP @ 01:35:31 - RUNTIME: 5.4029 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_posts][3]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    24][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://npd-knu.kiev.ua/web/wp-content/plugins" ==> "https://npd-nginx.wordpress-npd.orb.local/wp-content/plugins"
+	SEARCH[urlnd]  2:"https://npd-knu.kiev.ua/web/wp-content" ==========> "https://npd-nginx.wordpress-npd.orb.local/wp-content"
+	SEARCH[path ]  3:"/var/www/ygevswqu/data/www/npd-knu.kiev.ua/web" ==> "/var/www/html"
+	SEARCH[urlnd]  4:"https://npd-knu.kiev.ua/web" =====================> "https://npd-nginx.wordpress-npd.orb.local"
+	SEARCH[urlnd]  5:"http://npd-knu.kiev.ua/web" ======================> "https://npd-nginx.wordpress-npd.orb.local"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:22739 	|	 Cells:154943 
+UPDATED:	Tables:3 	|	 Rows:6065 	|	 Cells:8742 
+ERRORS:		0 
+RUNTIME:	11.584600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/html/wp-config.php
+New htaccess file created:/var/www/html/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	TRANSFORMER[no wpmu]: WP_ALLOW_MULTISITE constant removed from WP config file
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""wordpress""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""npd-wordpress-db""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+NO PERMALINK STRUCTURE FOUND: set htaccess without directives
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:35:31 - RUNTIME: 0.5379 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_WARNING] MSG:Undefined property: stdClass::$id [CODE:2|FILE:/var/www/html/dup-installer/classes/config/class.archive.config.php|LINE:160]
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:88]
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /var/www/html/index.php
+E_DEPRECATED Return type of WP_Hook::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[477]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[490]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[503]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[516]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[527]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[419]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[433]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[447]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[464]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$categories is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$post2cat is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$link2cat is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[554]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[595]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[535]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[544]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[952]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[972]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[984]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[995]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[151]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[175]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[164]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[186]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[138]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetExists($index) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[75]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetGet($index) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[89]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetSet($index, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[110]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetUnset($index) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[127]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[199]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Ocean_Extra::$plugin_url is deprecated
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[87]
+	--- TRACE ---
+	CLASS___: Ocean_Extra->__construct      FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[159]
+	CLASS___: Ocean_Extra::instance         FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[32]
+	FUNCTION: Ocean_Extra                   FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[35]
+	FUNCTION: include_once                  FILE: /var/www/html/wp-settings.php[388]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Ocean_Extra::$plugin_path is deprecated
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[88]
+	--- TRACE ---
+	CLASS___: Ocean_Extra->__construct      FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[159]
+	CLASS___: Ocean_Extra::instance         FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[32]
+	FUNCTION: Ocean_Extra                   FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[35]
+	FUNCTION: include_once                  FILE: /var/www/html/wp-settings.php[388]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$is_overloaded is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[21]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_pos is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[22]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_f is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[153]
+	--- TRACE ---
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property MO::$_gettext_select_plural_form is deprecated
+	FILE: /var/www/html/wp-includes/pomo/translations.php[293]
+	--- TRACE ---
+	CLASS___: Gettext_Translations->set_headerFILE: /var/www/html/wp-includes/pomo/translations.php[75]
+	CLASS___: Translations->set_headers     FILE: /var/www/html/wp-includes/pomo/mo.php[294]
+	CLASS___: MO->import_from_reader        FILE: /var/www/html/wp-includes/pomo/mo.php[49]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetExists($k) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[309]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetGet($k) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[317]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetSet($k, $v) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[301]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetUnset($k) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[313]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[328]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[339]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[350]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[362]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[375]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[389]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/html/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$is_overloaded is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[21]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[956]
+	FUNCTION: load_theme_textdomain         FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[281]
+	CLASS___: OCEANWP_Theme_Class::theme_setupFILE: /var/www/html/wp-includes/class-wp-hook.php[287]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/html/wp-includes/class-wp-hook.php[311]
+	CLASS___: WP_Hook->do_action            F-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /var/www/html/wp-login.php
+E_DEPRECATED Return type of WP_Hook::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[477]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[490]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[503]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[516]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[527]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[419]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[433]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[447]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Hook::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-hook.php[464]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-includes/plugin.php[25]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-settings.php[49]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$categories is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$post2cat is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property wpdb::$link2cat is deprecated
+	FILE: /var/www/html/wp-includes/wp-db.php[668]
+	--- TRACE ---
+	CLASS___: wpdb->__set                   FILE: /var/www/html/wp-includes/wp-db.php[921]
+	CLASS___: wpdb->set_prefix              FILE: /var/www/html/wp-includes/load.php[586]
+	FUNCTION: wp_set_wpdb_vars              FILE: /var/www/html/wp-settings.php[128]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[554]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[595]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[535]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Theme::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-theme.php[544]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[172]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[952]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[972]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[984]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_REST_Request::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/rest-api/class-wp-rest-request.php[995]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[243]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[151]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[175]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[164]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[186]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[138]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetExists($index) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[75]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetGet($index) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[89]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetSet($index, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[110]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::offsetUnset($index) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[127]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of WP_Block_List::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-includes/class-wp-block-list.php[199]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /var/www/html/wp-settings.php[290]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Ocean_Extra::$plugin_url is deprecated
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[87]
+	--- TRACE ---
+	CLASS___: Ocean_Extra->__construct      FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[159]
+	CLASS___: Ocean_Extra::instance         FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[32]
+	FUNCTION: Ocean_Extra                   FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[35]
+	FUNCTION: include_once                  FILE: /var/www/html/wp-settings.php[388]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Ocean_Extra::$plugin_path is deprecated
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[88]
+	--- TRACE ---
+	CLASS___: Ocean_Extra->__construct      FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[159]
+	CLASS___: Ocean_Extra::instance         FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[32]
+	FUNCTION: Ocean_Extra                   FILE: /var/www/html/wp-content/plugins/ocean-extra/ocean-extra.php[35]
+	FUNCTION: include_once                  FILE: /var/www/html/wp-settings.php[388]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$is_overloaded is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[21]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_pos is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[22]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_f is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[153]
+	--- TRACE ---
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property MO::$_gettext_select_plural_form is deprecated
+	FILE: /var/www/html/wp-includes/pomo/translations.php[293]
+	--- TRACE ---
+	CLASS___: Gettext_Translations->set_headerFILE: /var/www/html/wp-includes/pomo/translations.php[75]
+	CLASS___: Translations->set_headers     FILE: /var/www/html/wp-includes/pomo/mo.php[294]
+	CLASS___: MO->import_from_reader        FILE: /var/www/html/wp-includes/pomo/mo.php[49]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[834]
+	FUNCTION: load_default_textdomain       FILE: /var/www/html/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetExists($k) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[309]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetGet($k) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[317]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetSet($k, $v) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[301]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::offsetUnset($k) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[313]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[328]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[339]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[350]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[362]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[375]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Return type of FS_Key_Value_Storage::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-key-value-storage.php[389]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/require.php[23]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/plugins/ocean-extra/includes/freemius/start.php[482]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1029]
+	FUNCTION: owp_fs                        FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[1059]
+	FUNCTION: include                       FILE: /var/www/html/wp-settings.php[525]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$is_overloaded is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[21]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[956]
+	FUNCTION: load_theme_textdomain         FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[281]
+	CLASS___: OCEANWP_Theme_Class::theme_setupFILE: /var/www/html/wp-includes/class-wp-hook.php[287]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/html/wp-includes/class-wp-hook.php[311]
+	CLASS___: WP_Hook->do_action            FILE: /var/www/html/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /var/www/html/wp-settings.php[535]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_pos is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[22]
+	--- TRACE ---
+	CLASS___: POMO_Reader->__construct      FILE: /var/www/html/wp-includes/pomo/streams.php[152]
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[956]
+	FUNCTION: load_theme_textdomain         FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[281]
+	CLASS___: OCEANWP_Theme_Class::theme_setupFILE: /var/www/html/wp-includes/class-wp-hook.php[287]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/html/wp-includes/class-wp-hook.php[311]
+	CLASS___: WP_Hook->do_action            FILE: /var/www/html/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /var/www/html/wp-settings.php[535]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property POMO_FileReader::$_f is deprecated
+	FILE: /var/www/html/wp-includes/pomo/streams.php[153]
+	--- TRACE ---
+	CLASS___: POMO_FileReader->__construct  FILE: /var/www/html/wp-includes/pomo/mo.php[41]
+	CLASS___: MO->import_from_file          FILE: /var/www/html/wp-includes/l10n.php[746]
+	FUNCTION: load_textdomain               FILE: /var/www/html/wp-includes/l10n.php[956]
+	FUNCTION: load_theme_textdomain         FILE: /var/www/html/wp-content/themes/oceanwp/functions.php[281]
+	CLASS___: OCEANWP_Theme_Class::theme_setupFILE: /var/www/html/wp-includes/class-wp-hook.php[287]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/html/wp-includes/class-wp-hook.php[311]
+	CLASS___: WP_Hook->do_action            FILE: /var/www/html/wp-includes/plugin.php[484]
+	FUNCTION: do_action                     FILE: /var/www/html/wp-settings.php[535]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-load.php[37]
+	FUNCTION: require                       FILE: /var/www/html/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/html/wp-content/wp_test_script_2edea71-18153024.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property MO::$_gettext_select_plural_form is deprecated
+	FILE: /var/www/html/wp-includes/pomo/translations.php[293]
+	--- TRACE ---
+	CLASS___: Gettext_Translations->set_headerFILE: /var/www/html/wp-includes/pomo/translations.php[75]
+	CLASS___: Translations->set_headers     FILE: /var/www/html/wp-includes/pomo/mo.php[294]
+	CLASS___: MO->import_from_reader        FILE: /var====================================
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.00716]  MESSAGE:END RENDER PAGE

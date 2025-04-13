@@ -1,4 +1,4 @@
 .env
-wordpress
-dbdata
-DS_Store
+# wordpress
+# dbdata
+.DS_Store

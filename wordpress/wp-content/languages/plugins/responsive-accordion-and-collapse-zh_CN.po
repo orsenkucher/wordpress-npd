@@ -1,0 +1,337 @@
+# Translation of Plugins - Accordion FAQ - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Accordion FAQ - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-22 05:58:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Accordion FAQ - Stable (latest release)\n"
+
+#: lib/admin/more-free-plugins.php:330 lib/admin/more-free-plugins.php:340
+#: lib/admin/more-free-plugins.php:350 lib/admin/more-free-plugins.php:360
+#: lib/admin/more-free-plugins.php:370 lib/admin/more-free-plugins.php:380
+#: lib/help.php:305 lib/help.php:315 lib/help.php:325 lib/help.php:335
+#: lib/help.php:345 lib/help.php:355
+msgid "Visit Website"
+msgstr "访问网站"
+
+#: lib/admin/reg-cpt.php:9
+msgid "View Accordion"
+msgstr "查看手风琴"
+
+#: lib/admin/menu.php:133
+msgid "Use below shortcode in any Page/Post to publish your Accordion"
+msgstr "在任何页面/文章中使用以下简码发布您的手风琴"
+
+#. translators: 1: Plugin name and version
+#: lib/admin/more-free-plugins.php:281 lib/help.php:256
+msgid "Update Now"
+msgstr "立即更新"
+
+#: lib/admin/reg-cpt.php:13
+msgid "Update Accordion"
+msgstr "更新手风琴"
+
+#: lib/admin/settings.php:350
+msgid "Title/Icon Font Size"
+msgstr "标题/图标字体大小"
+
+#: lib/admin/more-free-plugins.php:286 lib/help.php:261
+msgid "This plugin is already installed and is up to date"
+msgstr "该插件已经安装并且是最新的"
+
+#: lib/admin/menu.php:97
+msgid "Support & Docs"
+msgstr "支持和文档"
+
+#: lib/admin/reg-cpt.php:14
+msgid "Search Accordion"
+msgstr "搜索手风琴"
+
+#: lib/admin/settings.php:105
+msgid "right"
+msgstr "右"
+
+#. Description of the plugin
+msgid "Responsive Accordion is the most easiest drag & drop accordion builder for WordPress. You can generate multiple accordion and collapse with multiple colour."
+msgstr "响应式手风琴是WordPress最简单的拖放式手风琴生成器。 您可以生成多个手风琴并带多种颜色折叠。"
+
+#. Plugin Name of the plugin
+msgid "Responsive Accordion And Collapse"
+msgstr "Responsive Accordion And Collapse"
+
+#: lib/admin/reg-cpt.php:4 lib/admin/reg-cpt.php:5
+msgctxt "Responsive Accordion"
+msgid "Responsive Accordion"
+msgstr "响应式手风琴"
+
+#: lib/admin/reg-cpt.php:6 lib/admin/reg-cpt.php:19 lib/admin/reg-cpt.php:20
+msgid "Responsive Accordion"
+msgstr "响应式手风琴"
+
+#: lib/admin/menu.php:101
+msgid "Rate Us If You Like This Plugin"
+msgstr "如果您喜欢此插件，请给我们评分"
+
+#: lib/admin/more-free-plugins.php:327 lib/admin/more-free-plugins.php:337
+#: lib/admin/more-free-plugins.php:347 lib/admin/more-free-plugins.php:357
+#: lib/admin/more-free-plugins.php:367 lib/admin/more-free-plugins.php:377
+#: lib/help.php:302 lib/help.php:312 lib/help.php:322 lib/help.php:332
+#: lib/help.php:342 lib/help.php:352
+msgid "Premium Editions"
+msgstr "Premium版"
+
+#: lib/admin/reg-cpt.php:7
+msgid "Parent Item:"
+msgstr "父项："
+
+#: lib/admin/settings.php:421
+msgid "Page Scroll To Accordion"
+msgstr "页面滚动到手风琴"
+
+#: lib/admin/settings.php:447
+msgid "Open Close Icon"
+msgstr "开关图标"
+
+#: lib/admin/settings.php:434
+msgid "ON Hover Accordion "
+msgstr "悬停手风琴"
+
+#: lib/installation/installation.php:206
+msgid "Nope, maybe later"
+msgstr "不，以后再说"
+
+#: lib/admin/reg-cpt.php:16
+msgid "No Accordion found in Trash"
+msgstr "在回收站中未找到手风琴"
+
+#: lib/admin/reg-cpt.php:15
+msgid "No Accordion Found"
+msgstr "找不到手风琴"
+
+#: lib/admin/add-acc.php:79 lib/admin/add-acc.php:115 lib/admin/settings.php:85
+#: lib/admin/settings.php:129 lib/admin/settings.php:150
+#: lib/admin/settings.php:171 lib/admin/settings.php:192
+#: lib/admin/settings.php:213 lib/admin/settings.php:233
+#: lib/admin/settings.php:427 lib/admin/settings.php:440
+msgid "No"
+msgstr "没有"
+
+#. Author of the plugin
+msgid "wpshopmart"
+msgstr "wpshopmart"
+
+#: lib/installation/installation.php:203
+msgid "~ wpshopmart"
+msgstr "~ wpshopmart"
+
+#: lib/admin/add-acc.php:78 lib/admin/add-acc.php:114 lib/admin/settings.php:83
+#: lib/admin/settings.php:127 lib/admin/settings.php:148
+#: lib/admin/settings.php:169 lib/admin/settings.php:190
+#: lib/admin/settings.php:211 lib/admin/settings.php:231
+#: lib/admin/settings.php:425 lib/admin/settings.php:438
+msgid "Yes"
+msgstr "是"
+
+#: lib/admin/menu.php:104
+msgid "MOre Pro Plugins From Wpshopmart"
+msgstr "来自Wpshopmart的更多专业插件"
+
+#: lib/admin/menu.php:103
+msgid "More Free Plugins From Wpshopmart"
+msgstr "来自Wpshopmart的更多免费插件"
+
+#. translators: 1: Plugin name and version.
+#: lib/admin/more-free-plugins.php:263 lib/help.php:238
+msgid "More Details"
+msgstr "更多详情"
+
+#: lib/admin/settings.php:103
+msgid "left"
+msgstr "左"
+
+#: lib/admin/more-free-plugins.php:398 lib/help.php:373
+msgid "Last Updated:"
+msgstr "最近更新："
+
+#: lib/admin/more-free-plugins.php:286 lib/help.php:261
+msgctxt "plugin"
+msgid "Installed"
+msgstr "已安装"
+
+#. translators: 1: Plugin name and version.
+#: lib/admin/more-free-plugins.php:274 lib/help.php:249
+msgid "Install Now"
+msgstr "立即安装"
+
+#: lib/admin/more-free-plugins.php:413 lib/help.php:388
+msgid "Incompatible with your version of WordPress"
+msgstr "与您的WordPress版本不兼容"
+
+#: lib/installation/installation.php:207
+msgid "I already did"
+msgstr "我已经做了"
+
+#. Plugin URI of the plugin
+msgid "https://www.wpshopmart.com/plugins/"
+msgstr "https://www.wpshopmart.com/plugins/"
+
+#. Author URI of the plugin
+msgid "https://www.wpshopmart.com"
+msgstr "https://www.wpshopmart.com"
+
+#: lib/admin/settings.php:381
+msgid "Font Style/Family"
+msgstr "字体样式/系列"
+
+#: lib/admin/settings.php:248 lib/admin/settings.php:257
+msgid "Expand/Collapse Accordion Option On Page Load"
+msgstr "页面加载中的展开/折叠手风琴选项"
+
+#: lib/admin/settings.php:207 lib/admin/settings.php:220
+msgid "Enable Toggle/Collapse "
+msgstr "启用切换/折叠"
+
+#: lib/admin/settings.php:165 lib/admin/settings.php:178
+msgid "Enable Accordion Radius "
+msgstr "启用手风琴半径"
+
+#: lib/admin/settings.php:186 lib/admin/settings.php:199
+msgid "Enable Accordion Margin/Space"
+msgstr "启用手风琴外边距/空间"
+
+#: lib/admin/reg-cpt.php:12
+msgid "Edit Accordion"
+msgstr "编辑手风琴"
+
+#: lib/admin/settings.php:123 lib/admin/settings.php:136
+msgid "Display Open Close Icon "
+msgstr "显示开闭图标"
+
+#: lib/admin/settings.php:144 lib/admin/settings.php:157
+msgid "Display Accordion Title Font Icon "
+msgstr "显示手风琴标题字体图标"
+
+#: lib/admin/settings.php:79 lib/admin/settings.php:92
+msgid "Display Accordion Section Title "
+msgstr "显示手风琴节标题"
+
+#: lib/admin/settings.php:227 lib/admin/settings.php:240
+msgid "Display Accordion Border"
+msgstr "显示手风琴边框"
+
+#: lib/admin/add-ac-js-footer.php:15 lib/admin/add-acc.php:76
+#: lib/admin/add-acc.php:111
+msgid "Display Above Icon"
+msgstr "显示在图标上方"
+
+#: lib/admin/add-acc.php:154
+msgid "Delete All"
+msgstr "删除所有"
+
+#: lib/admin/menu.php:78
+msgid "Date"
+msgstr "日期"
+
+#: lib/admin/settings.php:454
+msgid "Content Animation "
+msgstr "内容动画"
+
+#: lib/admin/more-free-plugins.php:417 lib/help.php:392
+msgid "Compatible with your version of WordPress"
+msgstr "与您的WordPress版本兼容"
+
+#: lib/admin/reg-cpt.php:8
+msgid "All Accordion"
+msgstr "所有手风琴"
+
+#: lib/admin/add-acc.php:150 lib/admin/reg-cpt.php:10 lib/admin/reg-cpt.php:11
+msgid "Add New Accordion"
+msgstr "新增手风琴"
+
+#: lib/admin/add-acc.php:46 lib/admin/menu.php:95
+msgid "Add Accordion"
+msgstr "添加手风琴"
+
+#: lib/admin/settings.php:304 lib/admin/settings.php:311
+msgid "Accordion Title/Icon Font Colour"
+msgstr "手风琴标题/图标字体颜色"
+
+#: lib/admin/settings.php:289 lib/admin/settings.php:296
+msgid "Accordion Title Background Colour"
+msgstr "手风琴标题背景色"
+
+#: lib/admin/add-ac-js-footer.php:5 lib/admin/add-acc.php:65
+#: lib/admin/add-acc.php:99
+msgid "Accordion Title"
+msgstr "手风琴标题"
+
+#: lib/admin/settings.php:268 lib/admin/settings.php:277
+msgid "Accordion Styles"
+msgstr "手风琴风格"
+
+#: lib/admin/menu.php:77 lib/admin/menu.php:96 lib/admin/menu.php:132
+msgid "Accordion Shortcode"
+msgstr "手风琴简码"
+
+#: lib/admin/menu.php:102
+msgid "Accordion Settings"
+msgstr "手风琴设置"
+
+#: lib/admin/settings.php:99 lib/admin/settings.php:112
+msgid "Accordion Open/Close Icon Alignment"
+msgstr "手风琴打开/关闭图标对齐"
+
+#: lib/admin/add-ac-js-footer.php:10 lib/admin/add-acc.php:71
+#: lib/admin/add-acc.php:106
+msgid "Accordion Icon"
+msgstr "手风琴图标"
+
+#: lib/admin/settings.php:336 lib/admin/settings.php:343
+msgid "Accordion Description Font Colour"
+msgstr "手风琴描述字体颜色"
+
+#: lib/admin/settings.php:321 lib/admin/settings.php:328
+msgid "Accordion Description Background Colour"
+msgstr "手风琴描述背景颜色"
+
+#: lib/admin/settings.php:366
+msgid "Description Font Size"
+msgstr "描述字体大小"
+
+#: lib/admin/add-ac-js-footer.php:7 lib/admin/add-acc.php:67
+#: lib/admin/add-acc.php:101
+msgid "Accordion Description"
+msgstr "手风琴描述"
+
+#: lib/admin/menu.php:76
+msgid "Accordion"
+msgstr "手风琴"
+
+#: lib/admin/more-free-plugins.php:409 lib/help.php:384
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr "<strong>未经测试</strong>，与您的WordPress版本有关"
+
+#. translators: 1: The rating
+#: lib/admin/more-free-plugins.php:196 lib/help.php:170
+msgid "%s rating"
+msgstr "%s分"
+
+#: lib/admin/more-free-plugins.php:403 lib/help.php:378
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s 次下载"
+
+#: lib/admin/menu.php:99
+msgid "BLACK FRIDAY DEAL"
+msgstr "黑色星期五购物"
+
+#. translators: 1: The rating, 2: The number of ratings
+#: lib/admin/more-free-plugins.php:192 lib/help.php:166
+msgid "%1$s rating based on %2$s rating"
+msgid_plural "%1$s rating based on %2$s ratings"
+msgstr[0] "%1$s分（基于%2$s次评分）"

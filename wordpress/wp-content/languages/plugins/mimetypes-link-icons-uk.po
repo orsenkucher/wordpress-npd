@@ -1,0 +1,305 @@
+# Translation of Plugins - MimeTypes Link Icons - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - MimeTypes Link Icons - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-14 09:02:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - MimeTypes Link Icons - Development (trunk)\n"
+
+#: mime_type_link_images.php:678
+msgctxt "Abbreviation of \"byte\""
+msgid "b"
+msgstr "б"
+
+#. Author URI of the plugin
+msgid "https://github.com/eagerterrier/MimeTypes-Link-Icons"
+msgstr "https://github.com/eagerterrier/MimeTypes-Link-Icons"
+
+#. Author of the plugin
+msgid "Toby Cox, Juliette Reinders Folmer"
+msgstr "Toby Cox, Juliette Reinders Folmer"
+
+#. Description of the plugin
+msgid "This will add file type icons next to links automatically. Change options in the <a href=\"options-general.php?page=mimetypes-link-icons\">settings page</a>"
+msgstr "Це автоматично додасть піктограми типу файлів поруч із посиланнями. Змінити параметри в <a href=\"options-general.php?page=mimetypes-link-icons\">сторінці налаштувань</a>"
+
+#. Plugin URI of the plugin
+msgid "http://blog.eagerterrier.co.uk/2010/10/holy-cow-ive-gone-and-made-a-mime-type-wordpress-plugin/"
+msgstr "http://blog.eagerterrier.co.uk/2010/10/holy-cow-ive-gone-and-made-a-mime-type-wordpress-plugin/"
+
+#. Plugin Name of the plugin
+msgid "MimeTypes Link Icons"
+msgstr "MimeTypes Link Icons"
+
+#: mime_type_link_images.php:2116
+msgid "Tick box to enable <em>asynchronous debug mode</em>."
+msgstr "Поставте галочку, щоб увімкнути <em>асинхронний режим налаштувань</em>."
+
+#: mime_type_link_images.php:2115
+msgid "Tick box to enable <em>asynchronous replacement</em>."
+msgstr "Поставте галочку, щоб увімкнути <em>асинхронну заміну</em>."
+
+#: mime_type_link_images.php:2112
+msgid "Some themes or plugins may conflict with this plugin. If you find you are having trouble you can switch on asynchronous replacement which (instead of PHP) uses JavaScript to find your links."
+msgstr "Деякі теми (шаблони) або плагіни можуть конфліктувати з цим плагіном. Якщо у вас сталася така проблема, ви можете переключитись на асинхронну заміну. Вона (на відміну від PHP) використовує JavaScript для пошука посилань."
+
+#: mime_type_link_images.php:2109
+msgid "Enable Asynchronous Replacement?"
+msgstr "Увімкнути Асинхронну Заміну?"
+
+#: mime_type_link_images.php:2102
+msgid "hours"
+msgstr "годин"
+
+#: mime_type_link_images.php:2101
+msgid "Amount of time to cache retrieved file sizes:"
+msgstr "Час, необхідний для кешування отриманих файлів:"
+
+#: mime_type_link_images.php:2099
+msgid "Cache retrieved file sizes."
+msgstr "Розмір файлів, отриманих через кеш."
+
+#: mime_type_link_images.php:2096
+msgid "Retrieving the file sizes of (external) files can be slow. If the file sizes of the files you link to do not change very often, you may want to cache the results. This will result in faster page loading for most end-users of your website."
+msgstr "Отримання файлів (зовнішніх) може бути повільним. Якщо розміри файлів, на які ви посилаєтесь, змінюються не дуже часто, можливо, ви захочете кешувати результати. Це призведе до швидшого завантаження сторінки для більшості кінцевих користувачів вашого сайту."
+
+#: mime_type_link_images.php:2092
+msgid "sizes less than 1kB will always have 0 decimals"
+msgstr "розміри менше 1 кБ завжди матимуть 0 знаків після десяткової коми"
+
+#: mime_type_link_images.php:2091
+msgid "decimals"
+msgstr "десяткові"
+
+#: mime_type_link_images.php:2090
+msgid "File size rounding precision:"
+msgstr "Точність округлення розміру файлу:"
+
+#: mime_type_link_images.php:2088
+msgid "Display the <em>file size</em> of the attachment/linked file."
+msgstr "Ідображення <em>розміру файлу</em> вкладення / зв’язаного файлу.."
+
+#: mime_type_link_images.php:2085
+msgid "Show File Size?"
+msgstr "Показати розмір файлу?"
+
+#: mime_type_link_images.php:2076
+msgid "You can change the classname(s) by editing the field below. If you want to exclude several classnames, separate them with a comma (,)."
+msgstr "Ви можете змінити назви класів (classname(s)), відредагувавши поле нижче. Якщо ви хочете виключити кілька назв класів, розділіть їх комою (,)."
+
+#: mime_type_link_images.php:2073
+msgid "Tick this box to have one or more <em>classname(s)</em> that will disable the mime type links (ie: around an image or caption)."
+msgstr "Поставте галочку в цьому полі, щоб мати одне або кілька <em>назви класів (classname(s))</em> які відключатимуть посилання типу MIME (наприклад: навколо зображення чи підпису)."
+
+#: mime_type_link_images.php:2070
+msgid "Enable/Disable classnames?"
+msgstr "Увімкнути/Вимкнути імена класів (classnames)?"
+
+#. Translators: %s = file type.
+#: mime_type_link_images.php:2034
+msgid "%s icon"
+msgstr "%s піктограма (іконка)"
+
+#. Translators: %s = file mime type.
+#: mime_type_link_images.php:2030
+msgid "Add images to <strong>%s</strong> uploads/files"
+msgstr "Додати зображення до <strong>%s</strong> uploads/files"
+
+#: mime_type_link_images.php:1993
+msgid "Display images on left or right"
+msgstr "Відобразити зображення ліворуч або праворуч"
+
+#: mime_type_link_images.php:1990
+msgid "Image Type"
+msgstr "Тип зображення"
+
+#: mime_type_link_images.php:1987
+msgid "Image Size"
+msgstr "Розмір зображення"
+
+#: mime_type_link_images.php:1947
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас не достатньо прав для доступу до цієї сторінки."
+
+#: mime_type_link_images.php:1858
+msgid "No valid classname(s) received"
+msgstr "Нема валідних назв класів (classname(s))"
+
+#: mime_type_link_images.php:1853
+msgid "One or more invalid classname(s) received, the values have been cleaned - this may just be the removal of spaces -, please check."
+msgstr "Отримано одне або кілька недійсних імен класу. Значення буде очищено - це може бути просто видалення пробілів, будь ласка, перевірте."
+
+#: mime_type_link_images.php:1829 mime_type_link_images.php:1838
+msgid "Invalid cache time received"
+msgstr "Отримано недійсний час кешування"
+
+#: mime_type_link_images.php:1810
+msgid "Invalid rounding precision received"
+msgstr "Отримано недійсну точність округлення"
+
+#: mime_type_link_images.php:1798
+msgid "Invalid image placement received"
+msgstr "Отримано недійсне розташування зображення"
+
+#: mime_type_link_images.php:1787
+msgid "Invalid image type received"
+msgstr "Отримано недійсний тип зображення"
+
+#: mime_type_link_images.php:1776 mime_type_link_images.php:1787
+#: mime_type_link_images.php:1798 mime_type_link_images.php:1810
+#: mime_type_link_images.php:1829 mime_type_link_images.php:1838
+#: mime_type_link_images.php:1858
+msgid "the setting has not been changed."
+msgstr "налаштування не були змінені."
+
+#: mime_type_link_images.php:1776
+msgid "Invalid image size received"
+msgstr "Отримано недійсний розмір зображення"
+
+#. Translators: %s is the url to the file which could not be found.
+#: mime_type_link_images.php:1523
+msgid "MimeTypes Link Icons can't resolve the following url, please make sure the file referred to exists. URL: %s"
+msgstr "MimeTypes Link Icons не можуть ухвалити вказаний нижче URL Переконайтесь, що вказаний файл існує. URL:%s"
+
+#: mime_type_link_images.php:995
+msgid "Blog post about this plugin"
+msgstr "Пост в блозі про цей плагін"
+
+#: mime_type_link_images.php:994
+msgid "Github repository"
+msgstr "Github репозиторій"
+
+#: mime_type_link_images.php:992
+msgid "Support&nbsp;Forum"
+msgstr "Підтримка та форум"
+
+#: mime_type_link_images.php:991
+msgid "Changelog"
+msgstr "Список змін"
+
+#: mime_type_link_images.php:990
+msgid "FAQ"
+msgstr "Часті питання"
+
+#: mime_type_link_images.php:989
+msgid "Official plugin page"
+msgstr "Офіційна сторінка плагіна"
+
+#: mime_type_link_images.php:987
+msgid "For more information:"
+msgstr "Для отримання додаткової інформації:"
+
+#. Translators: %1$s = <a> tag, %2$s is closing</a> tag.
+#: mime_type_link_images.php:974
+msgid "For more information on these tasty extras, have a look at the %1$sFAQ%2$s"
+msgstr "Щоб отримати докладнішу інформацію про ці додатки, подивіться %1$sFAQ%2$s"
+
+#: mime_type_link_images.php:970
+msgid "There is even some more advanced functionality available: for instance an <em>output filter</em> for the file size output and a way to add the plugin's functionality to widgets or other areas of your blog outside of the main content area."
+msgstr "Доступні навіть деякі розширені функції: наприклад, <em>вихідний фільтр (output filter)</em> для виводу розміру файлу та спосіб додати функціональність плагіна до віджетів або інших областей вашого блогу за межами основної області контенту."
+
+#: mime_type_link_images.php:967
+msgid "The plugin will look for the classname in your document and will remove the Mimetypes link icons (and file sizes) from all links wrapped within that class. You can add several classnames, just separate them with a comma."
+msgstr "Плагін буде шукати назву класу (classname) у вашому документі та видалятиме піктограми (іконки) Mimetypes (та розміри файлів) з усіх посилань, загорнутих у межах цього класу. Ви можете додати кілька назв класів, просто розділіть їх комою."
+
+#: mime_type_link_images.php:966
+msgid "<strong>\"Exclusion classnames\"</strong> works as follows:"
+msgstr "<strong>\"Виключення імен класів (classnames)\"</strong> працює наступним чином:"
+
+#: mime_type_link_images.php:965
+msgid "In the advanced settings, you can enable <em>\"exclusion classnames\"</em>, enable the display of the <em>file size</em> of a linked file and/or choose to use <em>asynchronous replacement</em>."
+msgstr "У розширених налаштуваннях ви можете ввімкнути <em>«виключення імен класів»</em>, увімкнути відображення <em>розміру файлу</em> зв’язаного файлу та / або вибрати використання <em>асинхронної заміни</em>."
+
+#: mime_type_link_images.php:962
+msgid "On this settings page you can specify the icon size, icon type (white matte gif or transparent png), icon alignment. You can also select the file types for which this plugin will be enabled."
+msgstr "На цій сторінці налаштувань ви можете вказати розмір іконки, тип іконки (GIF або PNG), вирівнювання піктограм. Ви також можете вибрати типи файлів, для яких буде застосований плагін."
+
+#. Translators: %s = link target.
+#: mime_type_link_images.php:961
+msgid "The <em><a href=\"%s\">MimeTypes Link Icons</a></em> plugin will automatically add an icon next to links of the activated file types. If you like, you can also let the plugin add the file size of the linked file to the page."
+msgstr "<em><a href=\"%s\">MimeTypes Link Icons</a></em>плагін автоматично додасть іконку поруч із посиланнями активованих типів файлів. Якщо ви захочете, також можете дозволити плагіну додати на сторінку розмір файлу."
+
+#: mime_type_link_images.php:937
+msgid "Extras"
+msgstr "Додатково"
+
+#: mime_type_link_images.php:903
+msgid "Uncheck All"
+msgstr "Зняти всі відмітки"
+
+#: mime_type_link_images.php:903
+msgid "Check All"
+msgstr "Обати все"
+
+#: mime_type_link_images.php:779
+msgid "Settings"
+msgstr "Налаштування"
+
+#: mime_type_link_images.php:779
+msgid "MimeType Link Icons Settings"
+msgstr "Налаштування MimeType Link Icons"
+
+#: mime_type_link_images.php:760
+msgid "MimeType Icons"
+msgstr "MimeType Icons"
+
+#: mime_type_link_images.php:759 mime_type_link_images.php:923
+msgid "MimeType Link Icons"
+msgstr "MimeType Link Icons"
+
+#: mime_type_link_images.php:686
+msgid "YB"
+msgstr "ZB"
+
+#: mime_type_link_images.php:685
+msgid "ZB"
+msgstr "ZB"
+
+#: mime_type_link_images.php:684
+msgid "EB"
+msgstr "EB"
+
+#: mime_type_link_images.php:683
+msgid "PB"
+msgstr "PB"
+
+#: mime_type_link_images.php:682
+msgid "TB"
+msgstr "TB"
+
+#: mime_type_link_images.php:681
+msgid "GB"
+msgstr "Гб"
+
+#: mime_type_link_images.php:680
+msgid "MB"
+msgstr "Мб"
+
+#: mime_type_link_images.php:679
+msgid "kB"
+msgstr "Кб"
+
+#: mime_type_link_images.php:674 mime_type_link_images.php:930
+msgid "Advanced Settings"
+msgstr "Розришені налаштування"
+
+#: mime_type_link_images.php:673
+msgid "Image Settings"
+msgstr "Налаштування зображень"
+
+#: mime_type_link_images.php:672
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: mime_type_link_images.php:668
+msgid "Right"
+msgstr "Праворуч"
+
+#: mime_type_link_images.php:667
+msgid "Left"
+msgstr "Ліворуч"
