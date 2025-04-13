@@ -1,2 +1,5 @@
+dbdata/wordpress/wp_posts.ibd filter=lfs diff=lfs merge=lfs -text
+dbdata/wordpress/wp_postmeta.ibd filter=lfs diff=lfs merge=lfs -text
+dbdata/binlog.000009 filter=lfs diff=lfs merge=lfs -text
 dbdata/**/*.ibd filter=lfs diff=lfs merge=lfs -text
 dbdata/binlog.* filter=lfs diff=lfs merge=lfs -text
