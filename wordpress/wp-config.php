@@ -85,21 +85,32 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
-// Force HTTPS for all URLs
+// Auto-detect protocol and use the correct one
 if ( isset( $_SERVER['HTTP_HOST'] ) ) {
     $host = $_SERVER['HTTP_HOST'];
 } else {
     $host = 'localhost';
 }
 
-$site_url = 'https://' . $host;
+// Auto-detect if we're on HTTPS
+$is_ssl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') || 
+          (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') ||
+          (isset($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] === 'on') ||
+          (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443) ||
+          (isset($_SERVER['HTTP_CLOUDFRONT_FORWARDED_PROTO']) && $_SERVER['HTTP_CLOUDFRONT_FORWARDED_PROTO'] === 'https');
+
+// Use HTTPS if detected, otherwise HTTP
+$protocol = $is_ssl ? 'https://' : 'http://';
+$site_url = $protocol . $host;
 
 define('WP_HOME', $site_url);
 define('WP_SITEURL', $site_url);
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', $is_ssl);
 
-// Add this to resolve mixed content issues
-$_SERVER['HTTPS'] = 'on';
+// Only set HTTPS on if SSL is detected
+if ($is_ssl) {
+    $_SERVER['HTTPS'] = 'on';
+}
 
 require_once(ABSPATH . 'wp-settings.php');
 
