@@ -13,6 +13,10 @@ services:
     command: '--default-authentication-plugin=mysql_native_password'
     networks:
       - npd-network
+    healthcheck:
+        test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+        timeout: 5s
+        retries: 10
 
   npd-wordpress:
     depends_on: 
@@ -37,6 +41,7 @@ services:
     depends_on: 
       - npd-wordpress
     image: nginx:1.15-alpine
+    container_name: npd-nginx
     restart: unless-stopped
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
@@ -52,6 +57,7 @@ services:
 
   # npd-certbot:
   #   image: certbot/certbot
+  #   container_name: npd-certbot
   #   restart: unless-stopped
   #   volumes:
   #     - ./data/certbot/conf:/etc/letsencrypt
